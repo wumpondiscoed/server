@@ -1,0 +1,16 @@
+weapons-menu-item: '283'
+weapons-menu-name: ' &8● &X&a&b&f&b&0&0ᴡ&X&8&f&f&b&0&0ᴇ&X&7&4&f&c&0&0ᴀ&X&5&8&f&c&0&0ᴘ&X&3&c&f&c&0&0ᴏ&X&2&1&f&d&0&0ɴ&X&0&5&f&d&0&0s'
+weapons-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ'
+  - ' &fᴄᴀɴ ꜰɪɴᴅ ᴀʟʟ ᴛʜᴇ'
+  - ' &fᴍɪɴᴇᴄʀᴀꜰᴛ ᴡᴇᴀᴘᴏɴs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

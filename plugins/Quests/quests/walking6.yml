@@ -1,0 +1,37 @@
+tasks:
+  walking:
+    type: "walking"
+    distance: 6000
+
+display:
+  name: " &8● &#bafb00ᴇ&#a5fb06x&#91fb0cᴘ&#7cfc13ʟ&#67fc19ᴏ&#53fc1fʀ&#3efc25ɪ&#29fd2cɴ&#15fd32ɢ &#00fd38ᴠɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx6000 ʙʟᴏᴄᴋs ᴡᴀʟᴋᴇᴅ"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$600 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{walking:progress}&8/&f6000 ʙʟᴏᴄᴋs ᴡᴀʟᴋᴇᴅ"
+  type: "FEATHER"
+
+rewards:
+  - "eco give {player} 600"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "walking"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6

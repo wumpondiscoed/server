@@ -1,0 +1,209 @@
+menu_title: '          &#2E2E2E▸  ᴋɪᴛs ᴘʀᴇᴠɪᴇᴡ ◂'
+size: 35
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+  'sword_kit':
+    material: IRON_SWORD
+    slots:
+    - 10
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🗡 sᴡᴏʀᴅ'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13sʜᴀʀᴘɴᴇss ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'pickaxe_kit':
+    material: IRON_PICKAXE
+    slots:
+    - 11
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| ⛏ ᴘɪᴄᴋᴀxᴇ'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴇꜰꜰɪᴄɪᴇɴᴄʏ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'axe_kit':
+    material: IRON_AXE
+    slots:
+    - 12
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🪓 ᴀxᴇ'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴇꜰꜰɪᴄɪᴇɴᴄʏ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'helmet_kit':
+    material: IRON_HELMET
+    slots:
+    - 13
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🛡 ʜᴇʟᴍᴇᴛ'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'chestplate_kit':
+    material: IRON_CHESTPLATE
+    slots:
+    - 14
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🛡 ᴄʜᴇsᴛᴘʟᴀᴛᴇ'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'leggings_kit':
+    material: IRON_LEGGINGS
+    slots:
+    - 15
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🛡 ʟᴇɢɢɪɴɢs'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'boots_kit':
+    material: IRON_BOOTS
+    slots:
+    - 16
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🛡 ʙᴏᴏᴛs'
+    enchantments:
+    - damage_all;1
+    hide_enchantments: true
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ' &8[&#00FF13*&8] &fᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs:'
+    - '     &#00FF13ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ'
+    - '     &#00FF13ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+  'food_kit':
+    material: BAKED_POTATO
+    amount: 16
+    slots:
+    - 19
+    display_name: ' &8[&#00F707▸&8] &#BAFB00s&#A3FB00ᴘ&#8DFC00ʀ&#76FC00ɪ&#60FC00ɴ&#49FC00ɢ &#32FD00ᴋ&#1CFD00ɪ&#05FD00ᴛ &f| 🍖 ᴘᴏᴛᴀᴛᴏ'
+    lore:
+    - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+    - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+    - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+    - ''
+    - ' &8[&#00FF13*&8] &fʀᴀʀɪᴛʏ: &#00FF13ʀᴀʀᴇ'
+    - ''
+    - ' &#05FD00&n+ ᴍ&#10FD00&nᴏ&#1AFD00&nʀ&#25FD00&nᴇ &#30FD00&nᴋ&#3AFC00&nɪ&#45FC00&nᴛ&#50FC00&ns &#5AFC00&nɪ&#65FC00&nɴ &#6FFC00&nᴛ&#7AFC00&nʜ&#85FC00&nᴇ &#8FFB00&ns&#9AFB00&nᴛ&#A5FB00&nᴏ&#AFFB00&nʀ&#BAFB00&nᴇ'    
+    - ''
+    left_click_commands:
+    - '[SOUND] UI_BUTTON_CLICK'
+    - '[SOUND] UI_BUTTON_CLICK'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 31
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

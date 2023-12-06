@@ -1,0 +1,28 @@
+location: Spawn:-78.500:59.800:69.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#E7FB00>&lFISHING CONTEST</#FDC500>'
+    height: 0.3    
+  - content: '&7sᴇʀᴠᴇʀ ᴄᴏɴᴛᴇsᴛ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴄᴏᴍᴘᴇᴛᴇ ᴀɢᴀɪɴsᴛ ᴏᴛʜᴇʀ <#E7FB00>ᴘʟᴀʏᴇʀs'
+    height: 0.3
+  - content: '&fɪɴ ᴀ <#FDC500>ᴛᴏᴜʀɴᴀᴍᴇɴᴛ &fᴛᴏ <#FDC500>ᴄᴀᴛᴄʜ &fꜰɪsʜ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '%emf_competition_time_left%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#FBF100>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#FD7900>'
+    height: 0.3
+  actions: {}

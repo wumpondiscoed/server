@@ -1,0 +1,69 @@
+# BlockRegen Language File, Developer(s): Aurorion & Wertik1206, Version: 3.10.1
+Insert-Prefix: true
+Messages:
+  Prefix: '&X&0&0&E&C&B&1● &lMINE &X&6&D&6&D&6&D➤ &r'
+  Update: |2-
+
+    &X&D&F&D&F&D&FA new update was found!
+    &X&D&F&D&F&D&FCurrent version: &X&F&F&2&B&2&B%version%
+    &X&D&F&D&F&D&FNew version: &X&0&5&E&5&2&0%newVersion%
+  Insufficient-Permission: '&X&D&F&D&F&D&FYou don''t have the permissions to do this!'
+  Console-Sender-Error: '&X&D&F&D&F&D&FI''m sorry but the console can not perform
+    this command!'
+  Invalid-Command: '&X&D&F&D&F&D&FThis is not a valid command!'
+  Too-Many-Arguments: |-
+    &X&D&F&D&F&D&FToo many arguments.
+    &X&D&F&D&F&D&FUse: &X&0&5&E&5&2&0%help%
+  Not-Enough-Arguments: |-
+    &X&D&F&D&F&D&FNot enough arguments.
+    &X&D&F&D&F&D&FUse: &X&0&5&E&5&2&0%help%
+  Reload: '&X&D&F&D&F&D&FSuccessfully reloaded Settings.yml, Messages.yml, Blocklist.yml
+    & re-filled the events!'
+  Tools: '&X&D&F&D&F&D&FGave you the tools.'
+  Unknown-Argument: '&X&D&F&D&F&D&FUnknown argument.'
+  Bypass-On: '&X&D&F&D&F&D&FBypass toggled on!'
+  Bypass-Off: '&X&D&F&D&F&D&FBypass toggled off!'
+  Debug-On: '&X&D&F&D&F&D&FYou are now listening to debug messages.'
+  Debug-Off: '&X&D&F&D&F&D&FYou are no longer listening to debug messages.'
+  Data-Check: '&X&D&F&D&F&D&FThe correct name to enter in the config is: &d%block%'
+  Data-Check-On: '&X&D&F&D&F&D&FEntered Data-Check mode!'
+  Data-Check-Off: '&X&D&F&D&F&D&FLeft Data-Check mode!'
+  No-Region-Selected: '&X&D&F&D&F&D&FSelect a region with WorldEdit first.'
+  Duplicated-Region: '&X&D&F&D&F&D&FThere is already a region with that name!'
+  Set-Region: '&X&D&F&D&F&D&FRegion &X&0&5&E&5&2&0%region% &X&D&F&D&F&D&Fsuccessfully
+    saved!'
+  Remove-Region: '&X&D&F&D&F&D&FRegion successfully deleted!'
+  Unknown-Region: '&X&D&F&D&F&D&FThere is no region with that name!'
+  Could-Not-Create-Region: '&X&D&F&D&F&D&FCould not created a region.'
+  Select-First: '&X&D&F&D&F&D&FSet first position to &X&0&5&E&5&2&0%x%&X&D&F&D&F&D&F,
+    %y%&X&D&F&D&F&D&F, %z%&X&D&F&D&F&D&F.'
+  Select-Second: '&X&D&F&D&F&D&FSet second position to &X&0&5&E&5&2&0%x%&X&D&F&D&F&D&F,
+    %y%&X&D&F&D&F&D&F, %z%&X&D&F&D&F&D&F.'
+  Set-All: '&X&D&F&D&F&D&FRegion set to %s &X&D&F&D&F&D&Fpresets.'
+  Invalid-Preset: '&X&D&F&D&F&D&FPreset &X&F&F&2&B&2&B%preset%&X&D&F&D&F&D&Fdoes not
+    exist.'
+  Has-Preset-Already: '&X&D&F&D&F&D&FRegion &X&0&5&E&5&2&0%region% &X&D&F&D&F&D&Fhas
+    preset &X&0&5&E&5&2&0%preset%&X&D&F&D&F&D&Falready.'
+  Does-Not-Have-Preset: '&X&D&F&D&F&D&FRegion &X&0&5&E&5&2&0%region% &X&D&F&D&F&D&Fdoes
+    not have preset &X&F&F&2&B&2&B%preset%&X&D&F&D&F&D&F.'
+  Preset-Added: '&X&D&F&D&F&D&FAdded preset &X&0&5&E&5&2&0%preset% &X&D&F&D&F&D&Fto
+    region &X&0&5&E&5&2&0%region%&X&D&F&D&F&D&F.'
+  Preset-Removed: '&X&D&F&D&F&D&FRemoved preset &X&0&5&E&5&2&0%preset% &X&D&F&D&F&D&Ffrom
+    region &X&0&5&E&5&2&0%region%&X&D&F&D&F&D&F.'
+  Presets-Cleared: '&X&D&F&D&F&D&FPresets cleared from region &X&0&5&E&5&2&0%region%&X&D&F&D&F&D&F.'
+  Presets-Copied: '&X&D&F&D&F&D&FCopied presets from &X&0&5&E&5&2&0%regionFrom% &X&D&F&D&F&D&Fto
+    &X&0&5&E&5&2&0%regionTo%&X&D&F&D&F&D&F.'
+  Regenerated-Processes: '&X&D&F&D&F&D&FRegenerated &X&4&C&C&2&E&2%count% &X&D&F&D&F&D&Fprocess(es).'
+  Activate-Event: '&X&D&F&D&F&D&FYou activated the event: &X&0&5&E&5&2&0%event%'
+  De-Activate-Event: '&X&D&F&D&F&D&FYou de-activated the event: &X&F&F&2&B&2&B%event%'
+  Event-Not-Found: '&X&D&F&D&F&D&FThis event is not found in the system. Reminder:
+    event names are case sensitive!'
+  Event-Already-Active: '&X&D&F&D&F&D&FThis event is already active!'
+  Event-Not-Active: '&X&D&F&D&F&D&FThis event is currently not active!'
+  Tool-Required-Error: '&X&D&F&D&F&D&FYou can only break this block with the following
+    tool(s): &X&F&F&2&B&2&B%tool%&X&D&F&D&F&D&F.'
+  Enchant-Required-Error: '&X&D&F&D&F&D&FYour tool has to have at least one of the
+    following enchantment(s): &X&F&F&2&B&2&B%enchant%&X&D&F&D&F&D&F.'
+  Jobs-Error: '&X&D&F&D&F&D&FYou need to reach following job levels in order to break
+    this block: &X&F&F&2&B&2&B%job%'
+  Permission-Error: '&X&D&F&D&F&D&FYou don''t have the permission to break this block.'

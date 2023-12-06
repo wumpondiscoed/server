@@ -1,0 +1,89 @@
+# Sent to players when they try to use a function without permission
+noPermission: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don't have sufficient permission to use this command."
+
+# Sent to console when it tries to use a player-only command
+mustBePlayer: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou must be a player to use this feature."
+
+# This message is sent to a player when they open one of the bar inventories
+openedBar: ""
+
+# Sent to a player when they buy a drink.
+# %drink% = drink name, %price% = drink's price
+boughtDrink: ""
+
+# Sent when a player doesn't have enough money to buy a drink
+# %drink% = drink name, %price% = drink's price
+insufficientFunds: ""
+
+# Sent when a player wins a drink
+# %reward% = the amount of $ won
+# %drink% = the name of the drink won
+drinkWin: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou've won &#24f000$%reward% &ffrom winning a game!"
+
+# Sent when a player has a super lucky win
+# %reward% = the amount of $ won
+# %drink% = the name of the drink won
+luckyDrinkWin: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou've got super lucky and won &#24f000$%reward% &ffrom winning a game!"
+
+# Sent to a player when they lose the drink
+drinkLose: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou've lost your drink and feel the effects!"
+
+# Sent to a player when they use the /bar give command and the player is invalid
+playerNotFound: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fThat player cannot be found. Check your spelling."
+
+# Sent when a player uses the /bar give command and the bar ID or drink slot is invalid
+invalidDrink: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fDrink doesn't exist, check the bar id and the drink slot."
+
+# Sent when a player tries to spawn a Gambler NPC with an invalid bar ID
+invalidBar: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fInvalid bar id. Check the config file for the bar id."
+
+# Sent when a player tries to spawn a Gambler NPC with an invalid name
+invalidName: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fInvalid bar name. Please try another name."
+
+# Sent to a player when they remove a Gambler NPC (by right-click them with a golden carrot)
+gamblerDeleted: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &ꜰYou've removed the gambler npc."
+
+# Sent to a player when they spawn a gambler NPC
+# %name% = Gambler NPC name, %barID% = the ID of the bar this NPC opens
+spawnedNPC: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou've spawned a gambler npc, &#24f000%name%&f, who opens bar id: &#24f000%barID%&f."
+
+# Sent to players when they try to open an invalid bar
+# %idList% = the list of valid bar IDs
+validBars: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fThe valid bar ids are &#24f000%idList%&f.\nUse &#24f000/bar help &ffor more commands."
+
+# Sent to a player when they try to buy a drink with a full inventory
+fullInventory: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fSorry, your inventory is too full to buy a drink!"
+
+# Sent to the command sender when they use the "/bar give" command
+# %drink% = the drink's name, %player% = the player they gave it to
+gaveDrink: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou've given a drink &fto &#24f000%player%&f."
+
+# Sent to the command sender when they successfully reload with config files with /bar reload
+configsReloaded: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fGamblebarpro config files have been reloaded."
+
+# Sent to the user if they try to drink with the item in their offhand
+noOffHand: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fSorry, you need to move this item to your main head!"
+
+# Sent to players with permission "gamblebar.admin.updates" when a new update is out
+updateNeeded: "\n&b&lGambleBarPro &f- Version &c%newVersion% &fis out - you are still running version &c%currentVersion%&f!\n "
+
+# Sent when a player tries to consume a drink in a blacklisted world
+blacklistedWorld: " &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fSorry, you cannot gambler in this world!"
+
+# The help menu sent to server admins with "gamblebar.admin.help"
+adminHelp:
+- "&f&l>> &c&lGambleBar Help Menu &f&l<<"
+- "&c/gamblebar &f- Open the default gambling bar."
+- "&c/gamblebar <barID> &f- Open the bar with the specific bar ID."
+- "&c/gamblebar help &f- Open this help menu."
+- "&c/gamblebar give <player> <barID> <drinkSlot> &f- Give a player a drink, by using the drink's bar ID and it's inventory slot."
+- "&c/gamblebar spawn <NPCName> <barID> &f- Spawns a villager with a custom name that will open a bar from the specified bar ID."
+- "&cRemove a NPC &f- To remove a Gambler NPC, right click it with a golden carrot."
+- "&c/gamblebar open <player> <barID> &f- Open a bar for another player. (Useful for Citizens NPCs)"
+
+# The help menu sent to users with "gamblebar.help"
+userHelp:
+- "&f&l>> &c&lGambleBar Help Menu &f&l<<"
+- "&c/gamblebar &f- Open the default gambling bar."
+- "&c/gamblebar <barID> &f- Open the bar with the specific bar ID."
+- "&c/gamblebar help &f- Open this help menu."

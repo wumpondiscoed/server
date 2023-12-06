@@ -1,0 +1,40 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 100
+    block: COAL_ORE
+
+display:
+  name: " &8● &#bafb00ᴍ&#9bfb09ɪ&#7cfc13ɴ&#5dfc1cɪ&#3efc25ɴ&#1ffd2fɢ &#00fd38ɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx100 ᴄᴏᴀʟ ᴏʀᴇ"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+1 ʟᴠʟ ᴇxᴘ"
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$100 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{mining:progress}&8/&f100 ʙʟᴏᴄᴋs ʙʀᴏᴋᴇɴ"
+  type: "COAL_ORE"
+
+rewards:
+  - "exp add {player} 1l"
+  - "eco give {player} 100"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "blockbreak"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

@@ -1,0 +1,34 @@
+location: Spawn:-23.516:66.800:32.503
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#2FF1FD>&l⚡ RARE CRATE ⚡</#00DFFD>
+    height: 0.3
+  - content: '&7ᴄʀᴀᴛᴇ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ ᴛᴏ ɢᴇᴛ'
+    height: 0.3
+  - content: '&fʀᴀʀᴇ ɪᴛᴇᴍs, <#2FF1FD>ʏᴏᴜ ɴᴇᴇᴅ ʀᴀʀᴇ</#00DFFD>'
+    height: 0.3
+  - content: '&fᴋᴇʏs ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&f★ ʀᴇᴡᴀʀᴅ ʟᴇᴠᴇʟ: <#2FF1FD>●● &7- <#00DFFD>●●●'
+    height: 0.3
+  - content: '&f★ ᴄᴜʀʀᴇɴᴛ ᴋᴇʏs: <#2FF1FD>%excellentcrates_keys_rare_crate% ᴋᴇʏs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ ᴋᴇʏs ꜰᴏʀ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: <#2FF1FD>ᴄᴏᴍᴘʟᴇᴛɪɴɢ &fǫᴜᴇsᴛs <#00DFFD>(/ǫᴜᴇsᴛs)
+    height: 0.3
+  actions: {}

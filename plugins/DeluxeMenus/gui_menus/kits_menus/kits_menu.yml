@@ -1,0 +1,149 @@
+menu_title: '            &#2E2E2E▸  ᴋɪᴛs ᴍᴇɴᴜ ◂'
+size: 27
+open_command:
+- kits
+- kits preview
+- kit
+- kitshow
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 12
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 26
+  'background_menu_2':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 11
+  'background_menu_3':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 22
+    - 24
+    - 25
+  'information_item':
+    material: NETHER_STAR
+    slots:
+    - 10
+    display_name: ' &8● &#abfb00ᴋ&#93fb00ɪ&#7cfc00ᴛ&#64fc00s &#4cfc00ᴍ&#34fc00ᴇ&#1dfd00ɴ&#05fd00ᴜ'
+    lore:
+    - '&8&nʜᴏᴡ ɪᴛ ᴡᴏʀᴋs'
+    - ''
+    - ' &fsᴇʟᴇᴄᴛ ᴏʀ ᴘʀᴇᴠɪᴇᴡ'
+    - ' &fʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴋɪᴛs'
+    - ' &7❖ (ʀᴀɴᴋs ʀᴇǫᴜɪʀᴇᴅ)'
+    - ' &#00fd19&n                         '
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'spring_kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNiYzk2OTVlMGIxYWU5MjkwNTYzZjdmOTc0M2JlNDk5ZWE4YjA5MWIzOTk3MjY0ZmM3NTI5ZTRkMDEwYzM3YyJ9fX0=
+    slots:
+    - 13
+    display_name: ' &8● &#abfb00s&#99fb00ᴘ&#86fb00ʀ&#74fc00ɪ&#61fc00ɴ&#4ffc00ɢ &#3cfc00ʀ&#2afd00ᴀ&#17fd00ɴ&#05fd00ᴋ &7(ᴋɪᴛ)'
+    lore:
+    - '&8&nsᴘʀɪɴɢ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ɪs ᴛʜᴇ ꜰɪʀsᴛ ᴋɪᴛ'
+    - ' &fᴏɴʟʏ ꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋ'
+    - ''
+    - ' &8● &fᴄᴏᴏʟᴅᴏᴡɴ: &#05fd00%playerkits_cooldown_spring_kit%'
+    - ''
+    - ' &#abfb00&nʟ&#9ffb00&nᴇ&#93fb00&nꜰ&#87fb00&nᴛ&#7cfc00&n-&#70fc00&nᴄ&#64fc00&nʟ&#58fc00&nɪ&#4cfc00&nᴄ&#40fc00&nᴋ &#34fc00&nᴛ&#29fd00&nᴏ &#1dfd00&nɢ&#11fd00&nᴇ&#05fd00&nᴛ'
+    - ''
+    left_click_commands:
+    - '[player] kit claim spring_kit'
+    right_click_commands:
+    - '[player] dm open spring_kit_preview'
+    - '[sound] UI_BUTTON_CLICK'
+  'summer_kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NzdmMmU0Yzc2MDJhNjNjNDRlYmRhZTUzNzBlMjQ4MWM1NWY2MzQ1NDY5ODllODA1M2VkZTU4NTIwODg0NiJ9fX0=
+    slots:
+    - 14
+    display_name: ' &8● &#f8fd00s&#f8f300ᴜ&#f9ea00ᴍ&#f9e000ᴍ&#f9d600ᴇ&#facd00ʀ &#fac300ʀ&#fab900ᴀ&#fbb000ɴ&#fba600ᴋ &7(ᴋɪᴛ)'
+    lore:
+    - '&8&nsᴜᴍᴍᴇʀ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ɪs ᴛʜᴇ sᴇᴄᴏɴᴅ ᴋɪᴛ'
+    - ' &fᴏɴʟʏ ꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋ'
+    - ''
+    - ' &8● &fᴄᴏᴏʟᴅᴏᴡɴ: &#fba600%playerkits_cooldown_summer_kit%'
+    - ''
+    - ' &#f8fd00&nʟ&#f8f700&nᴇ&#f8f100&nꜰ&#f9ea00&nᴛ&#f9e400&n-&#f9de00&nᴄ&#f9d800&nʟ&#fad200&nɪ&#facb00&nᴄ&#fac500&nᴋ &#fabf00&nᴛ&#fab900&nᴏ &#fbb200&nɢ&#fbac00&nᴇ&#fba600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[player] kit claim summer_kit'
+    right_click_commands:
+    - '[player] dm open summer_kit_preview'
+    - '[sound] UI_BUTTON_CLICK'
+  'autumn_kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OTE2NmFlMDc5MzYwZjQ2Yjc2ZjcxZGUyOGQzOGIwOTYzMzIwZGRiZDg4MWY0ZGVjMDBjYzUxODUwMjJkNCJ9fX0=
+    slots:
+    - 15
+    display_name: ' &8● &#de8bfbᴀ&#dc7cfbᴜ&#da6cfbᴛ&#d75dfcᴜ&#d54dfcᴍ&#d33efcɴ &#d12efcʀ&#ce1ffdᴀ&#cc0ffdɴ&#ca00fdᴋ &7(ᴋɪᴛ)'
+    lore:
+    - '&8&nᴀᴜᴛᴜᴍɴ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ɪs ᴛʜᴇ sᴇᴄᴏɴᴅ ᴋɪᴛ'
+    - ' &fᴏɴʟʏ ꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ'
+    - ''
+    - ' &8● &fᴄᴏᴏʟᴅᴏᴡɴ: &#ca00fd%playerkits_cooldown_autumn_kit%'
+    - ''
+    - ' &#de8bfb&nʟ&#dd81fb&nᴇ&#db77fb&nꜰ&#da6dfb&nᴛ&#d863fc&n-&#d759fc&nᴄ&#d54ffc&nʟ&#d446fc&nɪ&#d33cfc&nᴄ&#d132fc&nᴋ &#d028fc&nᴛ&#ce1efd&nᴏ &#cd14fd&nɢ&#cb0afd&nᴇ&#ca00fd&nᴛ'
+    - ''
+    left_click_commands:
+    - '[player] kit claim autumn_kit'
+    right_click_commands:
+    - '[player] dm open autumn_kit_preview'
+    - '[sound] UI_BUTTON_CLICK'
+  'winter_kit':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlNjQyYzM2YzcxYzM0Y2M4OTM3OTExYzRhNDE0NWE0NTlkYjQ3MjI2MjVkYjVhZmM5MWQ1ZjgzOWZiZjA3ZSJ9fX0=
+    slots:
+    - 16
+    display_name: ' &8● &#65e9fbᴡ&#5adffbɪ&#4fd6fbɴ&#43ccfcᴛ&#38c3fcᴇ&#2db9fcʀ &#22b0fcʀ&#16a6fdᴀ&#0b9dfdɴ&#0093fdᴋ &7(ᴋɪᴛ)'
+    lore:
+    - '&8&nᴡɪɴᴛᴇʀ ᴋɪᴛ'
+    - ''
+    - ' &fᴛʜɪs ɪs ᴛʜᴇ sᴇᴄᴏɴᴅ ᴋɪᴛ'
+    - ' &fᴏɴʟʏ ꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋ'
+    - ''
+    - ' &8● &fᴄᴏᴏʟᴅᴏᴡɴ: &#0093fd%playerkits_cooldown_winter_kit%'
+    - ''
+    - ' &#65e9fb&nʟ&#5ee3fb&nᴇ&#57ddfb&nꜰ&#4fd7fb&nᴛ&#48d0fc&n-&#41cafc&nᴄ&#3ac4fc&nʟ&#33befc&nɪ&#2bb8fc&nᴄ&#24b2fc&nᴋ &#1dacfc&nᴛ&#16a5fd&nᴏ &#0e9ffd&nɢ&#0799fd&nᴇ&#0093fd&nᴛ'
+    - ''
+    left_click_commands:
+    - '[player] kit claim winter_kit'
+    right_click_commands:
+    - '[player] dm open winter_kit_preview'
+    - '[sound] UI_BUTTON_CLICK'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 23
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

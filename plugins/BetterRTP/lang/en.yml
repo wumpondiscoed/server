@@ -1,0 +1,73 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: ' #9cfb00&l&nR#89fb03&l&nA#75fc06&l&nN#62fc09&l&nD#4efc0d&l&nO#3bfc10&l&nM #27fd13&l&nT#14fd16&l&nP#00fd19 &l| '
+  Success: # # Placeholders! %x% %y% and %z% are the x, y, and z coordinates that the player is being teleported to! #
+    Paid: '&fYou have been teleported to x: #00fd19%x% &fʏ: #00fd19%y% &fᴢ: #00fd19%z% &ffor #FF0000$%price% ⛂ &fsuccessfully!'
+    Bypass: '&fYou have been teleported to x: #00fd19%x% &fʏ: #00fd19%y% &fᴢ: #00fd19%z% ✔'
+    Loading: '&fLoading chunks, please wait...'
+    Teleport: '#00fd19Teleporting... &fPlease wait while we find a safe location!'
+  Failed:
+    Price: '&fYou don''t have sufficient money! &fYou must have at least #FF0000$%price% ⛂ &fto rtp!'
+    NotSafe: '&fCould not find safe spot witin #FF0000%attempts% &fattempts! &ffou were not teleported'
+    Hunger: '&fCould not teleport because you are... #FF0000too hungry 🍖&f, eat something and try again!'
+  Other:
+    Success: '#00fd19%player% &fHas been teleported to x: #00fd19%x% &fʏ: #00fd19%y% &fᴢ: #00fd19%z% ✔'
+    NotSafe: '&fCould not find safe spot witin #00fd19%attempts% &fattempts! #00fd19%player% &fwas not teleported!'
+    Biome: '&fSeems like the biome #FF0000%biome% &fdoest not exist! &fTry using the tab list!'
+  Reload: '&fConfig reloaded successfully!'
+  NoPermission:
+    Basic: '&fYou don''t have sufficient permission to use this command'
+    World: '&fYou are not allowed rtp in the #FF0000%world% &fworld'
+  DisabledWorld: '&fDisabled world #FF0000%world% &fcould not rtp!'
+  Cooldown: '&fYou can''t rtp for another #00fd19%time% ⌚&f!'
+  Locked: '&fYou''ve used up all your rtp''s!'
+  Invalid: '&fYou''ve used up all your rtp''s ''/%command% help'''
+  NotOnline: '&fThe player #FF0000%player% &fis not online!'
+  Delay: '&fTeleporting in #00fd19%time% ⌚ &fseconds!'
+  Moved: '&fYou have moved! Rtp was cancelled!'
+  NotExist: '&fLooks like the world #FF0000%world% &fdoesn''t exist!'
+  Already: '&fLooks like you are already teleporting, have some patience!'
+  Sign: '&fCommand sign has been created! &fCommand is... ''#00fd19/rtp %command%&f'''
+  Edit:
+    Error: '&fInvalid input provided!'
+    Set: '#00fd19Success! %type% &fset to #00fd19%value%'
+    Remove: '&fYou removed the custom world #00fd19%world%'
+
+Help:
+  Prefix: ''
+  Main: ' &8- #00fd19/%command% &8- &fRandomly teleports you!'
+  Biome: ' &8- #00fd19/%command% biome <biome1, biome2...> &8- &fRandomly teleport withing
+    these biomes'
+  Edit: ' &8- #00fd19/%command% edit <default/world> [args...] &8- &fEdit some plugin settings'
+  Help: ' &8- #00fd19/%command% help &8- &fShows help list'
+  Info: ' &8- #00fd19/%command% info [world/particles/shapes/potion_effects] &8- &fView specific
+    information about plugin parameters'
+  Player: ' &8- #00fd19/%command% player <player> [world] [biome1, biome2...] &8- &fRandomly
+    teleport another player'
+  Reload: ' &8- #00fd19/%command% reload &8- &fReloads the plugin'
+  Settings: ' &8- #00fd19/%command% settings &8- &fPull up a gui and edit some settings'
+  Test: ' &8- #00fd19/%command% test &8- T&fest out plugin effects after a teleport without
+    moving'
+  Version: ' &8- #00fd19/%command% version &8- &fView currently running version'
+  World: ' &8- #00fd19/%command% world <world> [biome1, biome2...] &8- &fRandomly teleport
+    in another world'
+  Location: ' &8- #00fd19/%command% location <location_name> &8- &fRtp using a specific location'
+
+Usage:
+  Player: '&fUse: #00fd19/%command% player <player> [world] [biome1, biome2]'
+  World: '&fUse: #00fd19/%command% world <world> [biome1, biome2...]'
+  Biome: '&fUse: #00fd19/%command% biome <biome1, biome2...>'
+  Location: '&fUse: #00fd19/%command% location <location_name>'
+  Edit:
+    Base: '&fUse: #00fd19/%command% edit <default/world> [args...]'
+    Default: '&fUse: #00fd19/%command% edit default <max/min/useworldborder/center> <value>'
+    World: '&fUse: #00fd19/%command% edit customworld <world> <max/min/useworldborder/center>
+      <value>'
+    PermissionGroup: '&fUse: #00fd19/%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&fUse: #00fd19/%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&fUse: #00fd19/%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&fUse: #00fd19/%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&fUse: #00fd19/%command% edit blacklistedblocks <add/remove>
+      <block_id>'

@@ -1,0 +1,17 @@
+title: '{shop-name}'
+size: 36
+
+layout:
+  - '111111111'
+  - '1ABCDEFG1'
+  - '000000000'
+
+buttons:
+  0:
+    display-item:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: '&fLight Blue Stained Glass Pane'
+      lore:
+        - ''
+    actions:
+      - 'none'

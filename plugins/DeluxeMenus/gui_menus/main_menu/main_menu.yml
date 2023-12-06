@@ -1,0 +1,272 @@
+menu_title: '            &#2E2E2E▸ ᴍᴀɪɴ ᴍᴇɴᴜ ◂'
+size: 45
+open_command:
+- main menu
+- menu
+items:
+  'background_menu':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 35
+    - 37
+    - 43
+    - 44
+  'background_menu_2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 11
+    - 20
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 36
+    - 38
+    - 42
+  'background_menu_3':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 39
+    - 41
+  'rtp_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyODE4ZmIxNjNmZGFhMzE2MjM3MWU3OWQyMThmNDZiM2QxZThkYTYzMmRjYzk1MzJiYjVlY2E4OWRlNDMyIn19fQ==
+    slots:
+    - 10
+    display_name: ' &8● &#00cefbʀ&#0dd1fbᴀ&#1bd4fbɴ&#28d7fbᴅ&#35d9fcᴏ&#43dcfcᴍ &#50dffcᴛ&#5de2fcᴇ&#6ae5fcʟ&#78e8fcᴇ&#85eafdᴘ&#92edfdᴏ&#a0f0fdʀ&#adf3fdᴛ'
+    lore:
+    - '&8&nsᴇʀᴠᴇʀ ᴡᴏʀʟᴅs'
+    - ''
+    - ' &fᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ'
+    - ' &fᴡᴏʀʟᴅs ᴀᴠᴀɪʟᴀʙʟᴇs'
+    - ' &7(3 ᴄᴜʀʀᴇɴᴛ ᴡᴏʀʟᴅs)'
+    - ''
+    - ' &#00cefb&nʟ&#0cd0fb&nᴇ&#17d3fb&nꜰ&#23d5fb&nᴛ&#2ed8fc&n-&#3adafc&nᴄ&#45ddfc&nʟ&#51dffc&nɪ&#5ce2fc&nᴄ&#68e4fc&nᴋ &#73e7fc&nᴛ&#7fe9fc&nᴏ &#8aecfd&nᴏ&#96eefd&nᴘ&#a1f1fd&nᴇ&#adf3fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open rtp_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'warps_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMyNDRhNGUzMDZmZDE0NzQwNWViYTZiZjY3MDIxZDUwYjgxNWQxMDdjYzE1ZDk3YjgwMmI3ODUyMTAwOTllNiJ9fX0=
+    slots:
+    - 12
+    display_name: ' &8● &#ff00f5ᴡ&#f90af6ᴀ&#f414f8ʀ&#ee1ef9ᴘ&#e928fas &#e332fbᴍ&#dd3cfdᴇ&#d846feɴ&#d250ffᴜ'
+    lore:
+    - '&8&nsᴇʀᴠᴇʀ ᴡᴀʀᴘs'
+    - ''
+    - ' &fᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ'
+    - ' &fᴡᴀʀᴘs ᴀᴠᴀɪʟᴀʙʟᴇs'
+    - ' &7(12 ᴄᴜʀʀᴇɴᴛ ᴡᴀʀᴘs)'
+    - ''
+    - ' &#ff00f5&nʟ&#fc05f6&nᴇ&#f90bf6&nꜰ&#f610f7&nᴛ&#f315f8&n-&#f01bf8&nᴄ&#ed20f9&nʟ&#ea25fa&nɪ&#e72bfa&nᴄ&#e430fb&nᴋ &#e135fc&nᴛ&#de3bfc&nᴏ &#db40fd&nᴏ&#d845fe&nᴘ&#d54bfe&nᴇ&#d250ff&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open warps_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'jobs_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVmMWFkYjU4ZGI2ZTJlNTRhODQ3MzliMmM3OWRkZDQwMTRiODVmNzY1MTFkZjQxYTkyNzhkNzE1MWY2Y2RiZiJ9fX0=
+    slots:
+    - 13
+    display_name: ' &8● &#fbf100ᴊ&#fbe900ᴏ&#fce000ʙ&#fcd800s &#fccf00ᴍ&#fcc700ᴇ&#fdbe00ɴ&#fdb600ᴜ'
+    lore:
+    - '&8&nᴊᴏʙs ᴘʀᴏꜰꜰᴇsɪᴏɴs'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ʏᴏᴜʀ ꜰᴀᴠ'
+    - ' &fᴡᴏʀᴋ ᴀɴᴅ ɢᴇᴛ ᴄᴏɪɴs'
+    - ' &7(ʟɪᴍɪᴛ ᴘᴇʀ ʀᴀɴᴋ)'
+    - ''
+    - ' &#fbf100&nʟ&#fbed00&nᴇ&#fbe900&nꜰ&#fbe500&nᴛ&#fce100&n-&#fcdd00&nᴄ&#fcd900&nʟ&#fcd500&nɪ&#fcd200&nᴄ&#fcce00&nᴋ &#fcca00&nᴛ&#fcc600&nᴏ &#fdc200&nᴏ&#fdbe00&nᴘ&#fdba00&nᴇ&#fdb600&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open jobs_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'daily_rewards':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzMDZiZjhlZTQwMzZhNmZkYjQ4NDE2NzBiMzE3Mjg5NDg1MDMxYjU2NTQ1ZDNkMWE1YzBlNTc0ZWNmZDFkNCJ9fX0=
+    slots:
+    - 14
+    display_name: ' &8● &#00fbecᴅ&#00f6eeᴀ&#00f0efɪ&#00ebf1ʟ&#00e6f2ʏ &#00e0f4ʀ&#00dbf5ᴇ&#00d5f7ᴡ&#00d0f8ᴀ&#00cbfaʀ&#00c5fbᴅ&#00c0fds'
+    lore:
+    - '&8&nsᴇʀᴠᴇʀ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &fᴊᴏɪɴ ᴇᴠᴇʀʏ ᴅᴀʏ'
+    - ' &fᴛᴏ ɢᴇᴛ ʀᴇᴡᴀʀᴅs'
+    - ' &7(ᴅɪꜰꜰᴇʀᴇɴᴛ x ʀᴀɴᴋ)'
+    - ''
+    - ' &#00fbec&nʟ&#00f7ed&nᴇ&#00f3ee&nꜰ&#00efef&nᴛ&#00ebf1&n-&#00e7f2&nᴄ&#00e3f3&nʟ&#00dff4&nɪ&#00dcf5&nᴄ&#00d8f6&nᴋ &#00d4f7&nᴛ&#00d0f8&nᴏ &#00ccfa&nᴏ&#00c8fb&nᴘ&#00c4fc&nᴇ&#00c0fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] orewards menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'protections_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU5MjQ1ZWM1MzdjOWNiZjdkZmNlMzU3MjNiNmFjNDRlN2U0NDZmNTc1MTdiMzk1ZmVjMjRiYjk0N2RlYzQ1YyJ9fX0=
+    slots:
+    - 15
+    display_name: ' &8● &#00eefdᴘ&#00e9fdʀ&#00e3fdᴏ&#00defdᴛ&#00d9feᴇ&#00d3feᴄ&#00cefeᴛ&#00c9feɪ&#00c3feᴏ&#00befeɴ&#00b8fes &#00b3ffᴍ&#00aeffᴇ&#00a8ffɴ&#00a3ffᴜ'
+    lore:
+    - '&8&nᴘʀᴏᴛᴇᴄᴛɪᴏɴs ᴍᴇɴᴜ'
+    - ''
+    - ' &fɢᴇᴛ ʙʟᴏᴄᴋs ᴛᴏ'
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ʟᴀɴᴅ'
+    - ' &7(ᴜsᴇʀ ꜰʀɪᴇɴᴅʟʏ ɢᴜɪ)'
+    - ''
+    - ' &#00eefd&nʟ&#00e9fd&nᴇ&#00e4fd&nꜰ&#00dffd&nᴛ&#00dafe&n-&#00d5fe&nᴄ&#00d0fe&nʟ&#00cbfe&nɪ&#00c6fe&nᴄ&#00c1fe&nᴋ &#00bcfe&nᴛ&#00b7fe&nᴏ &#00b2ff&nᴏ&#00adff&nᴘ&#00a8ff&nᴇ&#00a3ff&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open protections_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'kits_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmNGEwZmZhODIyZGMwOWMzNTNjY2E2YTdkMTZmYzg5ZmUyMGMwZDk2MGJhZjMwNDIwMTQ4MDZiZDUzM2JhNyJ9fX0=
+    slots:
+    - 16
+    display_name: ' &8● &#fb9700ᴋ&#fb8c00ɪ&#fc8200ᴛ&#fc7700s &#fc6c00ᴍ&#fc6100ᴇ&#fd5700ɴ&#fd4c00ᴜ'
+    lore:
+    - '&8&nᴋɪᴛs ᴍᴇɴᴜ'
+    - ''
+    - ' &fɢᴇᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴋɪᴛs'
+    - ' &fꜰᴏʀ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ'
+    - ' &7(ᴇxᴄʟᴜsɪᴠᴇ x ʀᴀɴᴋs)'
+    - ''
+    - ' &#fb9700&nʟ&#fb9200&nᴇ&#fb8d00&nꜰ&#fb8800&nᴛ&#fc8300&n-&#fc7e00&nᴄ&#fc7900&nʟ&#fc7400&nɪ&#fc6f00&nᴄ&#fc6a00&nᴋ &#fc6500&nᴛ&#fc6000&nᴏ &#fd5b00&nᴏ&#fd5600&nᴘ&#fd5100&nᴇ&#fd4c00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open kits_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'skills_menu':
+    material: LIME_DYE
+    slots:
+    - 19
+    display_name: '  &8● &#dafd01s&#c6fd01ᴋ&#b2fd01ɪ&#9dfe01ʟ&#89fe01ʟ&#75fe00s &#61fe00ᴍ&#4cff00ᴇ&#38ff00ɴ&#24ff00ᴜ'
+    lore:
+    - '&8&nsᴋɪʟʟs ᴍᴇɴᴜ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ɪᴍᴘʀᴏᴠᴇ ʏᴏᴜʀsᴇʟꜰ'
+    - ' &7(ᴜᴘ ᴛᴏ 5 sᴋɪʟʟs)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open skills_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'shops_menu':
+    material: LIME_DYE
+    slots:
+    - 21
+    display_name: ' &8● &#dafd01s&#c3fd01ʜ&#adfe01ᴏ&#96fe01ᴘ&#7ffe01s &#68fe00ᴍ&#52ff00ᴇ&#3bff00ɴ&#24ff00ᴜ'
+    lore:
+    - '&8&nsʜᴏᴘs ᴍᴇɴᴜ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜᴇ ɪᴛᴇᴍs'
+    - ' &fᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ'
+    - ' &7(8 ᴄᴀᴛᴇɢᴏʀɪᴇs)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] shop'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'quests_menu':
+    material: LIME_DYE
+    slots:
+    - 22
+    display_name: ' &8● &#dafd01ǫ&#c6fd01ᴜ&#b2fd01ᴇ&#9dfe01s&#89fe01ᴛ&#75fe00s &#61fe00ᴍ&#4cff00ᴇ&#38ff00ɴ&#24ff00ᴜ'
+    lore:
+    - '&8&nǫᴜᴇsᴛs ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴛᴏ'
+    - ' &fɢᴇᴛ ᴀᴍᴀᴢɪɴɢ ʀᴇᴡᴀʀᴅs'
+    - ' &7(ᴀʟᴡᴀʏs ᴀᴠᴀɪʟᴀʙʟᴇs)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] quests'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'auction_house':
+    material: LIME_DYE
+    slots:
+    - 23
+    display_name: ' &8● &#dafd01ᴀ&#c9fd01ᴜ&#b9fd01ᴄ&#a8fe01ᴛ&#98fe01ɪ&#87fe01ᴏ&#77fe00ɴ &#66fe00ʜ&#56fe00ᴏ&#45ff00ᴜ&#35ff00s&#24ff00ᴇ'
+    lore:
+    - '&8&nᴀᴜᴄᴛɪᴏɴ ʜᴏᴜsᴇ'
+    - ''
+    - ' &fʙᴇᴛ ʏᴏᴜʀ ɪᴛᴇᴍs ᴏʀ ʙɪᴅ'
+    - ' &fꜰᴏʀ ᴏᴛʜᴇʀ''s ᴀᴜᴄᴛɪᴏɴs'
+    - ' &fɪɴ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ ʜᴏᴜsᴇ!'
+    - ' &7(ʟɪᴍɪᴛ ᴘᴇʀ ʀᴀɴᴋ)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] auctionhouse'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'bounties_menu':
+    material: LIME_DYE
+    slots:
+    - 24
+    display_name: '  &8● &#dafd01ʙ&#c9fd01ᴏ&#b9fd01ᴜ&#a8fe01ɴ&#98fe01ᴛ&#87fe01ɪ&#77fe00ᴇ&#66fe00s &#56fe00ᴍ&#45ff00ᴇ&#35ff00ɴ&#24ff00ᴜ'
+    lore:
+    - '&8&nʙᴏᴜɴᴛɪᴇs ᴍᴇɴᴜ'
+    - ''
+    - ' &fsᴇᴛ ʙᴏᴜɴᴛɪᴇs ᴛᴏ ʏᴏᴜʀ'
+    - ' &fᴡᴏʀsᴛ ᴇɴᴇᴍʏ ᴏʀ ɢᴇᴛ'
+    - ' &fᴍᴏɴᴇʏ ʙʏ ᴋɪʟʟɪɴɢ'
+    - ' &7(ʙʏᴘᴀss ꜰᴏʀ ᴠɪᴘs)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] bounties'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'bartender_menu':
+    material: LIME_DYE
+    slots:
+    - 25
+    display_name: '  &8● &#dafd01ʙ&#cbfd01ᴀ&#bcfd01ʀ&#adfe01ᴛ&#9dfe01ᴇ&#8efe01ɴ&#7ffe01ᴅ&#70fe00ᴇ&#61fe00ʀ &#52ff00ᴍ&#42ff00ᴇ&#33ff00ɴ&#24ff00ᴜ'
+    lore:
+    - '&8&nʙᴀʀᴛᴇɴᴅᴇʀ ᴍᴇɴᴜ'
+    - ''
+    - ' &fɢᴇᴛ ᴀ ꜰᴇᴡ ᴅʀɪɴᴋs ᴀɴᴅ'
+    - ' &fᴛᴇsᴛ ʏᴏᴜʀ ʟᴜᴄᴋ ᴛᴏ ᴡɪɴ'
+    - ' &fᴏʀ ʟᴏsᴛ ᴍᴏɴᴇʏ ɪɴ ᴀ ʙᴇᴛ'
+    - ' &7(ᴄʜᴀɴᴄᴇ x ᴅʀɪɴᴋ)'
+    - ''
+    - ' &#dafd01&nʟ&#cefd01&nᴇ&#c2fd01&nꜰ&#b6fd01&nᴛ&#a9fe01&n-&#9dfe01&nᴄ&#91fe01&nʟ&#85fe01&nɪ&#79fe00&nᴄ&#6dfe00&nᴋ &#61fe00&nᴛ&#55fe00&nᴏ &#48ff00&nᴏ&#3cff00&nᴘ&#30ff00&nᴇ&#24ff00&nɴ'
+    - ''
+    left_click_commands:
+    - '[player] dm open bar_menu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'statistic_player':
+    material: head-%player_name%
+    slots:
+    - 40
+    display_name: ' &8● &#0FFF00%player_name%''s sᴛᴀᴛs'
+    lore:
+    - '&8&nᴘʟᴀʏᴇʀ sᴛᴀᴛɪsᴛɪᴄs'
+    - ''
+    - ' &fᴛʜɪs ɪs ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ'
+    - ' &fᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴛᴀᴛɪsᴛɪᴄs'
+    - ''
+    - ' &8● &fᴋɪʟʟs: &#00E4FF%statistic_player_kills% 🗡'
+    - ' &8● &fᴅᴇᴀᴛʜs: &#FA1B1B%statistic_deaths% ☠'
+    - ' &8● &fᴛɪᴍᴇ ᴘʟᴀʏᴇᴅ:'
+    - '   &#0FFF00+ %statistic_time_played% ⌚'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'

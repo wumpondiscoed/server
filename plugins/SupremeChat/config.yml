@@ -1,0 +1,355 @@
+# ==================================================
+# SUPREMECHAT PLUGIN
+# If you're in need of support or have encounted any errors please join the discord server:
+# https://discord.gg/AnPwty8asP
+#
+# - PlaceholderAPI Support
+# - Vault Support
+# ==================================================
+
+# mute chat settings
+mute-chat: false
+bypass-mute-chat-permission: 'supremechat.bypass.mutechat'
+ops-bypass-mute-chat: true
+# chat color permission (Allow players to use &0-f & hex colors in chat)
+chat-color-permission: 'supremechat.chat.color'
+
+# ==================================================
+# CHAT FORMATTING:
+#
+# format - globally
+# groups - Uses VaultAPI Groups to check what rank the player is.
+#  * set `group-formatting` to `true` to enable groups.
+# ==================================================
+
+# should you want SupremeChat's chat function disabled?
+enable-chat-format: true
+
+# globally be used for everyone if `group-formatting` is set to `false`.
+format: '%deluxetags_tag% &r%vault_prefix%%player_name% &8▶ &f%message%'
+
+group-formatting: false
+groups:
+  default: ''
+
+hover: # used when you hover over the chat sent by player
+  enable: true
+  string:
+    - ' &8● &#00FF08%player_name% sᴛᴀᴛɪsᴛɪᴄs '
+    - '   &7(%localtime_time%) ⌚'
+    - ''
+    - ' &#e7fb00&lP&#ebed00&lL&#f0df00&lA&#f4d200&lY&#f9c400&lE&#fdb600&lR '
+    - ' &f● ᴍᴏɴᴇʏ: &#00fd0a$%vault_eco_balance_formatted% ⛂ '
+    - ' &f● ᴋɪʟʟs: &#00fd0a%statistic_player_kills% ⚓ '
+    - ' &f● ᴅᴇᴀᴛʜs: &#00fd0a%statistic_deaths% ☠ '
+    - ''
+    - ' &#abfb00&n✉ ᴄ&#9efb00&nʟ&#91fb00&nɪ&#85fb00&nᴄ&#78fc00&nᴋ &#6bfc00&nᴛ&#5efc00&nᴏ &#52fc00&nᴍ&#45fc00&nᴇ&#38fc00&ns&#2bfd00&ns&#1ffd00&nᴀ&#12fd00&nɢ&#05fd00&nᴇ&r '
+    - ''
+click: # used when you click on the chat sent by player
+  enable: true
+  string: '/msg %player_name% '
+
+# ==================================================
+# JOIN & LEAVE:
+#
+# To add a "silent" join type put the custom options to empty ''
+# Example: custom-join: ''
+# Example: custom-leave: ''
+# ==================================================
+
+custom-join: ''
+custom-leave: ''
+
+vanish-support: true # allow to join silent if vanished.
+
+enable-join-motd: true # should 'motd' be enabled.
+
+motd:
+  - '&r'
+  - '           &#80ff00₪ &lS&#8efa00&lE&#9cf600&lR&#aaf100&lV&#b8ed00&lE&#c7e800&lR&#d5e400&lN&#e3df00&lA&#f1db00&lM&#ffd600&lE &#ffd600₪'
+  - '        &8&nᴡᴇʟᴄᴏᴍᴇ, ᴇɴᴊᴏʏ ʏᴏᴜʀ ɢᴀᴍᴇ'
+  - ''
+  - '          &fᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴇʀᴠᴇʀɴᴀᴍᴇ'
+  - '       &fᴇɴᴊᴏʏ ᴛʜᴇ sᴜʀᴠɪᴠᴀʟ ᴇxᴘᴇʀɪᴇɴᴄᴇ'
+  - ''
+  - '   &#FFF000&n🚫 ᴅᴏɴ''ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ɪɴᴠɪᴛᴇ ꜰʀɪᴇɴᴅs!'
+  - ''
+  - '         &#9cfb00▶ ᴘ&#93fb01ʟ&#8bfb03ᴀ&#82fb04ʏ&#79fb06.&#71fc07s&#68fc08ᴇ&#5ffc0aʀ&#57fc0bᴠ&#4efc0dᴇ&#45fc0eʀ&#3dfc0fɴ&#34fc11ᴀ&#2bfc12ᴍ&#23fd13ᴇ&#1afd15.&#11fd16ᴄ&#09fd18ᴏ&#00fd19ᴍ ◀'
+  - ''
+
+# ==================================================
+# CUSTOM COMMANDS:
+#
+# <command_label>:
+#  string: '<your message here that will send to the player>'
+#
+# Custom commands will be extended soon...
+# ==================================================
+
+custom-commands:
+  discord: # discord name is your command label.
+    string: ''
+  store: # store name is your command label.
+    string: ''
+
+# ==================================================
+# MENTION
+# ==================================================
+
+mention-replacement: '&#00fd19@%target%'
+mention-spaces: true
+mention-sound:
+  enable: true
+  sound: 'ENTITY_LEVELUP'
+
+# ==================================================
+# CHAT FILTER:
+#
+# set `chat-delay` to 0 if you want to disable chat delay.
+# ==================================================
+
+word-detect-enable: false
+word-detect: ''
+word-detect-staff: ''
+word-detect-alert-staff: false
+detect-alert-staff-permission: 'sc.alert.staff'
+
+# to disable chat delays, set 'chat-delay' to 0
+chat-delay: 0 # how long should SupremeChat stop the playing from chatting for? in seconds.
+chat-warn: ''
+
+caps-lowercase: true # changes caps to lowercase
+caps-limit: 4 # how many caps should be limited until it detects.
+disable-caps-warn: true # set true if you want to disable 'caps-warn'
+caps-warn: ''
+
+repeat-enable: false
+repeat-warn: ''
+
+# to disable command delays, set 'command-delay' to 0
+command-delay: 0 # in seconds
+command-warn: ''
+
+# ==================================================
+# COMMAND-SPY
+# ==================================================
+
+enable-command-spy: false
+cs-spy: ''
+whitelist-spy-commands:
+  - 'spawn'
+
+# ==================================================
+# INTERACTIONS CHAT:
+# ==================================================
+# item in chat settings
+enable-chat-item: true
+chat-item-strings: # message string that will grab the item the player is holding.
+  - '[i]'
+  - '[item]'
+chat-item-replace: '&8[&#00fd19%item%&8]' # this will be the message that will replace the item string.
+
+# ==================================================
+# BLOCKED WORDS
+# Note: Some words may be missing as i've copied these from some lists online.
+# ==================================================
+banned-words:
+  - 'anal'
+  - 'anus'
+  - 'arse'
+  - 'ass'
+  - 'ballsack'
+  - 'balls'
+  - 'bastard'
+  - 'bitch'
+  - 'biatch'
+  - 'bloody'
+  - 'blowjob'
+  - 'blow job'
+  - 'bollock'
+  - 'bollok'
+  - 'boner'
+  - 'boob'
+  - 'bugger'
+  - 'bum'
+  - 'butt'
+  - 'buttplug'
+  - 'clitoris'
+  - 'cock'
+  - 'coon'
+  - 'crap'
+  - 'cunt'
+  - 'damn'
+  - 'dick'
+  - 'dildo'
+  - 'dyke'
+  - 'fag'
+  - 'feck'
+  - 'fellate'
+  - 'fellatio'
+  - 'felching'
+  - 'fuck'
+  - 'f u c k'
+  - 'fudgepacker'
+  - 'flange'
+  - 'Goddamn'
+  - 'God damn'
+  - 'hell'
+  - 'homo'
+  - 'jerk'
+  - 'jizz'
+  - 'knobend'
+  - 'knob end'
+  - 'labia'
+  - 'lmao'
+  - 'lmfao'
+  - 'muff'
+  - 'nigger'
+  - 'nigga'
+  - 'omg'
+  - 'penis'
+  - 'piss'
+  - 'poop'
+  - 'prick'
+  - 'pube'
+  - 'pussy'
+  - 'queer'
+  - 'scrotum'
+  - 'sex'
+  - 'shit'
+  - 'slut'
+  - 'smegma'
+  - 'spunk'
+  - 'tit'
+  - 'tosser'
+  - 'turd'
+  - 'twat'
+  - 'vagina'
+  - 'wank'
+  - 'whore'
+  - 'wtf'
+  - 'arse'
+  - 'arsehole'
+  - 'balls'
+  - 'bastard'
+  - 'beaver'
+  - 'bell'
+  - 'bellend'
+  - 'bent'
+  - 'berk'
+  - 'bint'
+  - 'bitch'
+  - 'blighter'
+  - 'blimey'
+  - 'bloodclaat'
+  - 'bloody'
+  - 'blooming'
+  - 'bollocks'
+  - 'bonk'
+  - 'bukkake'
+  - 'bullshit'
+  - 'cack'
+  - 'cad'
+  - 'chav'
+  - 'choad'
+  - 'chuffer'
+  - 'clunge'
+  - 'cobblers'
+  - 'cock'
+  - 'cock-up'
+  - 'cocksucker'
+  - 'cockwomble'
+  - 'codger'
+  - 'corey'
+  - 'cow'
+  - 'crap'
+  - 'crikey'
+  - 'cunt'
+  - 'daft'
+  - 'damn'
+  - 'dick'
+  - 'dickhead'
+  - 'dildo'
+  - 'dodgy'
+  - 'duffer'
+  - 'fanny'
+  - 'feck'
+  - 'flaps'
+  - 'fuck'
+  - 'fucktard'
+  - 'gash'
+  - 'ginger'
+  - 'goddam'
+  - 'gorblimey'
+  - 'gormless'
+  - 'hell'
+  - 'hobknocker'
+  - 'jizz'
+  - 'knob'
+  - 'knobber'
+  - 'knobend'
+  - 'knobhead'
+  - 'ligger'
+  - 'manky'
+  - 'minge'
+  - 'minger'
+  - 'minging'
+  - 'motherfucker'
+  - 'munter'
+  - 'muppet'
+  - 'naff'
+  - 'nitwit'
+  - 'nonce'
+  - 'numpty'
+  - 'nutter'
+  - 'penguin'
+  - 'pillock'
+  - 'pish'
+  - 'piss off'
+  - 'piss-flaps'
+  - 'pissed'
+  - 'pissed off'
+  - 'plonker'
+  - 'ponce'
+  - 'poof'
+  - 'pouf'
+  - 'poxy'
+  - 'prat'
+  - 'prick'
+  - 'prick'
+  - 'prickteaser'
+  - 'punani'
+  - 'punny'
+  - 'pussy'
+  - 'randy'
+  - 'rapey'
+  - 'rat arsed'
+  - 'rotter'
+  - 'rubbish'
+  - 'scrubber'
+  - 'shag'
+  - 'shit'
+  - 'shite'
+  - 'shitfaced'
+  - 'skank'
+  - 'slag'
+  - 'slapper'
+  - 'slut'
+  - 'snatch'
+  - 'sod'
+  - 'sod-off'
+  - 'spunk'
+  - 'swine'
+  - 'tart'
+  - 'tits'
+  - 'toff'
+  - 'tosser'
+  - 'trollop'
+  - 'tuss'
+  - 'twat'
+  - 'twonk'
+  - 'wally'
+  - 'wanker'
+  - 'wankstain'
+  - 'wazzack'
+  - 'whore'

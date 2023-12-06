@@ -1,0 +1,162 @@
+menu_title: '           &#2E2E2E▸ sᴋɪʟʟs ᴍᴇɴᴜ ◂'
+size: 36
+open_command:
+- skill
+- skills
+- ability
+- abilities
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+  'background_menu_2':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 12
+    - 14
+  'background_menu_3':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 34
+    - 35
+  'strength_skill':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIxNDgxZDFlY2I1YzBhNGYyNjg3NWI4MTdjNzM1YjIyMGRhMDhmODg4YTAyMmZmY2VkY2NjNzNkYTJkZDhiNiJ9fX0=
+    slots:
+    - 10
+    display_name: ' &#5ae1ff🗡 s&#53deffᴛ&#4bdcffʀ&#44d9ffᴇ&#3cd6feɴ&#35d3feɢ&#2dd1feᴛ&#26cefeʜ &#1ecbfes&#17c8feᴋ&#0fc6fdɪ&#08c3fdʟ&#00c0fdʟ'
+    lore:
+    - '&8&nɪɴᴄʀᴇᴀsᴇ sᴋɪʟʟ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴛʜᴇ ᴍᴀx ʟᴇᴠᴇʟ'
+    - ' &7❖ (ᴍᴏʀᴇ ᴍᴇʟᴇᴇ ᴅᴀᴍᴀɢᴇ)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4eddff&nꜰ&#48daff&nᴛ&#42d8fe&n-&#3cd6fe&nᴄ&#36d4fe&nʟ&#30d2fe&nɪ&#2acffe&nᴄ&#24cdfe&nᴋ &#1ecbfe&nᴛ&#18c9fe&nᴏ &#12c7fd&nᴏ&#0cc4fd&nᴘ&#06c2fd&nᴇ&#00c0fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] dm open strength_upgrades'
+  'criticals_skill':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NzdmMmU0Yzc2MDJhNjNjNDRlYmRhZTUzNzBlMjQ4MWM1NWY2MzQ1NDY5ODllODA1M2VkZTU4NTIwODg0NiJ9fX0=
+    slots:
+    - 11
+    display_name: ' &#fff501❖ ᴄ&#ffee01ʀ&#ffe701ɪ&#ffe001ᴛ&#fed801ɪ&#fed101ᴄ&#feca01ᴀ&#fec300ʟ&#febc00s &#feb500s&#fdad00ᴋ&#fda600ɪ&#fd9f00ʟ&#fd9800ʟ'
+    lore:
+    - '&8&nɪɴᴄʀᴇᴀsᴇ sᴋɪʟʟ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴛʜᴇ ᴍᴀx ʟᴇᴠᴇʟ'
+    - ' &7❖ (ᴍᴏʀᴇ ᴄʀɪᴛɪᴄᴀʟs)'
+    - ''
+    - ' &#fff501&nʟ&#ffef01&nᴇ&#ffe901&nꜰ&#ffe201&nᴛ&#fedc01&n-&#fed601&nᴄ&#fed001&nʟ&#feca01&nɪ&#fec300&nᴄ&#febd00&nᴋ &#feb700&nᴛ&#feb100&nᴏ &#fdab00&nᴏ&#fda400&nᴘ&#fd9e00&nᴇ&#fd9800&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] dm open criticals_upgrades'
+  'resistance_skill':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNiYzk2OTVlMGIxYWU5MjkwNTYzZjdmOTc0M2JlNDk5ZWE4YjA5MWIzOTk3MjY0ZmM3NTI5ZTRkMDEwYzM3YyJ9fX0=
+    slots:
+    - 13
+    display_name: ' &#ccff00🛡 ʀ&#bdff05ᴇ&#afff0as&#a0ff0fɪ&#92fe14s&#83fe19ᴛ&#75fe1eᴀ&#66fe24ɴ&#57fe29ᴄ&#49fe2eᴇ &#3afe33s&#2cfd38ᴋ&#1dfd3dɪ&#0ffd42ʟ&#00fd47ʟ'
+    lore:
+    - '&8&nɪɴᴄʀᴇᴀsᴇ sᴋɪʟʟ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴛʜᴇ ᴍᴀx ʟᴇᴠᴇʟ'
+    - ' &7❖ (ᴍᴏʀᴇ ʀᴇsɪsᴛᴀɴᴄᴇ)'
+    - ''
+    - ' &#ccff00&nʟ&#beff05&nᴇ&#b1ff09&nꜰ&#a3ff0e&nᴛ&#96fe13&n-&#88fe18&nᴄ&#7afe1c&nʟ&#6dfe21&nɪ&#5ffe26&nᴄ&#52fe2b&nᴋ &#44fe2f&nᴛ&#36fe34&nᴏ &#29fd39&nᴏ&#1bfd3e&nᴘ&#0efd42&nᴇ&#00fd47&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] dm open resistance_upgrades'
+  'archery_skill':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZDJjYzkxMTZjMGY3MjRiZGNkYmYyZTk2MzNjYjBhN2Q0NTNmOGIzYTFhZDlkMTQ5M2U1ZTZmMTI4MTU1NSJ9fX0=
+    slots:
+    - 15
+    display_name: ' &#ff9900🏹 ᴀ&#ff9200ʀ&#ff8b00ᴄ&#fe8400ʜ&#fe7d00ᴇ&#fe7600ʀ&#fe6f00ʏ &#fe6800s&#fe6100ᴋ&#fd5a00ɪ&#fd5300ʟ&#fd4c00ʟ'
+    lore:
+    - '&8&nɪɴᴄʀᴇᴀsᴇ sᴋɪʟʟ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴛʜᴇ ᴍᴀx ʟᴇᴠᴇʟ'
+    - ' &7❖ (ᴍᴏʀᴇ ᴀʀʀᴏᴡ ᴅᴀᴍᴀɢᴇ)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8f00&nꜰ&#ff8a00&nᴛ&#fe8400&n-&#fe7f00&nᴄ&#fe7a00&nʟ&#fe7500&nɪ&#fe7000&nᴄ&#fe6b00&nᴋ &#fe6600&nᴛ&#fe6100&nᴏ &#fd5b00&nᴏ&#fd5600&nᴘ&#fd5100&nᴇ&#fd4c00&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] dm open archery_upgrades'
+  'health_skill':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ3ODA3NmU5M2RmOTgxZTk5ZDcyM2JiNDk1Y2M3MzA1MDM1MTliNWMwMGFmYjQ0MDM2ZmFiN2MwNTcyZDNhNiJ9fX0=
+    slots:
+    - 16
+    display_name: ' &#ff6341❤ ʜ&#ff593bᴇ&#ff4f34ᴀ&#fe452eʟ&#fe3b27ᴛ&#fe3221ʜ &#fe281as&#fe1e14ᴋ&#fd140dɪ&#fd0a07ʟ&#fd0000ʟ'
+    lore:
+    - '&8&nɪɴᴄʀᴇᴀsᴇ sᴋɪʟʟ'
+    - ''
+    - ' &fɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴛʜᴇ ᴍᴀx ʟᴇᴠᴇʟ'
+    - ' &7❖ (ᴍᴏʀᴇ ʜᴇᴀʀᴛs)'
+    - ''
+    - ' &#ff6341&nʟ&#ff5c3d&nᴇ&#ff5638&nꜰ&#ff4f34&nᴛ&#fe4930&n-&#fe422b&nᴄ&#fe3b27&nʟ&#fe3523&nɪ&#fe2e1e&nᴄ&#fe281a&nᴋ &#fe2116&nᴛ&#fe1a11&nᴏ &#fd140d&nᴏ&#fd0d09&nᴘ&#fd0704&nᴇ&#fd0000&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] dm open health_upgrades'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 31
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+  'information_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19
+    slots:
+    - 33
+    display_name: ' &8● &#9cfb00s&#8bfb03ᴋ&#79fb06ɪ&#68fc08ʟ&#57fc0bʟ&#45fc0es &#34fc11ᴍ&#23fd13ᴇ&#11fd16ɴ&#00fd19ᴜ'
+    lore:
+    - '&8&nʜᴏᴡ ɪᴛ ᴡᴏʀᴋs'
+    - ''
+    - ' &fɪᴍᴘʀᴏᴠᴇ ʏᴏᴜʀ sᴋɪʟʟs'
+    - ' &fᴛᴏ ᴘʀᴏɢʀᴇss ɪɴɢᴀᴍᴇ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ' &#00fd19&n                          '
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'

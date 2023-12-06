@@ -1,0 +1,79 @@
+title: 'Select Amount'
+size: 45
+
+layout:
+  - '000000000'
+  - '012304560'
+  - '000000000'
+  - '0B0ADA000'
+
+amount-items:
+  1:
+    display-item:
+      material: LIME_DYE
+      name: ' &8● &#27ff00+1'
+      lore:
+        - '&8&nᴀᴅᴅ ᴀᴍᴏᴜɴᴛ'
+        - ''
+        - ' &fʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴀᴅᴅ 1 ᴀᴍᴏᴜɴᴛ.'
+        - ''
+    add-amount: 1
+  2:
+    display-item:
+      material: LIME_DYE
+      name: '&a+10'
+      lore:
+        - '&7ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴀᴅᴅ 10 ᴀᴍᴏᴜɴᴛ.'
+    add-amount: 10
+  3:
+    display-item:
+      material: LIME_DYE
+      name: '&a+32'
+      lore:
+        - '&7ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴀᴅᴅ 32 ᴀᴍᴏᴜɴᴛ.'
+    add-amount: 32
+  4:
+    display-item:
+      material: REDSTONE
+      name: ' &8● &#FF0000-1'
+      lore:
+        - '&7ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ 1 ᴀᴍᴏᴜɴᴛ.'
+    add-amount: -1
+  5:
+    display-item:
+      material: REDSTONE
+      name: ' &8● &#FF0000-10'
+      lore:
+        - '&7ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ 10 ᴀᴍᴏᴜɴᴛ.'
+    add-amount: -10
+  6:
+    display-item:
+      material: REDSTONE
+      name: ' &8● &#FF0000-32'
+      lore:
+        - '&7ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ 32 ᴀᴍᴏᴜɴᴛ.'
+    add-amount: -32
+
+display-item: B
+
+confirm-items:
+  D:
+    display-item:
+      material: PAPER
+      name: ' &8● &#27ff00ᴄᴏɴꜰɪʀᴍ'
+      lore:
+        - '&8&nᴄᴏɴꜰɪʀᴍ ᴀᴜᴄᴛɪᴏɴ'
+        - ''
+        - '&fʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ'
+        - '&fꜰɪɴɪsʜ ᴛʜᴇ ᴛʀᴀᴅᴇ!'
+        - ''
+
+buttons:
+  A:
+    display-item:
+      material: LIME_STAINED_GLASS_PANE
+      name: '&fLime Stained Glass Pane'
+      lore:
+        - ''
+    actions:
+      - 'none'

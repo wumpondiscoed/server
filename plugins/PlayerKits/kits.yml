@@ -1,0 +1,885 @@
+Kits:
+  starter_kit:
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&lstarter_kit &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.starter_kit
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lstarter_kit &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    one_time: true
+    first_join: true
+    auto_armor: true
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: COOKED_BEEF
+        amount: '8'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: CHAINMAIL_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: CHAINMAIL_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: CHAINMAIL_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: CHAINMAIL_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+  spring_kit:
+    Items:
+      '1':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🗡 sᴡᴏʀᴅ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - DAMAGE_ALL;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '2':
+        id: IRON_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| ⛏ ᴘɪᴄᴋᴀxᴇ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '3':
+        id: IRON_AXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🪓 ᴀxᴇ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '4':
+        id: BAKED_POTATO
+        amount: '16'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🍖 ʙᴀᴋᴇᴅ ᴘᴏᴛᴀᴛᴏ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        - ''
+        enchants:
+        - LURE;4341
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '5':
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🛡 ʙᴏᴏᴛs'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '6':
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🛡 ʟᴇɢɢɪɴɢs'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '7':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🛡 ᴄʜᴇsᴛᴘʟᴀᴛᴇ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '8':
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&F&7&0&7▸&8] &x&B&A&F&B&0&0s&x&A&3&F&B&0&0ᴘ&x&8&D&F&C&0&0ʀ&x&7&6&F&C&0&0ɪ&x&6&0&F&C&0&0ɴ&x&4&9&F&C&0&0ɢ
+          &x&3&2&F&D&0&0ᴋ&x&1&C&F&D&0&0ɪ&x&0&5&F&D&0&0ᴛ &f| 🛡 ʜᴇʟᴍᴇᴛ'
+        lore:
+        - '&8&nsᴘʀɪɴɢ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴘʀɪɴɢ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&F&F&1&3*&8] &fʀᴀʀɪᴛʏ: &x&0&0&F&F&1&3ʀᴀʀᴇ'
+        - ''
+        - ' &x&0&5&F&D&0&0&n+ ᴍ&x&1&0&F&D&0&0&nᴏ&x&1&A&F&D&0&0&nʀ&x&2&5&F&D&0&0&nᴇ
+          &x&3&0&F&D&0&0&nᴋ&x&3&A&F&C&0&0&nɪ&x&4&5&F&C&0&0&nᴛ&x&5&0&F&C&0&0&ns &x&5&A&F&C&0&0&nɪ&x&6&5&F&C&0&0&nɴ
+          &x&6&F&F&C&0&0&nᴛ&x&7&A&F&C&0&0&nʜ&x&8&5&F&C&0&0&nᴇ &x&8&F&F&B&0&0&ns&x&9&A&F&B&0&0&nᴛ&x&A&5&F&B&0&0&nᴏ&x&A&F&F&B&0&0&nʀ&x&B&A&F&B&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        - DURABILITY;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+    slot: 2
+    display_item: IRON_SWORD
+    display_name: '&6&lspring_kit &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.spring_kit
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lspring_kit &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+  summer_kit:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🗡 sᴡᴏʀᴅ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - DAMAGE_ALL;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| ⛏ ᴘɪᴄᴋᴀxᴇ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🪓 ᴀxᴇ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '4':
+        id: GOLDEN_APPLE
+        amount: '6'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🍖 ᴀᴘᴘʟᴇ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        - ''
+        enchants:
+        - LURE;4341
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🛡 ʙᴏᴏᴛs'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '6':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🛡 ʟᴇɢɢɪɴɢs'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '7':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🛡 ᴄʜᴇsᴛᴘʟᴀᴛᴇ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '8':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&F&7&F&B&3&3▸&8] &x&F&7&F&B&3&3s&x&F&8&F&1&2&Dᴜ&x&F&9&E&6&2&6ᴍ&x&F&9&D&C&2&0ᴍ&x&F&A&D&1&1&Aᴇ&x&F&B&C&7&1&3ʀ
+          &x&F&C&B&C&0&Dᴋ&x&F&C&B&2&0&6ɪ&x&F&D&A&7&0&0ᴛ &f| 🛡 ʜᴇʟᴍᴇᴛ'
+        lore:
+        - '&8&nsᴜᴍᴍᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ sᴜᴍᴍᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ!'
+        - ''
+        - ' &8[&x&F&D&A&7&0&0*&8] &fʀᴀʀɪᴛʏ: &x&F&D&A&7&0&0ᴍʏsᴛᴇʀɪᴏᴜs'
+        - ''
+        - ' &x&F&7&F&B&3&3&n+ ᴍ&x&F&7&F&6&3&0&nᴏ&x&F&8&F&1&2&D&nʀ&x&F&8&E&C&2&A&nᴇ
+          &x&F&8&E&7&2&7&nᴋ&x&F&9&E&2&2&4&nɪ&x&F&9&D&D&2&1&nᴛ&x&F&9&D&8&1&E&ns &x&F&A&D&3&1&B&nɪ&x&F&A&C&F&1&8&nɴ
+          &x&F&B&C&A&1&5&nᴛ&x&F&B&C&5&1&2&nʜ&x&F&B&C&0&0&F&nᴇ &x&F&C&B&B&0&C&ns&x&F&C&B&6&0&9&nᴛ&x&F&C&B&1&0&6&nᴏ&x&F&D&A&C&0&3&nʀ&x&F&D&A&7&0&0&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+    slot: 3
+    display_item: IRON_SWORD
+    display_name: '&6&lsummer_kit &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.summer_kit
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lsummer_kit &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+  autumn_kit:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🗡 sᴡᴏʀᴅ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - DAMAGE_ALL;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| ⛏ ᴘɪᴄᴋᴀxᴇ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🪓 ᴀxᴇ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '4':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '3'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🍖 ᴀᴘᴘʟᴇ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        - ''
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🛡 ʙᴏᴏᴛs'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '6':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🛡 ʟᴇɢɢɪɴɢs'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '7':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🛡 ᴄʜᴇsᴛᴘʟᴀᴛᴇ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '8':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&C&A&0&0&F&D▸&8] &x&D&E&8&B&F&Bᴀ&x&D&C&7&A&F&Bᴜ&x&D&9&6&8&F&Cᴛ&x&D&7&5&7&F&Cᴜ&x&D&4&4&6&F&Cᴍ&x&D&2&3&4&F&Cɴ
+          &x&C&F&2&3&F&Dᴋ&x&C&D&1&1&F&Dɪ&x&C&A&0&0&F&Dᴛ &f| 🛡 ʜᴇʟᴍᴇᴛ'
+        lore:
+        - '&8&nᴀᴜᴛᴜᴍɴ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴀᴜᴛᴜᴍɴ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&C&A&0&0&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&C&A&0&0&F&Dᴇᴘɪᴄ'
+        - ''
+        - ' &x&D&E&8&B&F&B&n+ ᴍ&x&D&D&8&3&F&B&nᴏ&x&D&C&7&B&F&B&nʀ&x&D&A&7&2&F&B&nᴇ
+          &x&D&9&6&A&F&B&nᴋ&x&D&8&6&2&F&C&nɪ&x&D&7&5&A&F&C&nᴛ&x&D&6&5&2&F&C&ns &x&D&5&4&A&F&C&nɪ&x&D&3&4&1&F&C&nɴ
+          &x&D&2&3&9&F&C&nᴛ&x&D&1&3&1&F&C&nʜ&x&D&0&2&9&F&C&nᴇ &x&C&F&2&1&F&D&ns&x&C&E&1&9&F&D&nᴛ&x&C&C&1&0&F&D&nᴏ&x&C&B&0&8&F&D&nʀ&x&C&A&0&0&F&D&nᴇ'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+    slot: 4
+    display_item: IRON_SWORD
+    display_name: '&6&lautumn_kit &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.autumn_kit
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lautumn_kit &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true
+  winter_kit:
+    Items:
+      '1':
+        id: NETHERITE_SWORD
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🗡 sᴡᴏʀᴅ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - DAMAGE_ALL;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '2':
+        id: NETHERITE_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| ⛏ ᴘɪᴄᴋᴀxᴇ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '3':
+        id: NETHERITE_AXE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🪓 ᴀxᴇ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '4':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '12'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🍖 ᴀᴘᴘʟᴇ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        - ''
+        unbreakable: 'false'
+      '5':
+        id: NETHERITE_BOOTS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🛡 ʙᴏᴏᴛs'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '6':
+        id: NETHERITE_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🛡 ʟᴇɢɢɪɴɢs'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '7':
+        id: NETHERITE_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🛡 ᴄʜᴇsᴛᴘʟᴀᴛᴇ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+      '8':
+        id: NETHERITE_HELMET
+        amount: '1'
+        durability: '0'
+        name: ' &8[&x&0&0&9&3&F&D▸&8] &x&6&5&E&9&F&Bᴡ&x&5&8&D&E&F&Bɪ&x&4&C&D&4&F&Cɴ&x&3&F&C&9&F&Cᴛ&x&3&3&B&E&F&Cᴇ&x&2&6&B&3&F&Cʀ
+          &x&1&9&A&9&F&Dᴋ&x&0&D&9&E&F&Dɪ&x&0&0&9&3&F&Dᴛ &f| 🛡 ʜᴇʟᴍᴇᴛ'
+        lore:
+        - '&8&nᴡɪɴᴛᴇʀ ʀᴀɴᴋ ᴋɪᴛ'
+        - ''
+        - ' &fᴛʜɪs ᴋɪᴛ ɪs ᴇxᴄʟᴜsɪᴠᴇ'
+        - ' &fꜰᴏʀ ᴡɪɴᴛᴇʀ ʀᴀɴᴋs, ᴛʏ'
+        - ' &fꜰᴏʀ ʙᴜʏɪɴɢ ᴀ ʀᴀɴᴋ'
+        - ''
+        - ' &8[&x&0&0&9&3&F&D▸&8] &fʀᴀʀɪᴛʏ: &x&0&0&9&3&F&Dʟᴇɢᴇɴᴅᴀʀʏ'
+        - ''
+        - ' &x&6&5&E&9&F&B&n+ ᴛ&x&5&F&E&4&F&B&nʜ&x&5&A&D&F&F&B&nᴇ &x&5&4&D&B&F&B&nᴍ&x&4&F&D&6&F&B&nᴏ&x&4&9&D&1&F&C&ns&x&4&3&C&C&F&C&nᴛ
+          &x&3&E&C&8&F&C&nᴘ&x&3&8&C&3&F&C&nᴏ&x&3&3&B&E&F&C&nᴡ&x&2&D&B&9&F&C&nᴇ&x&2&7&B&4&F&C&nʀ&x&2&2&B&0&F&C&nꜰ&x&1&C&A&B&F&C&nᴜ&x&1&6&A&6&F&D&nʟ
+          &x&1&1&A&1&F&D&nᴋ&x&0&B&9&D&F&D&nɪ&x&0&6&9&8&F&D&nᴛ&x&0&0&9&3&F&D&n.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;3
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+    slot: 5
+    display_item: IRON_SWORD
+    display_name: '&6&lwinter_kit &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.winter_kit
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lwinter_kit &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    auto_armor: true

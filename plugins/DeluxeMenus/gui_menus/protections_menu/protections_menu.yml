@@ -1,0 +1,209 @@
+menu_title: '       &#2E2E2E▸ ᴘʀᴏᴛᴇᴄᴛɪᴏɴs ᴍᴇɴᴜ ◂'
+size: 36
+open_command:
+- ps
+- protections
+- protection stones
+items:
+  'background_menu':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 14
+    - 16
+    - 17
+    - 18
+    - 23
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  'background_menu_2':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 19
+    - 20
+    - 21
+    - 22
+    - 24
+  'coal_protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAzYTUyNTE3YTgxNDMwMzViZTVjOGI4MWZkMjAxOTI4ZDY0MDc2Zjk2YjVkMjc2MDRjY2NjMzcwODVmMTdlNyJ9fX0=
+    slots:
+    - 10
+    display_name: ' &8● &#9cfb00ᴄ&#89fb07ᴏ&#75fc0eᴀ&#62fc15ʟ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &7(10x10)'
+    lore:
+    - '&8&nᴄᴏᴀʟ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ'
+    - ''
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ᴛᴇʀʀᴀɪɴ'
+    - ' &fɪɴ ᴀ ʀᴀɴɢᴇ ᴏꜰ (10x10)'
+    - ' &7(ᴏᴘᴇɴ ᴛʜᴇ ɢᴜɪ ᴛᴏ sᴇᴛ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $2,500 ⛂'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+        - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 2500.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] ps give coal_protection %player_name%'
+    - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou have bought &#9cfb00ᴄ&#89fb07ᴏ&#75fc0eᴀ&#62fc15ʟ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &f(x1) &ffor &#FF0000-$2,5k ⛂ &fcoins.'
+  'iron_protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZmZjNhODdlYTJhNjNiNWI3MWM0Mjk3ZGRhN2JmZjJiY2RiNjhiNjJkMWQ1ZTJiZDZlNDNiNTM4MGY5ZWIyOCJ9fX0=
+    slots:
+    - 11
+    display_name: ' &8● &#9cfb00ɪ&#89fb07ʀ&#75fc0eᴏ&#62fc15ɴ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &7(25x25)'
+    lore:
+    - '&8&nɪʀᴏɴ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ'
+    - ''
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ᴛᴇʀʀᴀɪɴ'
+    - ' &fɪɴ ᴀ ʀᴀɴɢᴇ ᴏꜰ (25x25)'
+    - ' &7(ᴏᴘᴇɴ ᴛʜᴇ ɢᴜɪ ᴛᴏ sᴇᴛ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $5,000 ⛂'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+        - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 5000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] ps give iron_protection %player_name%'
+    - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &#9cfb00ɪ&#89fb07ʀ&#75fc0eᴏ&#62fc15ɴ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &f(x1) &ffor &#FF0000-$5k ⛂ &fcoins.'
+  'gold_protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNGZmOTEyNTY2ZDQ3MTk4MTI3ODhlNjMzYmE0MjNkMWRiMTQ0OWFkZmJiNzA2MWZhZmU3NGJhODgwOTQ2OSJ9fX0=
+    slots:
+    - 12
+    display_name: ' &8● &#9cfb00ɢ&#89fb07ᴏ&#75fc0eʟ&#62fc15ᴅ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &7(50x50)'
+    lore:
+    - '&8&nɢᴏʟᴅ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ'
+    - ''
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ᴛᴇʀʀᴀɪɴ'
+    - ' &fɪɴ ᴀ ʀᴀɴɢᴇ ᴏꜰ (50x50)'
+    - ' &7(ᴏᴘᴇɴ ᴛʜᴇ ɢᴜɪ ᴛᴏ sᴇᴛ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $7,500 ⛂'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 7500.0
+      deny_commands:
+        - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 7500.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] ps give gold_protection %player_name%'
+    - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou have bought &#9cfb00ɢ&#89fb07ᴏ&#75fc0eʟ&#62fc15ᴅ &#4efc1cʙ&#3bfc23ʟ&#27fd2aᴏ&#14fd31ᴄ&#00fd38ᴋ &f(x1) &ffor &#FF0000-$7,5k ⛂ &fcoins.'
+  'diamond_protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUwNTc5OTZjYmE0NzMyOGRmNzJmYmEzZWEyYjlhYTM1YzhhODIyN2YxY2VjODljMTg4NGRjYWRhYTgyNGQ4NSJ9fX0=
+    slots:
+    - 13
+    display_name: ' &8● &#9cfb00ᴅ&#8efb05ɪ&#80fb0aᴀ&#71fc0fᴍ&#63fc14ᴏ&#55fc19ɴ&#47fc1fᴅ &#39fc24ʙ&#2bfc29ʟ&#1cfd2eᴏ&#0efd33ᴄ&#00fd38ᴋ &7(75x75)'
+    lore:
+    - '&8&nᴅɪᴀᴍᴏɴᴅ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ'
+    - ''
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ᴛᴇʀʀᴀɪɴ'
+    - ' &fɪɴ ᴀ ʀᴀɴɢᴇ ᴏꜰ (75x75)'
+    - ' &7(ᴏᴘᴇɴ ᴛʜᴇ ɢᴜɪ ᴛᴏ sᴇᴛ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $10,000 ⛂'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+        - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 10000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] ps give diamond_protection %player_name%'
+    - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou have bought &#9cfb00ᴅ&#8efb05ɪ&#80fb0aᴀ&#71fc0fᴍ&#63fc14ᴏ&#55fc19ɴ&#47fc1fᴅ &#39fc24ʙ&#2bfc29ʟ&#1cfd2eᴏ&#0efd33ᴄ&#00fd38ᴋ &f(x1) &ffor &#FF0000-$10k ⛂ &fcoins.'
+  'emerald_protection':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0=
+    slots:
+    - 15
+    display_name: ' &8● &#9cfb00ᴇ&#8efb05ᴍ&#80fb0aᴇ&#71fc0fʀ&#63fc14ᴀ&#55fc19ʟ&#47fc1fᴅ &#39fc24ʙ&#2bfc29ʟ&#1cfd2eᴏ&#0efd33ᴄ&#00fd38ᴋ &7(100x100)'
+    lore:
+    - '&8&nᴇᴍᴇʀᴀʟᴅ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ'
+    - ''
+    - ' &fᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ᴛᴇʀʀᴀɪɴ'
+    - ' &fɪɴ ᴀ ʀᴀɴɢᴇ ᴏꜰ (100x100)'
+    - ' &7(ᴏᴘᴇɴ ᴛʜᴇ ɢᴜɪ ᴛᴏ sᴇᴛ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $25,000 ⛂'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 25000.0
+      deny_commands:
+        - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 25000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] ps give emerald_protection %player_name%'
+    - '[message] &r &#9cfb00&l&nP&#8efb05&l&nR&#80fb0a&l&nO&#71fc0f&l&nT&#63fc14&l&nE&#55fc19&l&nC&#47fc1f&l&nT&#39fc24&l&nI&#2bfc29&l&nO&#1cfd2e&l&nN&#0efd33&l&nS&#00fd38 &l| &fYou have bought &#9cfb00ᴇ&#8efb05ᴍ&#80fb0aᴇ&#71fc0fʀ&#63fc14ᴀ&#55fc19ʟ&#47fc1fᴅ &#39fc24ʙ&#2bfc29ʟ&#1cfd2eᴏ&#0efd33ᴄ&#00fd38ᴋ &f(x1) &ffor &#FF0000-$25k ⛂ &fcoins.'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 31
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

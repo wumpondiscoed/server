@@ -1,0 +1,40 @@
+check-update: false
+holograms:
+  use: false
+  lines:
+  - ''
+points:
+  restriction: false
+  restriction-per: 10
+xp:
+  price: 1
+  add-total-to-price: true
+  add-total-to-price-multiplier: 1
+permissions:
+  use: false
+  level-perms: false
+skills:
+  strength:
+    increment: 8
+    max-level: 14
+  criticals:
+    increment: 4
+    max-level: 14
+  resistance:
+    increment: 4
+    max-level: 14
+  archery:
+    increment: 8
+    max-level: 14
+  health:
+    increment: 1
+    max-level: 21
+admin-notification: true
+worlds:
+  restricted: false
+  allowed-worlds:
+  - world
+  - world_nether
+  - world_the_end
+  - Spawn
+  - Mines

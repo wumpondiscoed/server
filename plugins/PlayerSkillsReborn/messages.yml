@@ -1,0 +1,30 @@
+prefix: §x§5§a§e§1§f§f§l§nS§x§4§8§d§1§f§f§l§nK§x§3§6§c§2§f§e§l§nI§x§2§4§b§2§f§e§l§nL§x§1§2§a§3§f§d§l§nL§x§0§0§9§3§f§d
+  §l| §r
+invalied_args: §fᴛʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ ᴅᴏᴇsɴ'ᴛ ᴇxɪsᴛ, ᴛʀʏ ᴀɢᴀɪɴ
+no_permissions_message: §fʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜꜰꜰɪᴄɪᴇɴᴛ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ
+deny_message: §fsᴋɪʟʟs ᴄᴀɴɴᴏᴛ ʙᴇ ᴜsᴇᴅ ʜᴇʀᴇ.
+skill_upgrade: §fʏᴏᴜ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴜᴘɢʀᴀᴅᴇᴅ §x§3§6§c§2§f§e{0} §fsᴋɪʟʟ
+skill_upgrade_false: §f
+skill_upgrade_false_perms: §f
+skill_reset: §f
+skill_full_reset: §f
+player_no_found: §fᴛʜᴀᴛ ᴘʟᴀʏᴇʀ ʜᴀs ɴᴇᴠᴇʀ ᴘʟᴀʏᴇᴅ ʙᴇꜰᴏʀᴇ.
+is_no_number: §x§3§6§c§2§f§e{0} §fɪs ɴᴏᴛ ᴀ ɴᴜᴍʙᴇʀ.
+successful_add_points: §fsᴜᴄᴄᴇssꜰᴜʟʟʏ ᴀᴅᴅᴇᴅ §x§3§6§c§2§f§e{1} §fsᴋɪʟʟ ᴘᴏɪɴᴛs ᴛᴏ §x§3§6§c§2§f§e{0}
+successful_set_skill_lvl: §fsᴜᴄᴄᴇssꜰᴜʟʟʏ sᴇᴛ §x§3§6§c§2§f§e{1} §fʟᴇᴠᴇʟs ᴛᴏ §x§3§6§c§2§f§e{0}
+  §fꜰᴏʀ §x§3§6§c§2§f§e{2}
+valid_skill: '§fᴛʜᴀᴛ ɪs ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ sᴋɪʟʟ. sᴋɪʟʟs sʜᴏᴜʟᴅ ʙᴇ ᴛʏᴘᴇᴅ ɪɴ ʟᴏᴡᴇʀ-ᴄᴀsᴇ. sᴋɪʟʟs:
+  §x§3§6§c§2§f§esᴛʀᴇɴɢᴛʜ§f, §x§3§6§c§2§f§eᴄʀɪᴛɪᴄᴀʟs§f, §x§3§6§c§2§f§eʀᴇsɪsᴛᴀɴᴄᴇ§f,
+  §x§3§6§c§2§f§eᴀʀᴄʜᴇʀʏ§f, §x§3§6§c§2§f§eʜᴇᴀʟᴛʜ'
+max_lvl_skill: §fᴛʜᴇ ᴍᴀxɪᴍᴜᴍ ʟᴇᴠᴇʟ ꜰᴏʀ sᴋɪʟʟ §x§3§6§c§2§f§e{0} §fɪs §x§3§6§c§2§f§e{1}
+min_lvl_skill: §fᴛʜᴇ ᴍɪɴɪᴍᴜᴍ ꜰᴏʀ ᴀʟʟ sᴋɪʟʟs ɪs §x§3§6§c§2§f§e0
+hologram_set: §f
+hologram_disabled: §f
+points_limit: §fʏᴏᴜ ᴄᴀɴ'ᴛ ʙᴜʏ ᴍᴏʀᴇ sᴋɪʟʟ ᴘᴏɪɴᴛs, ʙᴇᴄᴀᴜsᴇ ʟɪᴍɪᴛ ɪs §x§3§6§c§2§f§e{0}
+config_reload: '§fʏᴏᴜ sᴜᴄᴄᴇssꜰᴜʟʟʏ ʀᴇʟᴏᴀᴅ ᴄᴏɴꜰɪɢ: §x§3§6§c§2§f§e{0}'
+skill_help:
+- §7>> §ePlayerSkills Admin Help
+- §e/skillsadmin givepoints §c<player> <amount> §f- give players skill points
+- §e/skillsadmin sethologram §f- set location for hologram stat
+- §e/skillsadmin setlevel §c<player> <skill> <amount> §f- set players skill level
+- §e/skillsadmin reload §c<config, data, messages, gui> §f- reload config

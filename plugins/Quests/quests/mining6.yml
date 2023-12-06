@@ -1,0 +1,38 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 100
+    block: REDSTONE_ORE
+
+display:
+  name: " &8● &#bafb00ᴍ&#9bfb09ɪ&#7cfc13ɴ&#5dfc1cɪ&#3efc25ɴ&#1ffd2fɢ &#00fd38ᴠɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx100 ʀᴇᴅsᴛᴏɴᴇ"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$600 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{mining:progress}&8/&f100 ʙʟᴏᴄᴋs ʙʀᴏᴋᴇɴ"
+  type: "REDSTONE_ORE"
+
+rewards:
+  - "eco give {player} 600"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "blockbreak"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6

@@ -1,0 +1,227 @@
+settings:
+  menu: 'farming_menu'
+  buy-more: true
+  shop-name: '           &#2E2E2E▸ ꜰᴀʀᴍᴇʀ sʜᴏᴘ ◂'
+
+items:
+  A:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: WATER_BUCKET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.20
+        placeholder: '{amount} Coins'
+  B:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: WHEAT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  C:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: MELON_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 250
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.25
+        placeholder: '{amount} Coins'
+  D:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: BEETROOT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.20
+        placeholder: '{amount} Coins'
+  E:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: PUMPKIN_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  F:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: BROWN_MUSHROOM
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  G:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: RED_MUSHROOM
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  H:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: SUGAR_CANE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.20
+        placeholder: '{amount} Coins'
+  I:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: BONE_MEAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 350
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.35
+        placeholder: '{amount} Coins'
+  J:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: POTATO
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  K:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: BEEHIVE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.20
+        placeholder: '{amount} Coins'
+  L:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: BEE_NEST
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  M:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: CACTUS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 350
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.35
+        placeholder: '{amount} Coins'

@@ -1,0 +1,47 @@
+Sounds:
+  Enabled: true
+  ProtocolLibSound: false
+  ## More sounds at https://www.spigotmc.org/wiki/cc-sounds-list/
+  Delay: 'entity_tnt_primed'
+  Success: 'entity_generic_explode'
+Titles:
+  Enabled: true # Enable the titles effect feature
+  ## All support %player% %x% %y% and %z% placeholders
+  NoDelay: #Only triggers when there is no delay
+    Title: ''
+    Subtitle: ''
+    SendMessage: true
+  Teleport:
+    Title: '#9cfb00✔ &l&nT#8bfb03&l&nE#79fb06&l&nL#68fc08&l&nE#57fc0b&l&nP#45fc0e&l&nO#34fc11&l&nR#23fd13&l&nT#11fd16&l&nE#00fd19&l&nD&r #00fd19✔'
+    Subtitle: '&fʏᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ.'
+    SendMessage: true # Allow the teleport success message in chat
+  Delay:
+    Title: '#fbf100⚡ &l&nT#fbea00&l&nE#fbe200&l&nL#fcdb00&l&nE#fcd300&l&nP#fccc00&l&nO#fcc500&l&nR#fcbd00&l&nT#fdb600&l&nI#fdae00&l&nN#fda700&l&nG&r #fda700⚡'
+    Subtitle: '&fᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ɪɴ #fbf100%time% ⌚ &fsᴇᴄᴏɴᴅs...'
+    SendMessage: true # Allow the teleport delay message in chat
+  Cancelled:
+    Title: '#FF0000✘ &l&nCANCELLED&r #FF0000✘'
+    Subtitle: '&fᴛᴇʟᴇᴘᴏʀᴛ ᴡᴀs ᴄᴀɴᴄᴇʟʟᴇᴅ!'
+    SendMessage: true # Allow the cancelled message in chat too
+  Loading:
+    Title: '#fbf100⚡ &l&nL#fbe500&l&nO#fcd800&l&nA#fccc00&l&nD#fcc000&l&nI#fdb300&l&nN#fda700&l&nG&r #fda700⚡'
+    Subtitle: '&fʟᴏᴀᴅɪɴɢ ᴄʜᴜɴᴋs... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ'
+    SendMessage: true # Allow the loading message in chat
+  Failed:
+    Title: '#FF0000✘ &l&nCANCELLED&r #FF0000✘'
+    Subtitle: '&fɴᴏ sᴀꜰᴇ sᴘᴏᴛs ʟᴏᴄᴀᴛᴇᴅ, ᴛʀʏ ᴀɢᴀɪɴ'
+    SendMessage: true
+Particles: #Use `rtp info particles` for a list of particles
+  Enabled: false
+  Type: #list of particle types at https://github.com/ByteZ1337/ParticleLib/blob/master/src/main/java/xyz/xenondevs/particle/ParticleEffect.java
+    - 'EXPLOSION_NORMAL'
+    - 'CRIT'
+  Shape: 'EXPLODE' #Types available are "Scan, Teleport and Explode", or use `/rtp info shapes` for a list of shapes
+Invincible: #Amount of time a player should not take damage for
+  Enabled: true
+  Seconds: 5
+Potions: #Use `/rtp info potion_effects` for a list of effects
+  Enabled: true
+  Types: #Format <potion_name>:[duration_ticks]:[amplifier] #Default duration=60, amplifier=1
+    - 'Blindness:60:3'
+    - 'Invisibility:60:3'

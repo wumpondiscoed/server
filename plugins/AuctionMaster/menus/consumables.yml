@@ -1,0 +1,16 @@
+consumables-menu-item: '260'
+consumables-menu-name: ' &8● &X&a&b&f&b&0&0ᴄ&X&9&a&f&b&0&0ᴏ&X&8&a&f&b&0&0ɴ&X&7&9&f&c&0&0s&X&6&9&f&c&0&0ᴜ&X&5&8&f&c&0&0ᴍ&X&4&7&f&c&0&0ᴀ&X&3&7&f&c&0&0ʙ&X&2&6&f&d&0&0ʟ&X&1&6&f&d&0&0ᴇ&X&0&5&f&d&0&0s'
+consumables-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ'
+  - ' &fᴄᴀɴ ꜰɪɴᴅ ᴀʟʟ ᴛʜᴇ'
+  - ' &fᴍɪɴᴇᴄʀᴀꜰᴛ ᴄᴏɴsᴜᴍᴀʙʟᴇs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

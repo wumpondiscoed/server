@@ -1,0 +1,369 @@
+menu_title: '            &#2E2E2E▸ ᴄʜᴀᴛ ᴛᴀɢs ◂'
+size: 36
+open_command:
+- tag
+- tags
+items:
+  'menu_decoration_1':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 30
+    - 32
+  'lighting_tag':
+    material: name_tag
+    slots:
+    - 10
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.lighting
+    update: true
+    display_name: ' &8● &#f6fb00ʟ&#f7f400ɪ&#f7ed00ɢ&#f8e600ʜ&#f9df00ᴛ&#fad900ɪ&#fad200ɴ&#fbcb00ɢ &#fcc400ᴛ&#fcbd00ᴀ&#fdb600ɢ [⚡]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000⚡&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% lighting'
+  'hammer_tag':
+    material: name_tag
+    slots:
+    - 11
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.hammer
+    update: true
+    display_name: ' &8● &#f6fb00ʜ&#f7f200ᴀ&#f8ea00ᴍ&#f9e100ᴍ&#fad900ᴇ&#fad000ʀ &#fbc700ᴛ&#fcbf00ᴀ&#fdb600ɢ [⚒]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000⚒&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% hammer'
+  'anchor_tag':
+    material: name_tag
+    slots:
+    - 12
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.anchor
+    update: true
+    display_name: ' &8● &#f6fb00ᴀ&#f7f200ɴ&#f8ea00ᴄ&#f9e100ʜ&#fad900ᴏ&#fad000ʀ &#fbc700ᴛ&#fcbf00ᴀ&#fdb600ɢ [⚓]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000⚓&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% anchor'
+  'sword_tag':
+    material: name_tag
+    slots:
+    - 13
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.sword
+    update: true
+    display_name: ' &8● &#f6fb00s&#f7f100ᴡ&#f8e700ᴏ&#f9dd00ʀ&#fad400ᴅ &#fbca00ᴛ&#fcc000ᴀ&#fdb600ɢ [⚔]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000⚔&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% sword'
+  'radioactive_tag':
+    material: name_tag
+    slots:
+    - 14
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.radioactive
+    update: true
+    display_name: ' &8● &#f6fb00ʀ&#f7f600ᴀ&#f7f000ᴅ&#f8eb00ɪ&#f8e600ᴏ&#f9e000ᴀ&#f9db00ᴄ&#fad600ᴛ&#fad100ɪ&#fbcb00ᴠ&#fbc600ᴇ &#fcc100ᴛ&#fcbb00ᴀ&#fdb600ɢ [☣]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000☣&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% radioactive'
+  'clock_tag':
+    material: name_tag
+    slots:
+    - 15
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.clock
+    update: true
+    display_name: ' &8● &#f6fb00ᴄ&#f7f100ʟ&#f8e700ᴏ&#f9dd00ᴄ&#fad400ᴋ &#fbca00ᴛ&#fcc000ᴀ&#fdb600ɢ [⌚]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000⌚&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% clock'
+  'leaf_tag':
+    material: name_tag
+    slots:
+    - 16
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.leaf
+    update: true
+    display_name: ' &8● &#f6fb00ʟ&#f7f000ᴇ&#f8e400ᴀ&#fad900ꜰ &#fbcd00ᴛ&#fcc200ᴀ&#fdb600ɢ [☘]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000☘&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% leaf'
+  'skull_tag':
+    material: name_tag
+    slots:
+    - 19
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.skull
+    update: true
+    display_name: ' &8● &#f6fb00s&#f7f100ᴋ&#f8e700ᴜ&#f9dd00ʟ&#fad400ʟ &#fbca00ᴛ&#fcc000ᴀ&#fdb600ɢ [☠]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000☠&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% skull'
+  'letter_tag':
+    material: name_tag
+    slots:
+    - 20
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.letter
+    update: true
+    display_name: ' &8● &#f6fb00ʟ&#f7f200ᴇ&#f8ea00ᴛ&#f9e100ᴛ&#fad900ᴇ&#fad000ʀ &#fbc700ᴛ&#fcbf00ᴀ&#fdb600ɢ [✉]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000✉&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% letter'
+  'scissors_tag':
+    material: name_tag
+    slots:
+    - 21
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.scissors
+    update: true
+    display_name: ' &8● &#f6fb00s&#f7f400ᴄ&#f7ed00ɪ&#f8e600s&#f9df00s&#fad900ᴏ&#fad200ʀ&#fbcb00s &#fcc400ᴛ&#fcbd00ᴀ&#fdb600ɢ [✁]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000✁&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% scissors'
+  'agree_tag':
+    material: name_tag
+    slots:
+    - 22
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.agree
+    update: true
+    display_name: ' &8● &#f6fb00ᴀ&#f7f100ɢ&#f8e700ʀ&#f9dd00ᴇ&#fad400ᴇ &#fbca00ᴛ&#fcc000ᴀ&#fdb600ɢ [✔]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000✔&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% agree'
+  'disagree_tag':
+    material: name_tag
+    slots:
+    - 23
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.disagree
+    update: true
+    display_name: ' &8● &#f6fb00ᴅ&#f7f400ɪ&#f7ed00s&#f8e600ᴀ&#f9df00ɢ&#fad900ʀ&#fad200ᴇ&#fbcb00ᴇ &#fcc400ᴛ&#fcbd00ᴀ&#fdb600ɢ [✘]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000✘&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% disagree'
+  'snow_tag':
+    material: name_tag
+    slots:
+    - 24
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.snow
+    update: true
+    display_name: ' &8● &#f6fb00s&#f7f000ɴ&#f8e400ᴏ&#fad900ᴡ &#fbcd00ᴛ&#fcc200ᴀ&#fdb600ɢ [❄]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000❄&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% snow'
+  'heart_tag':
+    material: name_tag
+    slots:
+    - 25
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxetags.tag.heart
+    update: true
+    display_name: ' &8● &#f6fb00ʜ&#f7f100ᴇ&#f8e700ᴀ&#f9dd00ʀ&#fad400ᴛ &#fbca00ᴛ&#fcc000ᴀ&#fdb600ɢ [♥]'
+    lore:
+    - '&8&nᴇǫᴜɪᴘ ᴛᴀɢ'
+    - ''
+    - ' &8● &fᴄʜᴀᴛ ᴅɪsᴘʟᴀʏ:'
+    - ' &8[&#FFF000♥&8] &r%vault_prefix%&f%player_name%'
+    - ''
+    - ' &#f6fb00&nʟ&#f7f600&nᴇ&#f7f100&nꜰ&#f8ec00&nᴛ&#f8e700&n-&#f9e200&nᴄ&#f9dd00&nʟ&#fad900&nɪ&#fad400&nᴄ&#fbcf00&nᴋ &#fbca00&nᴛ&#fcc500&nᴏ &#fcc000&ns&#fdbb00&nᴇ&#fdb600&nᴛ'
+    - ''
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% heart'
+  'previous_page':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+    slots:
+    - 28
+    display_name: ' &8● &#8dfb00ᴘ&#80fb05ʀ&#73fb0aᴇ&#67fc0fᴠ&#5afc14ɪ&#4dfc19ᴏ&#40fc1fᴜ&#33fc24s
+    &#26fc29ᴘ&#1afd2eᴀ&#0dfd33ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ ᴛᴀɢs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ᴘʀᴇᴠ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - '' 
+    left_click_commands:
+    - '[sound] ITEM_BOOK_PAGE_TURN'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 31
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'    
+  'next_page':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+    slots:
+    - 34
+    display_name: ' &8● &#8dfb00ɴ&#79fb08ᴇ&#65fc10x&#51fc18ᴛ &#3cfc20ᴘ&#28fc28ᴀ&#14fd30ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ ᴛᴀɢs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ɴᴇxᴛ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] ITEM_BOOK_PAGE_TURN'
+    - '[player] dm open tags_menu_2'

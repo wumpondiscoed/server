@@ -1,0 +1,276 @@
+# Here are the valid colors for the "potionColor" options for the 1.11 - 1.19 version
+# RED
+# BLUE
+# AQUA
+# BLACK
+# FUCHSIA
+# GRAY
+# GREEN
+# LIME
+# MAROON
+# NAVY
+# OLIVE
+# ORANGE
+# PURPLE
+# SILVER
+# TEAL
+# WHITE
+# YELLOW
+
+# Here are the valid colors for the "potionColor" options for the 1.8 version
+# LIGHT_BLUE
+# BLUE
+# DARK_BLUE
+# MAGENTA
+# ORANGE
+# GREEN
+# PINK
+# LIGHT_PURPLE
+# PURPLE
+# DARK_PURPLE
+# AQUA
+# GRAY
+
+# Set this to false if you don't want to get an alert when there is a new update
+updateAlerts: false
+
+# This number is how many seconds the confusion effect lasts when a player loses a drink.
+# Set to 0 to disable.
+drunkEffect: 5
+
+# This number is how many seconds the blindness effect lasts when a player loses a drink.
+# Set to 0 to disable.
+blindnessEffect: 5
+
+# Set this to false to disable sound effects
+# If using 1.8.x server, view sound options here: https://helpch.at/docs/1.8.8/org/bukkit/Sound.html
+# If using a 1.11+ server, view sound options here (Note, not all will work depending on your server version): https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+soundEnabled: false
+
+# This is the sound that plays if the player has a super lucky win on a drink
+superWinSound: ENTITY_PLAYER_LEVELUP
+
+# This is the sound that plays if the player wins a drink
+winSound: ENTITY_PLAYER_LEVELUP
+
+# This is the sound that plays if the player loses a drink
+loseSound: ENTITY_PLAYER_HURT
+
+# This is a list of worlds that drinking a GambleBar potion will not work in
+blacklistWorlds:
+- "nothing"
+
+# The default bar is the bar opened when a player just uses "/bar"
+defaultBar: bartender
+
+# Everything after this is the information for the bars
+# Format:
+# bars:
+#   <barID>:
+#     title: "Title of the Bar Inventory"
+#     size: 9 (This number must be a multiple of 9. Minimum is 9, Maximum is 54)
+#     inventory:
+#       inventorySlotNumber:
+#         name: "Name of the drink"
+#         lore:
+#         - "This is the drink's lore"
+#         - "Lore Lore"
+#         customModelData: 1 (Ignore if not using custom model data. Custom Model Data will override drink color.)
+#         potionColor: BLUE (Check available colors in the beginning of this file)
+#         price: 500 (Price of the drink, must be an integer)
+#         reward: 1000 (Reward from winning the drink)
+#         superLuckyReward: 2000 (Super lucky reward from winning the drink)
+#         odds: 50.00 (% Odds of winning the drink. Must be a decimal number (double))
+#         superLuckyOdds: 5.00 (% Odds of getting a super lucky win of the drink. Must be a decimal number (double))
+#         rewardCommands:
+#         - "Command to run from console when the player wins a drink"
+#         - "%player% = players name and %reward% is the amount of money they won"
+#         superLuckyRewardCommands:
+#         - "broadcast &c%player% &fgot very lucky and won &c$%reward% &ffrom the GambleBar!"
+bars:
+  bartender:
+    title: ""
+    size: 27
+    inventory:
+      1:
+        name: " &8● &#06defbʙ&#04cafbᴇ&#02b5fbᴇ&#00a1fbʀ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $1,000 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $2,500 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 10.00%"
+        - ""
+        - " &#00b2ff&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""        
+        customModelData: 1
+        potionColor: AQUA
+        price: 1000
+        reward: 2500
+        superLuckyReward: 2500
+        odds: 10.00
+        superLuckyOdds: 10.00
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      2:
+        name: " &8● &#fbf100ᴡ&#fce200ɪ&#fcd400ɴ&#fdc500ᴇ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $2,500 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $5,000 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 7.50%"
+        - ""
+        - " &#fbf100&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""     
+        customModelData: 1
+        potionColor: YELLOW
+        price: 2500
+        reward: 5000
+        superLuckyReward: 5000
+        odds: 7.50
+        superLuckyOdds: 7.50
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      3:
+        name: " &8● &#fbf100ᴠ&#fce600ᴏ&#fcdb00ᴅ&#fdd000ᴋ&#fdc500ᴀ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $5,000 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $7,500 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 5.00%"
+        - ""
+        - " &#fbf100&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""
+        customModelData: 1
+        potionColor: ORANGE
+        price: 5000
+        reward: 7500
+        superLuckyReward: 7500
+        odds: 5.0
+        superLuckyOdds: 5.0
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      4:
+        name: " &8● &#9cfb00ʀ&#4efc0dᴜ&#00fd19ᴍ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $7,500 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $10,000 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.50%"
+        - ""
+        - " &#00fd19&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""
+        customModelData: 1
+        potionColor: LIME
+        price: 7500
+        reward: 10000
+        superLuckyReward: 10000
+        odds: 2.50
+        superLuckyOdds: 2.50
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      5:
+        name: " &8● &#9cfb00ᴡ&#82fb04ʜ&#68fc08ɪ&#4efc0ds&#34fc11ᴋ&#1afd15ᴇ&#00fd19ʏ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $10,000 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $25,000 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.25%"
+        - ""
+        - " &#00fd19&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""
+        customModelData: 1
+        potionColor: GREEN
+        price: 10000
+        reward: 25000
+        superLuckyReward: 25000
+        odds: 2.25
+        superLuckyOdds: 2.25
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      6:
+        name: " &8● &#df6ffbᴇ&#d761fbᴠ&#cf53fcᴇ&#c645fcʀ&#be38fcᴄ&#b62afcʟ&#ae1cfdᴇ&#a50efdᴀ&#9d00fdʀ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $25,000 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $50,000 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.00%"
+        - ""
+        - " &#b62afc&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""
+        customModelData: 1
+        potionColor: PURPLE
+        price: 25000
+        reward: 50000
+        superLuckyReward: 50000
+        odds: 2.0
+        superLuckyOdds: 2.0
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""
+      7:
+        name: " &8● &#FF0000ᴛᴇǫᴜɪʟᴀ &f(x1)"
+        lore:
+        - "&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ"
+        - ""
+        - " &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴀɴᴅ"
+        - " &#33F100🍀 ᴛᴇsᴛ &fʏᴏᴜʀ &#33F100ʟᴜᴄᴋ 🍀"
+        - " &fᴛᴏ ᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ"
+        - ""
+        - " &8● &fᴘʀɪᴄᴇ: &#06defb- $50,000 ⛂"
+        - " &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $100,000 ⛃"
+        - " &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 1.00%"
+        - ""
+        - " &#FF0000&n▶ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ"
+        - ""
+        customModelData: 1
+        potionColor: RED
+        price: 50000
+        reward: 100000
+        superLuckyReward: 100000
+        odds: 1.0
+        superLuckyOdds: 1.0
+        rewardCommands:
+        - ""
+        superLuckyRewardCommands:
+        - ""

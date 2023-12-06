@@ -1,0 +1,24 @@
+location: Spawn:78.500:59.100:88.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#F85BFB>&lBOUNTIES MENU</#9D00FD>'
+    height: 0.3
+  - content: '&7ᴘʟᴀʏᴇʀ ʙᴏᴜɴᴛɪᴇs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fsᴇᴛ ʙᴏᴜɴᴛɪᴇs ᴛᴏ ʏᴏᴜʀ'
+    height: 0.3
+  - content: '&fᴡᴏʀsᴛ sᴇʀᴠᴇʀ ᴇɴᴇᴍɪᴇs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#F85BFB>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#9D00FD>'
+    height: 0.3
+  actions: {}

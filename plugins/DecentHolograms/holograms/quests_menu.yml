@@ -1,0 +1,26 @@
+location: Spawn:82.500:59.400:-25.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#5FFB00>&lQUESTS MENU</#00FD0A>'
+    height: 0.3
+  - content: '&7sᴇʀᴠᴇʀ ǫᴜᴇsᴛs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴄᴏᴍᴘʟᴇᴛᴇ ᴏᴠᴇʀ <#5FFB00>50 ǫᴜᴇsᴛs ☆'
+    height: 0.3
+  - content: '&fᴛᴏ &#acfd00ʟ&#93fd00ᴇ&#79fd00ᴠ&#60fd00ᴇ&#47fd00ʟ &#2dfd00ᴜ&#14fd00ᴘ &fᴀɴᴅ ᴜɴʟᴏᴄᴋ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: '&fᴜsᴇ /ǫᴜᴇsᴛs &fᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʀᴏɢʀᴇss'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#5FFB00>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#00FD0A>'
+    height: 0.3
+  actions: {}

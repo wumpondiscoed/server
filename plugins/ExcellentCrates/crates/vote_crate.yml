@@ -1,0 +1,310 @@
+Name: '#b3ff5d&lVote Crate Crate'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - vote_key
+Block:
+  Locations:
+  - -24.0,62.0,37.0,0.0,0.0,Spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '#b3ff5d&l#b3ff5d&lVOTE CRATE CRATE'
+    - '#d4d9d8Purchase keys at #b3ff5dhttp://samplesmp.com/store'
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: FALLING_DUST
+      Material: STONE
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    coal:
+      Name: Coal
+      Chance: 7.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78100
+      Commands: []
+      Items:
+      - 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78100
+      Ignored_For_Permissions: []
+    iron_ingot:
+      Name: Iron Ingot
+      Chance: 6.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78100
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78100
+      Ignored_For_Permissions: []
+    gold_ingot:
+      Name: Gold Ingot
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78100
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78100
+      Ignored_For_Permissions: []
+    redstone:
+      Name: Redstone
+      Chance: 4.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78100
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78100
+      Ignored_For_Permissions: []
+    lapis_lazuli:
+      Name: Lapis Lazuli
+      Chance: 3.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78100
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kr31e1kn6nrcc5t7ar390400agrfeln78100
+      Ignored_For_Permissions: []
+    diamond:
+      Name: Diamond
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78100
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78100
+      Ignored_For_Permissions: []
+    emerald:
+      Name: Emerald
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78100
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78100
+      Ignored_For_Permissions: []
+    saddle:
+      Name: Saddle
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejjc5i68r350400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ejjc5i68r350400agrfeln78080
+      Ignored_For_Permissions: []
+    leather_horse_armor:
+      Name: Leather Horse Armor
+      Chance: 4.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79m6aobkd1in4nr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79m6aobkd1in4nr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    iron_horse_armor:
+      Name: Iron Horse Armor
+      Chance: 3.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej9e9nmsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej9e9nmsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    golden_horse_armor:
+      Name: Golden Horse Armor
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6errcchimsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6errcchimsnr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    diamond_horse_armor:
+      Name: Diamond Horse Armor
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79i6iobddtn68nr8dtp76pavc5p6qrri0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79i6iobddtn68nr8dtp76pavc5p6qrri0400agrfeln78080
+      Ignored_For_Permissions: []
+    experience_bottle:
+      Name: Experience Bottle
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78200
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78200
+      Ignored_For_Permissions: []
+    experience_bottle1:
+      Name: Experience Bottle
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78400
+      Ignored_For_Permissions: []
+    golden_apple:
+      Name: Golden Apple
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78100
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78100
+      Ignored_For_Permissions: []
+    enchanted_golden_apple:
+      Name: Enchanted Golden Apple
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln780g0
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln780g0
+      Ignored_For_Permissions: []
+    $250_coins:
+      Name: $250 Coins
+      Chance: 4.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb500anm8jkcls788hq48i34d9g411muqbeech7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h2j6jhi8kqkshqlf5cmqkbn9t3kkqaq8hjnkjqka4o4sqil6hcmkj9g9ll42uapd9cjaman9lt4sradf57keh9k9pml2uafahk6kmjd9pl4qh2h61d5embp9t3kiuid8hm6mmb998smcm1g7k0002o0094m800000268apdmgb4ij6cnjfku4nsa55es0000400agrfeln78080
+      Commands:
+      - eco give %player_name% 250
+      Items: []
+      Ignored_For_Permissions: []
+    $500_coins:
+      Name: $500 Coins
+      Chance: 3.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb500anm8jkcls788hq48i3ac1g411muqbeech7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h2j6jhi8kqkshqlf5cmqkbn9t3kkqaq8hjnkjqka4o4sqil6hcmkj9g9ll42uapd9cjaman9lt4sradf57keh9k9pml2uafahk6kmjd9pl4qh2h61d5embp9t3kiuid8hm6mmb998smcm1g7k0002o0094m800000268apdmgb4ij6cnjfku4nsa55es0000400agrfeln78080
+      Commands:
+      - eco give %player_name% 500
+      Items: []
+      Ignored_For_Permissions: []
+    $750_coins:
+      Name: $750 Coins
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb500anm8jkcls788hq48i3ed9g411muqbeech7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h2j6jhi8kqkshqlf5cmqkbn9t3kkqaq8hjnkjqka4o4sqil6hcmkj9g9ll42uapd9cjaman9lt4sradf57keh9k9pml2uafahk6kmjd9pl4qh2h61d5embp9t3kiuid8hm6mmb998smcm1g7k0002o0094m800000268apdmgb4ij6cnjfku4nsa55es0000400agrfeln78080
+      Commands:
+      - eco give %player_name% 750
+      Items: []
+      Ignored_For_Permissions: []
+    $1000_coins:
+      Name: $1000 Coins
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800ldlkmspb3e9gmct1qe1m62ub5e9fmgpb1cg5000rkc5jgk007chkn6s3cc5sgg0049pgmqp802pti4t35f1q24eh24goj0c1g411muqbeech7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiq8h2j6jhi8kqkshqlf5cmqkbn9t3kkqaq8hjnkjqka4o4sqil6hcmkj9g9ll42uapd9cjaman9lt4sradf57keh9k9pml2uafahk6kmjd9pl4qh2h61d5embp9t3kiuid8hm6mmb998smcm1g7k0002o0094m800000268apdmgb4ij6cnjfku4nsa55es0000400agrfeln78080
+      Commands:
+      - eco give %player_name% 1000
+      Items: []
+      Ignored_For_Permissions: []
+    common_key:
+      Name: Common Key
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79o6oobpclp5uq35c5i0k003ehgme2g00ti6isrgdhgni2000h762rb500anm8jkcls788hq491murbddtn20ir5f4h7q00a00556qrldhm4utreclp0k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatiqd9cngjqnb4qksh34dhd6kibq9pa4qdad8h76gmikdhklkl2169d5elbq9pt5cqadf916qmak8kp5kqi96977kr3db93kquipat4nejakcsq5kraad5d58k9h9l244raqatcj0ibe64smck9t7k0002o0094m8000002c7a2fmdudohvln5li63f40usso0000400agrfeln78080
+      Commands:
+      - excellentcrates key give %player_name% common_key 1
+      Items: []
+      Ignored_For_Permissions: []
+Animation_Config: roulette
+Item:
+  Material: PLAYER_HEAD
+  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0=
+  Name: '#B3FF5D&lCommon Crate Crate'

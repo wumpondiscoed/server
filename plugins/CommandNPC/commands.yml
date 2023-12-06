@@ -1,0 +1,100 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~menu~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:block.amethyst_block.resonate ambient %player_name%
+      4.524 63.0 15.217~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~orewards menu~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.no ambient %player_name% -3.227 63.0
+      15.156~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~rtp~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% -11.762 61.0
+      48.052~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '3':
+    Commands:
+    - 1~~~rtp~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% 0.337 61.0
+      51.811~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '4':
+    Commands:
+    - 1~~~rtp~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% 12.129 61.0
+      48.570~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '5':
+    Commands:
+    - 1~~~jobs~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.no ambient %player_name% -53.964 58.0
+      -4.280~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '6':
+    Commands:
+    - 1~~~emf shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -76.774
+      55.0 69.516~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '7':
+    Commands:
+    - 1~~~kits~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -22.727
+      59.0 99.879~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '8':
+    Commands:
+    - 1~~~shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -72.208
+      55.0 99.660~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '9':
+    Commands:
+    - 1~~~skills~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% 91.070 55.0
+      5.578~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '10':
+    Commands:
+    - 1~~~ah~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% 44.101 64.0
+      53.259~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '11':
+    Commands:
+    - 1~~~quests~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% 81.939 55.0
+      -24.319~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '12':
+    Commands:
+    - 1~~~ps~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -42.692
+      70.0 67.439~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '13':
+    Commands:
+    - 1~~~bounties~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.witch.celebrate ambient %player_name% 76.351
+      55.0 87.271~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '14':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -75.843 65.0 11.390~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '15':
+    Commands:
+    - 1~~~tags~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.trade ambient %player_name% -48.112
+      59.0 89.891~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '17':
+    Commands:
+    - 1~~~shop menu miscellaneous_shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% -66.996 55.0
+      61.3530~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '19':
+    Commands:
+    - 1~~~shop menu farming_shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% 81.052 55.0
+      65.490~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '20':
+    Commands:
+    - 1~~~shop menu ores_shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% 90.002 55.0
+      25.314~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '21':
+    Commands:
+    - 1~~~shop menu redstone_shop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~playsound minecraft:entity.villager.yes ambient %player_name% 84.027 55.0
+      31.355~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

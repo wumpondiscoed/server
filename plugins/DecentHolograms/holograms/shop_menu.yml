@@ -1,0 +1,20 @@
+location: Spawn:-70.494:58.400:102.300
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#54FBFB>&lSHOP MENU</#00CFFD>'
+    height: 0.3    
+  - content: '&7ɪɴ-ɢᴀᴍᴇ sᴛᴏʀᴇ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fʙᴜʏ ᴀʟʟ ᴛʏᴘᴇ ᴏꜰ ɪᴛᴇᴍs'
+    height: 0.3
+  - content: '&fɪɴ ᴛʜᴇ ɪɴ-ɢᴀᴍᴇ sʜᴏᴘ'
+    height: 0.3
+  actions: {}

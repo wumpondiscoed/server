@@ -1,0 +1,26 @@
+location: Spawn:-4.457:67.400:16.474
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#5FFB00>&lDAILY REWARDS</#00FD0A>'
+    height: 0.3
+  - content: '&7sᴛʀᴇᴀᴋ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴍᴇ ᴛᴏ ᴄʟᴀɪᴍ'
+    height: 0.3
+  - content: '&fʏᴏᴜʀ <#5FFB00>ᴅᴀɪʟʏ ʀᴇᴡᴀʀᴅs</#00FD0A> &fᴋᴇᴇᴘ ʏᴏᴜʀ sᴛʀɪᴋᴇ'
+    height: 0.3
+  - content: '&fᴛᴏ ɢᴇᴛ ᴀʟʟ ᴛʜᴇ <#00FD0A>ɢɪꜰᴛs ᴀᴠᴀɪʟᴀʙʟᴇs</#5FFB00>'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#5FFB00>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#00FD0A>'
+    height: 0.3
+  actions: {}

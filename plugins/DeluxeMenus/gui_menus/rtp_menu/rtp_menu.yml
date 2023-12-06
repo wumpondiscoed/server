@@ -1,0 +1,157 @@
+menu_title: '       &#2E2E2E▸ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ ◂'
+size: 36
+open_command:
+- rtp
+- randomteleport
+- randomtp
+- wild
+- lands
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 12
+    - 16
+    - 17
+    - 18
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+  'background_menu_2':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 11
+    - 20
+  'background_menu_3':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 33
+    - 34
+    - 35
+  'spawn_teleport':
+    material: PRISMARINE_CRYSTALS
+    slots:
+    - 10
+    display_name: ' &8● &#9cfb00s&#8ffb02ᴘ&#82fb04ᴀ&#75fc06ᴡ&#68fc08ɴ &#5bfc0aᴛ&#4efc0dᴇ&#41fc0fʟ&#34fc11ᴇ&#27fd13ᴘ&#1afd15ᴏ&#0dfd17ʀ&#00fd19ᴛ &8(&#00fd19✔&8)'
+    lore:
+    - '&8&nsᴘᴀᴡɴ ᴛᴇʟᴇᴘᴏʀᴛ'
+    - ''
+    - ' &fᴀᴄᴄᴇss ᴛʜᴇ sᴘᴀᴡɴ'
+    - ' &fɪɴ ᴀ ꜰᴀsᴛᴇʀ ᴡᴀʏ'
+    - ' &7❖ (%world_players_Spawn% ᴘʟᴀʏᴇʀs ᴏɴ)'
+    - ''
+    - ' &#9cfb00&nʟ&#91fb02&nᴇ&#86fb04&nꜰ&#7bfb05&nᴛ&#6ffc07&n-&#64fc09&nᴄ&#59fc0b&nʟ&#4efc0d&nɪ&#43fc0e&nᴄ&#38fc10&nᴋ &#2dfc12&nᴛ&#21fd14&nᴏ &#16fd15&nᴜ&#0bfd17&ns&#00fd19&nᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] spawn'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'home_teleport':
+    material: PRISMARINE_SHARD
+    slots:
+    - 19
+    display_name: ' &8● &#9cfb00ʜ&#8efb02ᴏ&#80fb05ᴍ&#71fc07ᴇ &#63fc09ᴛ&#55fc0bᴇ&#47fc0eʟ&#39fc10ᴇ&#2bfc12ᴘ&#1cfd14ᴏ&#0efd17ʀ&#00fd19ᴛ &8(&#00fd19✔&8)'
+    lore:
+    - '&8&nʜᴏᴍᴇ ᴛᴇʟᴇᴘᴏʀᴛ'
+    - ''
+    - ' &fᴀᴄᴄᴇss ᴛᴏ ʏᴏᴜʀ ʜᴏᴍᴇ'
+    - ' &fɪꜰ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴏɴᴇ'
+    - ' &7❖ (sᴇᴛ ʜᴏᴍᴇ /ʜᴏᴍᴇ)'
+    - ''
+    - ' &#9cfb00&nʟ&#91fb02&nᴇ&#86fb04&nꜰ&#7bfb05&nᴛ&#6ffc07&n-&#64fc09&nᴄ&#59fc0b&nʟ&#4efc0d&nɪ&#43fc0e&nᴄ&#38fc10&nᴋ &#2dfc12&nᴛ&#21fd14&nᴏ &#16fd15&nᴜ&#0bfd17&ns&#00fd19&nᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] home'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'overworld_teleport':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiZjExMWQ2NzFiNTI3NzBkNmEyNGZkNzhjOGYwZTEwN2QzZjdjZmRmNjcxZDcyYjUzMjEwM2ZkOWVlOWI4OSJ9fX0=
+    slots:
+    - 13
+    display_name: ' &#00d8ff⚡ ᴏ&#00d3ffᴠ&#00ceffᴇ&#00c9ffʀ&#00c4ffᴡ&#00c0ffᴏ&#00bbffʀ&#00b6ffʟ&#00b1ffᴅ &#00acffᴅ&#00a7ffɪ&#00a2ffᴍ&#009dffᴇ&#0099ffɴ&#0094ffs&#008fffɪ&#008affᴏ&#0085ffɴ '
+    lore:
+    - '&8&nᴍᴀɪɴ ᴅɪᴍᴇɴsɪᴏɴ'
+    - ''
+    - ' &fᴀᴄᴄᴇss ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ'
+    - ' &fᴅɪᴍᴇɴsɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ'
+    - ' &fᴄᴀɴ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ'
+    - ' &7❖ (%world_players_world% ᴘʟᴀʏᴇʀs ᴏɴ)'
+    - ''
+    - ' &#00d4ff&nʟ&#00cfff&nᴇ&#00cbff&nꜰ&#00c6ff&nᴛ&#00c1fe&n-&#00bdfe&nᴄ&#00b8fe&nʟ&#01b4fe&nɪ&#01affe&nᴄ&#01aafe&nᴋ &#01a6fe&nᴛ&#01a1fd&nᴏ &#019cfd&nᴜ&#0198fd&ns&#0193fd&nᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'
+    - '[console] rtp player %player_name% world'
+  'nether_teleport':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FkZTc2ZjVkNTkxNjMyZDkzMjRhYjk5ZDc0NzI1MWNhMzc0N2UwNGNhZjQxZDAzNzBmODUwZjllYzg3YTEzZCJ9fX0=
+    slots:
+    - 14
+    display_name: ' &#ffb800🔥 ɪ&#ffb300ɴ&#ffae00ꜰ&#ffa900ᴇ&#ffa300ʀ&#ff9e00ɴ&#ff9900ᴏ &#ff9400ᴅ&#ff8f00ɪ&#ff8a00ᴍ&#ff8500ᴇ&#ff8000ɴ&#ff7a00s&#ff7500ɪ&#ff7000ᴏ&#ff6b00ɴ'
+    lore:
+    - '&8&nsᴇᴄᴏɴᴅ ᴅɪᴍᴇɴsɪᴏɴ'
+    - ''
+    - ' &fᴀᴄᴄᴇss ᴛᴏ ᴛʜᴇ sᴇᴄᴏɴᴅ'
+    - ' &fᴅɪᴍᴇɴsɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ'
+    - ' &fᴄᴀɴ ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ʜᴇʟʟ'
+    - ' &7❖ (%world_players_world_nether% ᴘʟᴀʏᴇʀs ᴏɴ)'
+    - ''
+    - ' &#ffb800&nʟ&#ffb300&nᴇ&#ffad00&nꜰ&#ffa800&nᴛ&#ffa200&n-&#ff9d00&nᴄ&#ff9700&nʟ&#ff9200&nɪ&#ff8c00&nᴄ&#ff8700&nᴋ &#ff8100&nᴛ&#ff7c00&nᴏ &#ff7600&nᴜ&#ff7100&ns&#ff6b00&nᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'
+    - '[console] rtp player %player_name% world_nether'
+  'the_end_teleport':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQyNmFiODg4Mjk4YWRmMWVmZmQ4MTFjODA3NGRlZjA5NzgwZTdkOWQxMmJhNGM3N2I3M2ZkYTk5ODJkZDBmZSJ9fX0=
+    slots:
+    - 15
+    display_name: ' &#ca74ff☁ ᴍ&#c46cffʏ&#be65ffs&#b85dffᴛ&#b255feᴇ&#ac4dfeʀ&#a646feʏ &#a03efeᴅ&#9936feɪ&#932efeᴍ&#8d27feᴇ&#871ffeɴ&#8117fds&#7b0ffdɪ&#7508fdᴏ&#6f00fdɴ '
+    lore:
+    - '&8&nᴜɴᴋɴᴏᴡɴ ᴅɪᴍᴇɴsɪᴏɴ'
+    - ''
+    - ' &fᴀᴄᴄᴇss ᴛᴏ ᴛʜᴇ ᴛʜɪʀᴅ'
+    - ' &fᴅɪᴍᴇɴsɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ'
+    - ' &fᴄᴀɴ ꜰɪɴɪsʜ ʏᴏᴜʀ ɢᴀᴍᴇ'
+    - ' &7❖ (%world_players_world_the_end% ᴘʟᴀʏᴇʀs ᴏɴ)'
+    - '' 
+    - ' &#ca74ff&nʟ&#c46cff&nᴇ&#bd63ff&nꜰ&#b75bff&nᴛ&#b053fe&n-&#aa4bfe&nᴄ&#a342fe&nʟ&#9d3afe&nɪ&#9632fe&nᴄ&#9029fe&nᴋ &#8921fe&nᴛ&#8319fd&nᴏ &#7c11fd&nᴜ&#7608fd&ns&#6f00fd&nᴇ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'
+    - '[console] rtp player %player_name% world_the_end'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 32
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

@@ -1,0 +1,319 @@
+menu_title: '           &#2E2E2E▸ ɢᴀᴍʙʟᴇ ʙᴀʀ ◂'
+size: 27
+open_command:
+- bartender
+- bar
+- gamblebar
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+  'background_menu_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 25
+    - 26
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 22
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+  'information_item':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0MzdmZWU3NDljYmQ2OGYzNDQzYmIwNmU0NTA1OGE2ODdjMGZjYTk2NDM2Y2FkYjUzOGNhZDU5YjUyMTZjNiJ9fX0=
+    slots:
+    - 24
+    display_name: ' &8● &#fd01d5ɢ&#f101daᴀ&#e501dfᴍ&#d901e4ʙ&#cd01e9ʟ&#c100eeᴇ &#b500f3ʙ&#a900f8ᴀ&#9d00fdʀ ⚗'
+    lore:
+    - '&8&nʜᴏᴡ ɪᴛ ᴡᴏʀᴋs'
+    - ''
+    - ' &fʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴀʟʟ'
+    - ' &fᴛʏᴘᴇ ᴏꜰ ᴅʀɪɴᴋs'
+    - ' &7❖ (ʀᴇǫᴜɪʀᴇs ᴍᴏɴᴇʏ)'
+    - ''
+    - ' &#fb81f6▽ ᴅ&#f47ef7ʀ&#ee7af7ɪ&#e777f8ɴ&#e074f8ᴋ&#d970f9s &#d36df9ꜰ&#cc6afaᴜ&#c566faɴ&#bf63fbᴄ&#b85ffbᴛ&#b15cfcɪ&#aa59fcᴏ&#a455fdɴ&#9d52fds:'
+    - ' &f● ᴇᴀᴄʜ ᴅʀɪɴᴋ ʜᴀs'
+    - ' &f● ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ᴡɪɴ'
+    - ' &f● ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ.'
+    - ' &#a455fd&n                         '
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'drink_beer':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 38, 192, 210
+    slots:
+    - 10
+    display_name: ' &8● &#06defbʙ&#04cafbᴇ&#02b5fbᴇ&#00a1fbʀ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $1,000 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $2,500 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 10.00%'
+    - ''
+    - ' &#06defb&nʟ&#06dafb&nᴇ&#05d5fb&nꜰ&#05d1fb&nᴛ&#04cdfb&n-&#04c8fb&nᴄ&#03c4fb&nʟ&#03c0fb&nɪ&#03bbfb&nᴄ&#02b7fb&nᴋ &#02b2fb&nᴛ&#01aefb&nᴏ &#01aafb&nʙ&#00a5fb&nᴜ&#00a1fb&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 1000.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 1000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 1'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#06defbʙ&#04cafbᴇ&#02b5fbᴇ&#00a1fbʀ &f(x1) &ffor &#FF0000-$1k ⛂ &fcoins.'
+  'wine':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 255, 232, 0
+    slots:
+    - 11
+    display_name: ' &8● &#fbf100ᴡ&#fce200ɪ&#fcd400ɴ&#fdc500ᴇ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $2,500 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $5,000 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 7.50%'
+    - ''
+    - ' &#fbf100&nʟ&#fbee00&nᴇ&#fbeb00&nꜰ&#fbe800&nᴛ&#fce400&n-&#fce100&nᴄ&#fcde00&nʟ&#fcdb00&nɪ&#fcd800&nᴄ&#fcd500&nᴋ &#fcd200&nᴛ&#fdce00&nᴏ &#fdcb00&nʙ&#fdc800&nᴜ&#fdc500&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 2500.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 2500.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 2'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#fbf100ᴡ&#fce200ɪ&#fcd400ɴ&#fdc500ᴇ &f(x1) &ffor &#FF0000-$2k ⛂ &fcoins.'
+  'vodka':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 255, 178, 0
+    slots:
+    - 12
+    display_name: ' &8● &#fbf100ᴠ&#fce600ᴏ&#fcdb00ᴅ&#fdd000ᴋ&#fdc500ᴀ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $5,000 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $7,500 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 5.00%'
+    - ''
+    - ' &#fbf100&nʟ&#fbee00&nᴇ&#fbeb00&nꜰ&#fbe800&nᴛ&#fce400&n-&#fce100&nᴄ&#fcde00&nʟ&#fcdb00&nɪ&#fcd800&nᴄ&#fcd500&nᴋ &#fcd200&nᴛ&#fdce00&nᴏ &#fdcb00&nʙ&#fdc800&nᴜ&#fdc500&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 5000.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 5000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 3'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#fbf100ᴠ&#fce600ᴏ&#fcdb00ᴅ&#fdd000ᴋ&#fdc500ᴀ &f(x1) &ffor &#FF0000-$5k ⛂ &fcoins.'
+  'rum':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 174, 255, 0
+    slots:
+    - 13
+    display_name: ' &8● &#9cfb00ʀ&#4efc0dᴜ&#00fd19ᴍ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $7,500 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $10,000 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.50%'
+    - ''
+    - ' &#9cfb00&nʟ&#91fb02&nᴇ&#86fb04&nꜰ&#7bfb05&nᴛ&#6ffc07&n-&#64fc09&nᴄ&#59fc0b&nʟ&#4efc0d&nɪ&#43fc0e&nᴄ&#38fc10&nᴋ &#2dfc12&nᴛ&#21fd14&nᴏ &#16fd15&nʙ&#0bfd17&nᴜ&#00fd19&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 7500.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 7500.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 4'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#9cfb00ʀ&#4efc0dᴜ&#00fd19ᴍ &f(x1) &ffor &#FF0000-$7k ⛂ &fcoins.'
+  'whiskey':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 0, 255, 0
+    slots:
+    - 14
+    display_name: ' &8● &#9cfb00ᴡ&#82fb04ʜ&#68fc08ɪ&#4efc0ds&#34fc11ᴋ&#1afd15ᴇ&#00fd19ʏ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $10,000 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $25,000 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.25%'
+    - ''
+    - ' &#9cfb00&nʟ&#91fb02&nᴇ&#86fb04&nꜰ&#7bfb05&nᴛ&#6ffc07&n-&#64fc09&nᴄ&#59fc0b&nʟ&#4efc0d&nɪ&#43fc0e&nᴄ&#38fc10&nᴋ &#2dfc12&nᴛ&#21fd14&nᴏ &#16fd15&nʙ&#0bfd17&nᴜ&#00fd19&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 10000.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 10000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 5'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#9cfb00ᴡ&#82fb04ʜ&#68fc08ɪ&#4efc0ds&#34fc11ᴋ&#1afd15ᴇ&#00fd19ʏ &f(x1) &ffor &#FF0000-$10k ⛂ &fcoins.'
+  'everclear':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 255, 0, 251
+    slots:
+    - 15
+    display_name: ' &8● &#df6ffbᴇ&#d761fbᴠ&#cf53fcᴇ&#c645fcʀ&#be38fcᴄ&#b62afcʟ&#ae1cfdᴇ&#a50efdᴀ&#9d00fdʀ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $25,000 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $50,000 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 2.00%'
+    - ''
+    - ' &#df6ffb&nʟ&#da67fb&nᴇ&#d65ffb&nꜰ&#d157fb&nᴛ&#cc4ffc&n-&#c747fc&nᴄ&#c33ffc&nʟ&#be38fc&nɪ&#b930fc&nᴄ&#b528fc&nᴋ &#b020fc&nᴛ&#ab18fd&nᴏ &#a610fd&nʙ&#a208fd&nᴜ&#9d00fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 25000.0
+      deny_commands:
+        - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 25000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 6'
+    - '[message] &r &#c66ffb&l&nB&#be63fb&l&nA&#b656fb&l&nR&#ae4afc&l&nT&#a63efc&l&nE&#9f31fc&l&nN&#9725fc&l&nD&#8f19fd&l&nE&#870cfd&l&nR&#7f00fd &l| &fYou have bought &#df6ffbᴇ&#d761fbᴠ&#cf53fcᴇ&#c645fcʀ&#be38fcᴄ&#b62afcʟ&#ae1cfdᴇ&#a50efdᴀ&#9d00fdʀ &f(x1) &ffor &#FF0000-$25k ⛂ &fcoins.'
+  'tequila':
+    material: LINGERING_POTION
+    potion_effects:
+    - SPEED;30;1
+    rgb: 255, 0, 0
+    slots:
+    - 16
+    display_name: ' &8● &#FF0000ᴛᴇǫᴜɪʟᴀ &f(x1)'
+    hide_effects: true
+    lore:
+    - '&8&nᴄᴜsᴛᴏᴍ ᴅʀɪɴᴋ'
+    - ''
+    - ' &fᴅʀɪɴᴋ ᴛʜɪs ʙᴇᴇʀ ᴛᴏ'
+    - ' &fᴡɪɴ ᴏʀ ʟᴏsᴇ ᴍᴏɴᴇʏ'
+    - ' &7❖ (ɢᴀᴍʙʟᴇ ʙᴀʀ ɪᴛᴇᴍ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#06defb- $50,000 ⛂'
+    - ' &8● &fʀᴇᴡᴀʀᴅ: &#02b5fb+ $100,000 ⛃'
+    - ' &8● &fᴄʜᴀɴᴄᴇ: &#FF0000⛨ 1.00%'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 50000.0
+      deny_commands:
+        - '[message] &r &#fb81f6&l&nG&#f17cf7&l&nA&#e677f8&l&nM&#dc71f8&l&nB&#d16cf9&l&nL&#c767fa&l&nE &#bc62fb&l&nB&#b50cfb&l&nA&#a757fc&l&nR&#9d52fd &l| &fYou don''t have sufficient money!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[takemoney] 50000.0'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] gamblebar give %player_name% bartender 7'
+    - '[message] &r &#fb81f6&l&nG&#f17cf7&l&nA&#e677f8&l&nM&#dc71f8&l&nB&#d16cf9&l&nL&#c767fa&l&nE &#bc62fb&l&nB&#b50cfb&l&nA&#a757fc&l&nR&#9d52fd &l| &fYou have bought &#FF0000ᴛᴇǫᴜɪʟᴀ &f(x1) &ffor &#FF0000-$50k ⛂ &fcoins.'

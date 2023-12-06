@@ -1,0 +1,326 @@
+#Language EN-US
+#By Epicnicity322
+Version: '4.2'
+
+Addons:
+  Download:
+    Error:
+      Not Found: '&fAddons for PlayMoreSounds v<version> were not found.'
+      Subtitle: '&fSomething went wrong'
+      Title: '&c&lError'
+      Unknown: '&fAn unknown error occurred when downloading addons.'
+    Downloading:
+      Already Exists: '&fAn addons zip was found and deleted from temp folder. Downloading latest one...'
+      Subtitle:
+        Files: '&fAddons files...'
+        Info: '&fInfo about addons...'
+      Title: '&fDownloading'
+      Unsupported Version: '&fThe latest addons were downloaded, but they don''t support the PlayMoreSounds version you''re running, trying to download addons made for the current PlayMoreSounds version...'
+    Success:
+      Subtitle: '&fLatest addons were downloaded'
+      Title: '&fSuccess'
+  Error:
+    Blocked: '&fAddons are currently being installed, wait until the installation process finishes to open the addon management inventory.'
+    Not Found: '&fAddon with the name &f<addon>&c was not found. Use &a&n/<label> addon list&f to list all addons.'
+  Install:
+    Error: '&fSomething went wrong while installing the addon &4<addon>&c.'
+    Installed: '&a<addon>&f was installed.'
+    Success: '&fAddon &a<addon>&f was installed successfully, restart your server so it can be loaded.'
+  Inventory:
+    Title:
+      Default: '&f&lInstalled Addons:'
+      Empty: '&f&lNo addons found'
+      Installer: '&f&lInstall Addons:'
+    Items:
+      Addon:
+        Display Name: '&a&l<name>'
+        Lore: >-
+          &7Author(s):&8 <authors>
+          <line>&7Description:&8 <description>
+          <line>&7Version:&8 <version>
+          <line>&cClick to &4&n&luninstall&c.
+        To be uninstalled lore: >-
+          &7Author(s):&8 <authors>
+          <line>&7Description:&8 <description>
+          <line>&7Version:&8 <version>
+          <line>&fClick to &7&n&lcancel uninstallation&f.
+      Done:
+        Display Name: '&f&lDone'
+        Lore: '&fClick to exit.'
+      Info:
+        Display Name: '&f&lInfo'
+        Lore: '&fYou have <addons> addons installed.'
+      Install:
+        Display Name: '&f&lInstall Addons'
+        Lore: ' &7Click to download latest addons from<line>&fPlayMoreSounds'' GitHub.'
+      Next Page:
+        Display Name: '&f&lNext Page'
+        Lore: '&fClick to go to page <to>.'
+      Previous Page:
+        Display Name: '&f&lPrevious Page'
+        Lore: '&fClick to go to page <to>.'
+  List:
+    Header: '&fAddons installed for PlayMoreSounds:'
+    Separator: '&f, '
+  Start:
+    Error:
+      Already Started: '&fAddon &a<addon> &fwas already started.'
+    Success: '&fAddon &a<addon> &fwas started successfully.'
+  Stop:
+    Error:
+      Already Stopped: '&fAddon &c<addon> &fwas already stopped.'
+    Success: '&fAddon &c<addon> &fwas stopped successfully.'
+  Uninstall:
+    Cancel: '&fAddon &a<addon> &f&nwill no longer be uninstalled.'
+    Confirmation:
+      Chat: '&fType &aa/<label> confirm&f to confirm uninstallation of <addon> addon.'
+      Description: 'Uninstall <addon> addon'
+      Title: '&8&lUninstall &a<addon>&r?'
+    Error:
+      Dependants:
+        Plural: '&fAddon &c<addon> &fcan''t be uninstalled because it''s a dependency of the addons &c<dependants>&f. Uninstall those addons before this one.'
+        Singular: '&fAddon &c<addon> &fcan''t be uninstalled because it''s a dependency of the addon &c<dependants>&f. Uninstall that addon before this one.'
+    Success: '&fAddon &c<addon> &fwill be uninstalled when the server stops or restarts.'
+
+Confirm:
+  Error:
+    Nothing Pending: '&fThere is nothing pending to confirm.'
+    Not Found: '&fA confirmation with id &a<id>&f was not found. Use &a&n/<label> list&f to see confirmations available.'
+  Inventory:
+    Items:
+      Cancel:
+        Display Name: '&4&lCancel'
+        Lore: '&cClick to cancel operation.'
+      Confirm:
+        Display Name: '&2&lConfirm'
+        Lore: '&aClick to confirm operation.'
+  List:
+    Confirmation: ' &f<id> &7- <description>'
+    Header: '&8List of pending confirmations:'
+
+Description:
+  Header: 'List of PlayMoreSounds commands:'
+  Help: '&fType "&a&n/<label> help&f" to see the list of commands.'
+  No Permission: '&fYou don''t have permission to use any commands.'
+
+Disc:
+  Error:
+    Not Found: '&fA disc with the ID "&a<id>&f" was not found.'
+  Success: '&fGiving the disc &a<id>&f to &b<target>&f.'
+
+General:
+  And: and
+  Description: description
+  Everyone: Everyone
+  Id: id
+  Invalid Arguments: '&fIncorrect command syntax! Use "&a/&n<label> <label2> <args>&f".'
+  Name: name
+  No Permission: '&fYou don''t have permission to do this!'
+  Nobody Online: '&fThere are no online players on the server.'
+  Not A Number: '&fThe value "&a<number>&f" is not a valid number!'
+  Not A Player: '&fYou must be a player to do this.'
+  Player: player
+  Player Not Found: '&fThe player "&a<player>&f" was not found.'
+  Prefix: '&#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF'
+  Target: target
+  Unknown Command: '&fUnknown command. Use "&a&n/<label> help&f" to see the list of commands available to you.'
+  World: world
+  You: You
+
+Help:
+  Addons: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> addons &8- &7Opens a GUI that helps you install addons.
+  Check: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> check [target] &8- &7Checks if sounds are enabled.
+  Confirm: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> confirm [id|page] &8- &7Confirms something.
+  Disc: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> disc <id> [target] &8- &7Gives a configured custom disc.
+  Footer: 'View more commands with &a&n/<label> help <next>'
+  Header: 'PlayMoreSounds commands (Page <page> of <totalPages>):'
+  Help: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> help &8- &7Shows the description of commands.
+  List: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> list [page] [--gui] &8- &7Shows the sounds available on your version.
+  Play: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> play <sound> [target] [vol] [pitch] &8- &7Plays a sound.
+  Region: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> region <create|info|list|remove|rename|set|teleport|wand> &8- &7Regions command.
+  Reload: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> reload &8- &7Reloads configurations and events.
+  Stop Sound: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> stopsound [target] [sounds] &8- &7Stops sounds from playing.
+  Toggle: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> toggle [target] [on|off] &8- &7Enables or disables sounds from playing.
+  Update: |-
+    &#16BFF5・&lSURVIVAL &#6D6D6D▶ &#DFDFDF/<label> update [download] [--force] &8- &7Checks and downloads updates.
+
+List:
+  Chat:
+    Alternate Color: '&8'
+    Color: '&e'
+    Error:
+      Not Exists: '&fThe page &a<page>&f doesn''t exist! Max: <totalpages>.'
+    Footer: '&f&l - &aView more sounds with "&f/&n<label> list <page>&a"'
+    Header: '&fList of available sounds [Page <page> of <totalpages>]:'
+    Separator: '&f, '
+    Sound Tooltip: '&fClick to play the sound &a<sound>'
+  Inventory:
+    Items:
+      Next Page:
+        Display Name: '&f&lNext page'
+        Lore: ' Click to go to the next page.'
+      Previous Page:
+        Display Name: '&f&lPrevious page'
+        Lore: ' Click to go to the previous page.'
+      Sound:
+        Display Name: '&a&n<sound>'
+        Lore: ' Click to play this sound.'
+      Stop Sound:
+        Display Name: '&c&lStop Sounds'
+        Lore: ' Stop all currently playing sounds.'
+    Title: '&8List of sounds, page &c<page>&8 of &c<totalpages>&8'
+  Page: page
+
+Play:
+  Error:
+    Invalid Sound: '&fThe value "&a<sound>&f" has invalid sound characters.'
+    Not A Section: '&fThe section "&a<section>&f" in the file &b<file>&f is not a valid sound!'
+    Unauthorized: '&fYou can''t go in that folder!'
+    Unavailable: '&fThe sound <sound> is not available in this minecraft version.'
+  Pitch: pitch
+  Sound: sound
+  Success:
+    Config: '&fPlaying the sound &a<sound>&f of the file &b<file>&f to &a<player>&f.'
+    Default: '&fPlaying the sound &a<sound>&f with volume &b<volume>&f and pitch &a<pitch>&f to &a<player>&f.'
+  Volume: volume
+
+Region:
+  Create:
+    Default Description: A sound playing region.
+    Error:
+      Already Exists: '&fThis name was already taken, choose another.'
+      Default: '&fSomething went wrong while creating the region "&a<name>&f".'
+      Different Worlds: '&fYour selections are in different worlds!'
+      Max Area: '&fThe selected area exceeds the maximum of <max> blocks.'
+      Max Regions: '&fYou cannot create more than <max> regions.'
+      Not Selected: '&fYou did not select positions, type &a&n/<label> <label2> wand&f to get the region selection tool.'
+    Success: '&fThe region &a<name>&f was created successfully.'
+  General:
+    Error:
+      Illegal Characters: '&fRegion names can only have alpha-numeric characters.'
+      Max Name Characters: '&fRegion names cannot be longer than <max> characters.'
+      Not Found:
+        Name: '&fNo region with that name was found. Type &a/<label> <label2> list&f to see the list of regions.'
+        UUID: '&fNo region with that UUID was found. Type &a/<label> <label2> list&f to see the list of regions.'
+      Save: '&fSomething went wrong while saving <name> region.'
+  Info:
+    Creation Date: '&fCreation Date:&f <date>'
+    Description: '&fDescription:&f <description>'
+    Error:
+      No Regions: '&fThere are no regions on this location.'
+    Header: '&8Information of the region &f<name>&8:'
+    Id: '&fUUID:&f <uuid>'
+    Owner: '&fOwner:&f <owner>'
+    World: '&fWorld:&f <world>'
+  List:
+    Error:
+      No Regions: '&f<targets> have no regions.'
+      Not Exists: '&fThe page &a<page>&f doesn''t exist! Max: <totalPages>.'
+    Footer: '&8Type &7/<label> <label2> <label3> <label4> <next>&8 to see more regions.'
+    Header:
+      Default: '&8Your regions [Page <page> of <totalPages>]:'
+      Player: '&8Regions of <targets> [Page <page> of <totalPages>]:'
+    Region: '&7- <uuid>: &f<name>'
+  Region: region
+  Remove:
+    Confirm: '&fType &a/<label> confirm&f to confirm the removal of the region &b<region>&f.'
+    Description: Delete the region <region>
+    Success: '&fThe region &a<region>&f was deleted successfully.'
+  Rename:
+    Error:
+      Already Exists: '&fThe new name was already taken, chose another.'
+      Same: '&fThe new name is not different than the previous.'
+    New Name: new name
+    Success: '&fThe region &a<region> &fwas renamed to &b<newName>&f.'
+  Select:
+    Error:
+      Overlap: '&fAn already existing region is on that location!'
+  Set:
+    Description:
+      Error:
+        Max Characters: '&fRegion descriptions cannot be longer than 100 characters.'
+      Success: '&fDescription of &a<region> region &fwas set to &b<description>&f.'
+    Select:
+      Error:
+        Not A World: '&fThe value &c<value>&f is not a valid world.'
+      Position:
+        First: '&fFirst position selected! World: &a<w>&f, X: &a<x>&f, Y: &a<y>&f, Z: &a<z>&f.'
+        Second: '&fSecond position selected! World: &a<w>&f, X: &a<x>&f, Y: &a<y>&f, Z: &a<z>&f.'
+  Teleport:
+    Success: '&fYou were teleported to region <region>.'
+  Wand:
+    Error:
+      Config: '&fYou are missing settings on your configuration. Wand could not be given.'
+    Success: '&fSelection tool: Left-click selects first position and Right-click selects second position.'
+
+Reload:
+  Error: '&fSomething went wrong while reloading config. PlayMoreSounds must be shut down immediately.'
+  Success: '&fConfiguration reloaded.'
+
+Resource Packs:
+  Error: '&fSomething went wrong while requesting <player> to download the resource pack. Please try another URL.'
+  Download Failed:
+    Failed: '&fResource Pack download failed. If you want this server''s full experience, please re-join to try the download again. If this error persists, please contact an administrator.'
+    Administrator: '&fThe player <player> tried to join but failed to download the resource pack. Type &7&n/pms confirm&c to allow this player to join without a resource pack.'
+    Confirmation: 'Allow <player> to join'
+  Kick Message:
+    Declined: '&fYou must accept the resource pack to play on this server.'
+    Download Fail: '&fSomething went wrong while downloading the resource pack. Please try joining again.'
+  Request Message: '&fPlease download the resource pack to continue.'
+
+Stop Sound:
+  Success:
+    All: '&fStopped all sounds playing to &a<target>&f.'
+    Default: '&fStopped &f<sounds>&f sounds playing to &a<target>&f.'
+
+Toggle:
+  Check:
+    Disabled:
+      Default: '&fYour sounds are disabled.'
+      Player: '&fSounds of &a<target>&f are &cdisabled&f.'
+    Enabled:
+      Default: '&fYour sounds are enabled.'
+      Player: '&fSounds of &a<target>&f are &aenabled&f.'
+  Disabled:
+    Default: '&fYour sounds were toggled to off!'
+    Player: '&fToggled the sounds of &a<target>&f to off!'
+  Enabled:
+    Default: '&fYour sounds were toggled to on!'
+    Player: '&fToggled the sounds of &a<target>&f to on!'
+
+Update:
+  Available: '&fPlayMoreSounds v<version> is available. Download the latest version using &a&n/pms update download&f.'
+  Check: '&fChecking for updates...'
+  Download:
+    Checking: '&fChecking if an update is available for download...'
+    Confirmation:
+      Not Latest:
+        Deleted: '&fOlder downloaded version of PlayMoreSounds was deleted.'
+        Description: 'Delete the downloaded update with older version.'
+      Not Supported:
+        Deleted: '&fUnsupported downloaded version of PlayMoreSounds was deleted.'
+        Description: 'Delete the unsupported update.'
+    Deleted Downloaded: '&fA download of an update was already found. Deleting it and downloading again.'
+    Downloading:
+      Default: '&fAn update was found and is being downloaded.'
+      Forcefully: '&fDownloading latest version available of PlayMoreSounds...'
+    Error:
+      Not Latest: '&fYou downloaded PlayMoreSounds version &a<downloaded>&f which is older than the current installed version: &b<current>&f. Type &a&n/pms confirm&f to delete the older version.'
+      Not Supported: '&fThe downloaded update was made for Spigot &a<apiversion>&f and you are currently using Spigot &b<current>&f. If you proceed to install this version, PlayMoreSounds will stop working on your server. Type &a&n/pms confirm&f to delete the unsupported version.'
+    Success: '&fPlayMoreSounds v<version> was downloaded successfully and will be installed the next time you restart your server.'
+  Error:
+    Default: '&fSomething went wrong while using updater.'
+    Offline: '&fYou are offline or spigotmc.org is down.'
+    Timeout: '&fTook too long to establish a connection.'
+  Not Available: '&fNo updates available.'

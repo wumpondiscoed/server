@@ -1,0 +1,221 @@
+menu_title: '            &#2E2E2E▸ ᴊᴏʙs ᴍᴇɴᴜ ◂'
+size: 36
+open_command:
+- jobs browse
+- jobs
+items:
+  'background_menu_1':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+  'background_menu_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+  'miner_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQzY2EwNmE4NmNlMzJkYTQ4MDQwM2M5YjVlMGY3N2I4Y2ZhMjZkYWM2OGMzMDIyNGRkYzJkMDU2ZmZmZWE3In19fQ==
+    slots:
+    - 10
+    display_name: ' &#00fbfb⛏ ᴍ&#00f0fbɪ&#00e6fcɴ&#00dbfcᴇ&#00d1fcʀ &#00c6fcᴊ&#00bcfdᴏ&#00b1fdʙ (%jobsr_totalplayers_miner%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ᴍɪɴɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#00fbfbᴍɪɴᴇ ᴏʀᴇs'
+    - ''
+    - ' &#00fbfb&nʟ&#00f6fb&nᴇ&#00f1fb&nꜰ&#00ecfb&nᴛ&#00e7fc&n-&#00e2fc&nᴄ&#00ddfc&nʟ&#00d8fc&nɪ&#00d4fc&nᴄ&#00cffc&nᴋ &#00cafc&nᴛ&#00c5fc&nᴏ &#00c0fd&nᴊ&#00bbfd&nᴏ&#00b6fd&nɪ&#00b1fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join miner'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave miner'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'fisherman_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAxZjc0OTIwYzRkNWMwY2Q0YzY1MDk5NThmMDQ5YjA2MDhmMjM2N2RhMDAzNWNhNWUxNTQyYzc1NjU2Y2JjMSJ9fX0=
+    slots:
+    - 11
+    display_name: ' &#00bffb🎣 ꜰ&#00bafbɪ&#00b4fbs&#00affcʜ&#00aafcᴇ&#00a4fcʀ&#009ffcᴍ&#0099fcᴀ&#0094fcɴ &#008ffdᴊ&#0089fdᴏ&#0084fdʙ (%jobsr_totalplayers_fisherman%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ꜰɪsʜɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#00bffbᴄᴀᴛᴄʜ ꜰɪsʜ'
+    - ''
+    - ' &#00bffb&nʟ&#00bbfb&nᴇ&#00b7fb&nꜰ&#00b3fb&nᴛ&#00affc&n-&#00abfc&nᴄ&#00a7fc&nʟ&#00a3fc&nɪ&#00a0fc&nᴄ&#009cfc&nᴋ &#0098fc&nᴛ&#0094fc&nᴏ &#0090fd&nᴊ&#008cfd&nᴏ&#0088fd&nɪ&#0084fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join fisherman'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave fisherman'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'hunter_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IyOTAzYjUxZTE2ZGE3ZDc3OGI3ZDAzNTJjM2ZmMDhhMjEyNDViYzQ3NmI3M2NkYjgyNDE3YmE0ZmY4YTEzOSJ9fX0=
+    slots:
+    - 12
+    display_name: ' &#FF0000🗡 ʜᴜɴᴛᴇʀ ᴊᴏʙ (%jobsr_totalplayers_hunter%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ᴋɪʟʟɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#FF0000ᴋɪʟʟ ᴀɴɪᴍᴀʟs'
+    - '  &8- &#FF0000ᴋɪʟʟ ᴘʟᴀʏᴇʀs'
+    - '  &8- &#FF0000ᴋɪʟʟ ᴍᴏʙs'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join hunter'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave hunter'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'enchanter_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2MDU2MGNlNDY1ZGNkMzlmY2IwYzNjZTM2NWE4OGZmNWM4ZTEyM2NkYzRkMGU5NWU2ODJlNzBiOTI4MzM5MiJ9fX0=
+    slots:
+    - 13
+    display_name: ' &#fb00d3⚗ ᴇ&#f500d7ɴ&#ef00dbᴄ&#ea00deʜ&#e400e2ᴀ&#de00e6ɴ&#d800eaᴛ&#d200eeᴇ&#cc00f2ʀ &#c700f5ᴊ&#c100f9ᴏ&#bb00fdʙ (%jobsr_totalplayers_enchanter%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ᴇɴᴄʜᴀɴᴛɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#fb00d3ᴇɴᴄʜᴀɴᴛ ʙᴏᴏᴋs'
+    - ''
+    - ' &#fb00d3&nʟ&#f700d6&nᴇ&#f200d9&nꜰ&#ee00db&nᴛ&#ea00de&n-&#e600e1&nᴄ&#e100e4&nʟ&#dd00e7&nɪ&#d900e9&nᴄ&#d500ec&nᴋ &#d000ef&nᴛ&#cc00f2&nᴏ &#c800f5&nᴊ&#c400f7&nᴏ&#bf00fa&nɪ&#bb00fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join enchanter'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave enchanter'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'explorer_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE5MGYxNDQ5YzYzZDcxZjk2ZmMxZTEyODQwYjEyNTg4M2QxNjk0OTlhMTIzYmMwMjljMzUzZGI3ZTE5ZWQxYSJ9fX0=
+    slots:
+    - 14
+    display_name: ' &#fba600🔥 ᴇ&#fba000x&#fb9a00ᴘ&#fc9400ʟ&#fc8e00ᴏ&#fc8800ʀ&#fc8200ᴇ&#fc7c00ʀ &#fd7600ᴊ&#fd7000ᴏ&#fd6a00ʙ (%jobsr_totalplayers_explorer%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ᴇxᴘʟᴏʀɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#fba600ᴇxᴘʟᴏʀᴇ ᴄʜᴜɴᴋs'
+    - ''
+    - ' &#fba600&nʟ&#fba200&nᴇ&#fb9e00&nꜰ&#fb9a00&nᴛ&#fc9600&n-&#fc9200&nᴄ&#fc8e00&nʟ&#fc8a00&nɪ&#fc8600&nᴄ&#fc8200&nᴋ &#fc7e00&nᴛ&#fc7a00&nᴏ &#fd7600&nᴊ&#fd7200&nᴏ&#fd6e00&nɪ&#fd6a00&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join explorer'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave explorer'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'farmer_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+    slots:
+    - 15
+    display_name: ' &#f6fb00☀ ꜰ&#f7f100ᴀ&#f8e600ʀ&#f9dc00ᴍ&#fad100ᴇ&#fac700ʀ &#fbbc00ᴊ&#fcb200ᴏ&#fda700ʙ (%jobsr_totalplayers_farmer%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ꜰᴀʀᴍɪɴɢ'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#f6fb00ᴛᴀᴍᴇ ᴀɴɪᴍᴀʟs'
+    - '  &8- &#f6fb00ʙʀᴇᴇᴅ ᴀɴɪᴍᴀʟs'
+    - '  &8- &#f6fb00sʜᴇᴀʀ ᴀɴɪᴍᴀʟs'
+    - '  &8- &#f6fb00ʙʀᴇᴀᴋ/ᴘʟᴀᴄᴇ'
+    - ''
+    - ' &#f6fb00&nʟ&#f6f500&nᴇ&#f7f000&nꜰ&#f7ea00&nᴛ&#f8e500&n-&#f8df00&nᴄ&#f9d900&nʟ&#f9d400&nɪ&#face00&nᴄ&#fac900&nᴋ &#fbc300&nᴛ&#fbbd00&nᴏ &#fcb800&nᴊ&#fcb200&nᴏ&#fdad00&nɪ&#fda700&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join farmer'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave farmer'
+    - '[sound] BLOCK_ANVIL_BREAK'
+  'builder_job':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+    slots:
+    - 16
+    display_name: ' &#8dfb00🪓 ʙ&#80fb00ᴜ&#72fb00ɪ&#65fc00ʟ&#57fc00ᴅ&#4afc00ᴇ&#3cfc00ʀ &#2ffd00ᴊ&#21fd00ᴏ&#14fd00ʙ (%jobsr_totalplayers_builder%)'
+    lore:
+    - '&8&nᴊᴏʙ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fᴊᴏɪɴ ᴛᴏ ᴛʜᴇ ᴊᴏʙ'
+    - ' &fᴀɴᴅ sᴛᴀʀᴛ ʙʟᴏᴄᴋs'
+    - ' &7(ᴛᴏ ɢᴇᴛ ᴄᴏɪɴs)'
+    - ''
+    - ' &7● &fᴛᴀsᴋs:'
+    - '  &8- &#8dfb00ᴘʟᴀᴄᴇ ʙʟᴏᴄᴋs'
+    - ''
+    - ' &#8dfb00&nʟ&#85fb00&nᴇ&#7dfb00&nꜰ&#75fb00&nᴛ&#6dfc00&n-&#65fc00&nᴄ&#5dfc00&nʟ&#55fc00&nɪ&#4cfc00&nᴄ&#44fc00&nᴋ &#3cfc00&nᴛ&#34fc00&nᴏ &#2cfd00&nᴊ&#24fd00&nᴏ&#1cfd00&nɪ&#14fd00&nɴ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs join builder'
+    - '[sound] BLOCK_ANVIL_USE'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave builder'
+    - '[sound] BLOCK_ANVIL_BREAK'

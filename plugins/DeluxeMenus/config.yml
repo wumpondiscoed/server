@@ -1,0 +1,60 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: false
+gui_menus:
+  bar_menu:
+    file: bar_menu/bar_menu.yml
+  rtp_menu:
+    file: rtp_menu/rtp_menu.yml
+  skills_menu:
+    file: skills_menus/skills_menu.yml
+  strength_upgrades:
+    file: skills_menus/strength_upgrades.yml
+  strength_upgrades_2:
+    file: skills_menus/strength_upgrades_2.yml
+  criticals_upgrades:
+    file: skills_menus/criticals_upgrades.yml
+  criticals_upgrades_2:
+    file: skills_menus/criticals_upgrades_2.yml
+  resistance_upgrades:
+    file: skills_menus/resistance_upgrades.yml
+  resistance_upgrades_2:
+    file: skills_menus/resistance_upgrades_2.yml
+  archery_upgrades:
+    file: skills_menus/archery_upgrades.yml
+  archery_upgrades_2:
+    file: skills_menus/archery_upgrades_2.yml
+  health_upgrades:
+    file: skills_menus/health_upgrades.yml
+  health_upgrades_2:
+    file: skills_menus/health_upgrades_2.yml
+  kits_menu:
+    file: kits_menus/kits_menu.yml
+  spring_kit_preview:
+    file: kits_menus/spring_kit_preview.yml
+  summer_kit_preview:
+    file: kits_menus/summer_kit_preview.yml
+  autumn_kit_preview:
+    file: kits_menus/autumn_kit_preview.yml
+  winter_kit_preview:
+    file: kits_menus/winter_kit_preview.yml
+  main_menu:
+    file: main_menu/main_menu.yml
+  warps_menu:
+    file: warps_menu/warps_menu.yml
+  protections_menu:
+    file: protections_menu/protections_menu.yml
+  jobs_menu:
+    file: jobs_menu/jobs_menu.yml
+  tags_menu:
+    file: tags_menu/tags_menu.yml
+  tags_menu_2:
+    file: tags_menu/tags_menu_2.yml
+  quest_menu:
+    file: quests_menu/quest_menu.yml
+  shop_menu:
+    file: shop_menu/shop_menu.yml

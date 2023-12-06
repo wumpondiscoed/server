@@ -1,0 +1,24 @@
+location: Spawn:-54.500:62.200:-6.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#5FFB00>&lJOBS MENU</#00FD0A>'
+    height: 0.3
+  - content: '&7ᴇᴄᴏɴᴏᴍʏ ᴍᴀɴᴀɢᴇʀ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ ᴀ <#5FFB00>ᴊᴏʙ &fᴀɴᴅ sᴛᴀʀᴛ <#5FFB00>ᴍᴀᴋɪɴɢ ᴍᴏɴᴇʏ'
+    height: 0.3
+  - content: '&fᴄʜᴏᴏsᴇ ʏᴏᴜʀ <#0ADA00>ꜰᴀᴠᴏʀɪᴛᴇ &fᴘʀᴏꜰᴇssɪᴏɴ!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#5FFB00>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#00FD0A>'
+    height: 0.3
+  actions: {}

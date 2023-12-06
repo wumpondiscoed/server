@@ -1,0 +1,104 @@
+Messages:
+  prefix: ' #8dfb00&l&nK#6afc0e&l&nI#47fc1c&l&nT#23fd2a&l&nS#00fd38 &l| &r'
+  noPermissions: '&fYou don''t have permissions for that.'
+  commandCreateError: '&fYou need to use: #00fd38/kit create <name>'
+  commandDeleteError: '&fYou need to use: #00fd38/kit delete <name>'
+  commandClaimError: '&fYou need to use: #00fd38/kit claim <kit>'
+  commandGiveError: '&fYou need to use: #00fd38/kit give <kit> <player>'
+  commandEditError: '&fYou need to use: #00fd38/kit edit <kit>'
+  commandPreviewError: '&fYou need to use: #00fd38/kit preview <kit>'
+  commandOpenError: '&fYou need to use: #00fd38/kit open <player> <page>'
+  kitAlreadyExists: '&fThe kit #00fd38%name% &falready exists on the config.'
+  kitDoesNotExists: '&fThe kit #00fd38%name% &fdoesn''t exists.'
+  inventoryEmpty: '&fYou need at least 1 item on your inventory to create a kit.'
+  kitCreated: '&fKit #00fd38%name% &fcreated correctly.'
+  kitRemoved: '&fKit #00fd38%name% &fremoved correctly.'
+  kitReceived: '&fKit #00fd38%name% &freceived.'
+  configReload: '&fConfig Reloaded.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  cooldownPlaceholderReady: 'ᴀᴠᴀɪʟᴀʙʟᴇ ✔'
+  cooldownError: '&fYou need to wait #FF0000%time% &fto claim this kit again.'
+  kitNoPermissions: '&fYou don''t have permissions to claim this kit.'
+  kitInCooldownLore:
+  - ''
+  commandList: ''
+  commandListKit: ''
+  commandListKitNoPermissions: ''
+  commandListKitInCooldown: ''
+  commandListKitOneTime: ''
+  noSpaceError: '&fYou don''t have enough space in your inventory.'
+  materialNameError: '&fThere is an error on your config. Material: #FF0000%material% &fis not valid for your Minecraft version.'
+  oneTimeError: '&fYou can''t claim this kit again.'
+  kitOneTimeLore:
+  - ''
+  previewInventoryName: ''
+  backItemName: ''
+  playerNotOnline: '&fPlayer #05fd00%player% &fis not online.'
+  kitGive: '&fKit #05fd00%kit% &fgiven to #05fd00%player%&f!'
+  noMoneyError: '&fYou don''t have enough money to claim this kit. &8(#05fd00$%current_money%&7/#05fd00$%required_money%&8)'
+  moneyInventoryName: ''
+  moneyInventoryYes: ''
+  moneyInventoryNo: ''
+  moneyInventoryConfirmationName: ''
+  moneyInventoryConfirmationLore:
+  - ''
+  kitInventoryOpen: ''
+  errorPage: ''
+  commandResetError: '&fYou need to use: #05fd00/kit reset <kit> <player>'
+  kitResetCorrect: '&fKit #05fd00%kit% &freset for #05fd00%player%&f!'
+  kitResetFail: '&fNot possible to reset kit #05fd00%kit% &ffor #05fd00%player%&f!'
+  noPreviewError: '&fThere is nothing to preview for this kit.'
+  cantPreviewError: '&fYou can''t preview this kit.'
+Config:
+  inventorySize: 45
+  previewInventorySize: 54
+  preview_inventory_back_item_slot: 45
+  kit_preview: true
+  kit_preview_back_item: true
+  hide_kits_with_permissions: false
+  close_inventory_on_claim: false
+  drop_items_if_full_inventory: false
+  commands_before_items: false
+  preview_inventory_requires_permission: false
+  claim_kit_short_command: false
+  kit_error_sound: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  kit_claim_sound: ENTITY_PLAYER_LEVELUP;10;1.5
+  kit_page_sound: BLOCK_LAVA_POP;10;1
+  update_notify: false
+  player_data_save_time: 300
+  nbt_alternative_data_save: false
+  inventory_pages_names:
+    '1': ''
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+  Inventory:
+    '0':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '8':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '36':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '44':
+      id: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '18':
+      id: PLAYER_HEAD
+      name: '&6Previous Page'
+      skulldata: 2391d533-ab09-434d-9980-adafde4057a3;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      type: previous_page
+    '26':
+      id: PLAYER_HEAD
+      name: '&6Next Page'
+      skulldata: d513d666-0992-42c7-9aa6-e518a83e0b38;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      type: next_page

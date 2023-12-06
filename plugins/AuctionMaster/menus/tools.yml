@@ -1,0 +1,16 @@
+tools-menu-item: '280'
+tools-menu-name: ' &8● &X&a&b&f&b&0&0ᴛ&X&8&2&f&c&0&0ᴏ&X&5&8&f&c&0&0ᴏ&X&2&f&f&d&0&0ʟ&X&0&5&f&d&0&0s'
+tools-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ'
+  - ' &fᴄᴀɴ ꜰɪɴᴅ ᴀʟʟ ᴛʜᴇ'
+  - ' &fᴍɪɴᴇᴄʀᴀꜰᴛ ᴛᴏᴏʟs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

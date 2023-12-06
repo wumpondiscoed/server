@@ -1,0 +1,17 @@
+others-menu-item: '32'
+others-menu-name: ' &8● &X&a&b&f&b&0&0ᴏ&X&8&a&f&b&0&0ᴛ&X&6&9&f&c&0&0ʜ&X&4&7&f&c&0&0ᴇ&X&2&6&f&d&0&0ʀ&X&0&5&f&d&0&0s'
+others-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ ᴄᴀɴ'
+  - ' &fꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ᴛʜᴀᴛ ɪs'
+  - ' &fᴀᴜᴄᴛɪᴏɴᴀʙʟᴇ ᴀɴᴅ ɴᴏᴛ'
+  - ' &fɪɴ ᴏᴛʜᴇʀ ᴄᴀᴛᴇɢᴏʀɪᴇs.'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

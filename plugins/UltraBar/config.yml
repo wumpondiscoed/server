@@ -1,0 +1,142 @@
+#
+#                        UltraBar                          #
+config_version: 1
+bstats: false
+update_checker: false
+save_persistent_bars: true
+OnJoin:
+  BossBar:
+    Enabled: false
+    Message: ''
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: ''
+    SubTitle: ''
+    fadein: 5
+    fadeout: 5
+    time: 20
+  ActionBar:
+    Enabled: false
+    Message: ''
+OnDeath:
+  BossBar:
+    Enabled: false
+    Message: ''
+    Color: green
+    Time: 10
+    Style: '6'
+    Health: 1
+  Title:
+    Enabled: false
+    Message: ''
+    SubTitle: ''
+    fadein: 40
+    fadeout: 40
+    time: 40
+  ActionBar:
+    Enabled: false
+    Message: ''
+OnCommand:
+  examplecmd:
+    BossBar:
+      Message: '&6You ran a command!'
+      Color: green
+      Time: 10
+      Style: '6'
+      Health: 1
+    ActionBar:
+      Message: '&6ActionBars can be used&6!'
+    Title:
+      Message: '&6Along with titles.&6'
+      SubTitle: '&bThese support placeholderapi!'
+      fadein: 5
+      fadeout: 5
+      time: 20
+  list:
+  - nothing
+  nothing:
+    BossBar:
+      Message: ''
+      Color: green
+      Time: 10
+      Style: '6'
+      Health: 1
+    ActionBar:
+      Message: ''
+    Title:
+      Message: ''
+      SubTitle: ''
+      fadein: 40
+      fadeout: 40
+      time: 50
+BossBarMessages:
+  Enabled: true
+  World_Whitelist_Enabled: true
+  Random_Order: false
+  No_Progress: true
+  World_Whitelist:
+  - Spawn
+  - Mines
+  - world
+  - world_nether
+  Messages:
+    Message1:
+      Time: 1
+      Message: '&x&f&f&f&5&0&1ᴘ&x&f&f&f&1&0&1ʟ&x&f&f&e&d&0&1ᴀ&x&f&f&e&9&0&1ʏ&x&f&f&e&5&0&1ɪ&x&f&f&e&1&0&1ɴ&x&f&e&d&d&0&1ɢ &x&f&e&d&9&0&1ᴏ&x&f&e&d&5&0&1ɴ &x&f&e&d&1&0&1ᴘ&x&f&e&c&d&0&1ʟ&x&f&e&c&9&0&1ᴀ&x&f&e&c&4&0&0ʏ&x&f&e&c&0&0&0.&x&f&e&b&c&0&0s&x&f&e&b&8&0&0ᴇ&x&f&e&b&4&0&0ʀ&x&f&e&b&0&0&0ᴠ&x&f&d&a&c&0&0ᴇ&x&f&d&a&8&0&0ʀ&x&f&d&a&4&0&0.&x&f&d&a&0&0&0ᴄ&x&f&d&9&c&0&0ᴏ&x&f&d&9&8&0&0ᴍ'
+      Color: yellow
+      Style: '6'
+      Perm: true
+    Message2:
+      Message: '&x&f&f&f&5&0&1ᴘ&x&f&f&f&1&0&1ʟ&x&f&f&e&d&0&1ᴀ&x&f&f&e&9&0&1ʏ&x&f&f&e&5&0&1ɪ&x&f&f&e&1&0&1ɴ&x&f&e&d&d&0&1ɢ &x&f&e&d&9&0&1ᴏ&x&f&e&d&5&0&1ɴ &x&f&e&d&1&0&1ᴘ&x&f&e&c&d&0&1ʟ&x&f&e&c&9&0&1ᴀ&x&f&e&c&4&0&0ʏ&x&f&e&c&0&0&0.&x&f&e&b&c&0&0s&x&f&e&b&8&0&0ᴇ&x&f&e&b&4&0&0ʀ&x&f&e&b&0&0&0ᴠ&x&f&d&a&c&0&0ᴇ&x&f&d&a&8&0&0ʀ&x&f&d&a&4&0&0.&x&f&d&a&0&0&0ᴄ&x&f&d&9&c&0&0ᴏ&x&f&d&9&8&0&0ᴍ'
+      Color: yellow
+      Style: '6'
+      Perm: true
+      Time: 1
+    Message3:
+      Message: '&x&f&f&f&5&0&1ᴘ&x&f&f&f&1&0&1ʟ&x&f&f&e&d&0&1ᴀ&x&f&f&e&9&0&1ʏ&x&f&f&e&5&0&1ɪ&x&f&f&e&1&0&1ɴ&x&f&e&d&d&0&1ɢ &x&f&e&d&9&0&1ᴏ&x&f&e&d&5&0&1ɴ &x&f&e&d&1&0&1ᴘ&x&f&e&c&d&0&1ʟ&x&f&e&c&9&0&1ᴀ&x&f&e&c&4&0&0ʏ&x&f&e&c&0&0&0.&x&f&e&b&c&0&0s&x&f&e&b&8&0&0ᴇ&x&f&e&b&4&0&0ʀ&x&f&e&b&0&0&0ᴠ&x&f&d&a&c&0&0ᴇ&x&f&d&a&8&0&0ʀ&x&f&d&a&4&0&0.&x&f&d&a&0&0&0ᴄ&x&f&d&9&c&0&0ᴏ&x&f&d&9&8&0&0ᴍ'
+      Color: yellow
+      Style: '6'
+      Perm: true
+      Time: 1
+Title_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 20
+  '1':
+    Message: ''
+    SubTitle: ''
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '2':
+    Message: ''
+    SubTitle: ''
+    fadein: 5
+    fadeout: 5
+    time: 20
+  '3':
+    Message: ''
+    SubTitle: ''
+    fadein: 5
+    fadeout: 5
+    time: 20
+Action_Announcements:
+  Enabled: false
+  Random_Order: false
+  Number_Of_Messages: 3
+  Time: 10
+  '1':
+    Message: Message 1
+  '2':
+    Message: Message 2
+  '3':
+    Message: Message 3
+WorldGuardRegion:
+  Enabled: false
+  Message: ''
+  Message2: ''

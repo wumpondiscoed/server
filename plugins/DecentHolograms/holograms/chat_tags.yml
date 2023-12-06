@@ -1,0 +1,30 @@
+location: Spawn:-48.500:64.000:89.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#5FFB00>&lCHAT TAGS</#00FD0A>'
+    height: 0.3
+  - content: '&7sᴛʀᴇᴀᴋ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fsᴇᴛ ᴀ ᴄᴜsᴛᴏᴍ ᴛᴀɢ ᴛᴏ'
+    height: 0.3
+  - content: '&fᴅɪsᴘʟᴀʏ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ <#2FF1FD>ᴛᴀɢs &fɪɴ ᴛʜᴇ <#2FF1FD>ᴄʀᴀᴛᴇ ʀᴀʀᴇ'
+    height: 0.3
+  - content: '&fᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ sᴘᴀᴡɴ.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#5FFB00>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#00FD0A>'
+    height: 0.3
+  actions: {}

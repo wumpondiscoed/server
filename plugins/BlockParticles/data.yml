@@ -1,0 +1,145 @@
+locations:
+  main_menu:
+    world: Spawn
+    x: 5
+    y: 62
+    z: 16
+    particle: Witch
+  daily_rewards:
+    world: Spawn
+    x: -5
+    y: 62
+    z: 16
+    particle: Snow
+  spawn_point:
+    world: Spawn
+    x: 0
+    y: 64
+    z: 0
+    particle: Potion
+  random_teleport_2:
+    world: Spawn
+    x: -13
+    y: 60
+    z: 49
+    particle: Potion
+  random_teleport_1:
+    world: Spawn
+    x: 0
+    y: 60
+    z: 53
+    particle: Potion
+  random_teleport_3:
+    world: Spawn
+    x: 13
+    y: 60
+    z: 49
+    particle: Potion
+  leaderboard_money:
+    world: Spawn
+    x: 24
+    y: 61
+    z: 28
+    particle: Rainbow
+  leaderboard_kills:
+    world: Spawn
+    x: 24
+    y: 61
+    z: 32
+    particle: Rainbow
+  leaderboard_deaths:
+    world: Spawn
+    x: 24
+    y: 61
+    z: 36
+    particle: Rainbow
+  jobs_menu:
+    world: Spawn
+    x: -55
+    y: 57
+    z: -7
+    particle: Snow
+  fishing_contest:
+    world: Spawn
+    x: -79
+    y: 54
+    z: 69
+    particle: Snow
+  kits_menu:
+    world: Spawn
+    x: -22
+    y: 58
+    z: 101
+    particle: Snow
+  shop_npc:
+    world: Spawn
+    x: -71
+    y: 54
+    z: 102
+    particle: Snow
+  skills_npc:
+    world: Spawn
+    x: 92
+    y: 54
+    z: 4
+    particle: Potion
+  auction_house:
+    world: Spawn
+    x: 45
+    y: 63
+    z: 53
+    particle: Spiral
+  quests_menu:
+    world: Spawn
+    x: 82
+    y: 54
+    z: -26
+    particle: Snow
+  protections_menu:
+    world: Spawn
+    x: -43
+    y: 69
+    z: 68
+    particle: Snow
+  bounties_menu:
+    world: Spawn
+    x: 78
+    y: 54
+    z: 88
+    particle: Snow
+  bartender_menu:
+    world: Spawn
+    x: -78
+    y: 63
+    z: 11
+    particle: Snow
+  chat_tags:
+    world: Spawn
+    x: -49
+    y: 58
+    z: 89
+    particle: Snow
+  miscellaneous_shop:
+    world: Spawn
+    x: -66
+    y: 54
+    z: 61
+    particle: Snow
+  farming_shop:
+    world: Spawn
+    x: 79
+    y: 54
+    z: 65
+    particle: Snow
+  ores_shop:
+    world: Spawn
+    x: 91
+    y: 54
+    z: 25
+    particle: Snow
+  redstone_shop:
+    world: Spawn
+    x: 85
+    y: 54
+    z: 32
+    particle: Snow

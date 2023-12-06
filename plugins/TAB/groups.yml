@@ -1,0 +1,42 @@
+owner:
+  tabprefix: "&#FF0000&lOWNER &r"
+  tagprefix: "&#FF0000&lOWNER &r"
+admin:
+  tabprefix: "&#FF0000&lADMIN &r"
+  tagprefix: "&#FF0000&lADMIN &r"
+mod:
+  tabprefix: "&#8c57fd&lM&#7638fc&lO&#6018fb&lD &r"
+  tagprefix: "&#8c57fd&lM&#7638fc&lO&#6018fb&lD &r"
+helper:
+  tabprefix: "&#f39dfb&lH&#f57ef3&lE&#f75eec&lL&#f93fe4&lP&#fb1fdd&lE&#fd00d5&lR &r"
+  tagprefix: "&#f39dfb&lH&#f57ef3&lE&#f75eec&lL&#f93fe4&lP&#fb1fdd&lE&#fd00d5&lR &r"
+winter:
+  tabprefix: "&#65e9fb&lW&#51d8fb&lI&#3dc7fc&lN&#28b5fc&lT&#14a4fd&lE&#0093fd&lR &r"
+  tagprefix: "&#65e9fb&lW&#51d8fb&lI&#3dc7fc&lN&#28b5fc&lT&#14a4fd&lE&#0093fd&lR &r"
+autumn:
+  tabprefix: "&#de8bfb&lA&#da6ffb&lU&#d653fc&lT&#d238fc&lU&#ce1cfd&lM&#ca00fd&lN &r"
+  tagprefix: "&#de8bfb&lA&#da6ffb&lU&#d653fc&lT&#d238fc&lU&#ce1cfd&lM&#ca00fd&lN &r"
+summer:
+  tabprefix: "&#f7fb33&lS&#f8ea29&lU&#f9d91f&lM&#fbc914&lM&#fcb80a&lE&#fda700&lR &r"
+  tagprefix: "&#f7fb33&lS&#f8ea29&lU&#f9d91f&lM&#fbc914&lM&#fcb80a&lE&#fda700&lR &r"
+spring:
+  tabprefix: "&#abfb00&lS&#90fb00&lP&#75fc00&lR&#59fc00&lI&#3efd00&lN&#23fd00&lG &r"
+  tagprefix: "&#abfb00&lS&#90fb00&lP&#75fc00&lR&#59fc00&lI&#3efd00&lN&#23fd00&lG &r"
+default:
+  tabprefix: "&7"
+  tagprefix: "&7"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: "%luckperms-prefix%"
+  customtabname: "%player%"
+  customtagname: "%player%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

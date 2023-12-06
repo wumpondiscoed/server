@@ -1,0 +1,463 @@
+## Extra Information:
+## This is the default language file for CombatLogX.
+## The default language is "en_us", also known as English (United States).
+## Context will be added as YAML comments above the string.
+
+## The color scheme for messages is gold, white, and sometimes red.
+## Command feedback that is successful should always be green.
+## Error messages should always be red.
+## Variables in messages can be gray or white.
+
+## Messages use the MiniMessage format in non-strict mode.
+## More information about MiniMessage can be found here:
+## https://docs.adventure.kyori.net/minimessage/format.html
+
+---
+# The language code for this file.
+language-name: "en_us"
+
+# The format for decimal numbers.
+# The United States uses the number and two decimal places
+decimal-format: "0.00"
+
+# The prefix for CombatLogX that is shown in front of all messages.
+# Note to translators: Do not change this message.
+prefix: "<#FFEC00>・<BOLD>SURVIVAL <#6D6D6D>▶"
+
+broadcast:
+  # Shown when the plugin is finished loading.
+  on-load: "<#DFDFDF>CombatLogX was loaded successfully."
+
+  # Shown when the plugin is finished enabling.
+  on-enable: "<#DFDFDF>CombatLogX was enabled successfully."
+
+  # Shown when the plugin is disabled for any reason.
+  on-disable: "<#DFDFDF>CombatLogX was disabled successfully."
+
+placeholder:
+  # This text is used for the {combatlogx_time_left}
+  # This allows server configurations to change the display value of the zero to something like "Not in combat"
+  time-left-zero: "0"
+
+  # This text is used when a player does not have an enemy.
+  # This can happen when players are tagged by a custom expansion or the tag command.
+  unknown-enemy: "Unknown"
+
+  status:
+    # Shown when the player is in combat.
+    fighting: "<#FF0000>Fighting"
+    in-combat: "<#3EFF00>Yes"
+
+    # Shown when the player is not in combat
+    idle: "<#FFEC00>Idle"
+    not-in-combat: "<#FFEC00>No"
+
+  # These placeholders are shown when a player changes a value such as whether or not their bossbar is enabled.
+  toggle:
+    enabled: "<#3EFF00>ON"
+    disabled: "<#FF0000>OFF"
+
+  pvp-status:
+    enabled: "<#3EFF00>ON"
+    disabled: "<#FF0000>OFF"
+
+combat-timer:
+  # Sent to a player when they escape from combat due to the timer running out.
+  expire: "<#DFDFDF>You are no longer in combat."
+
+  # Sent to a player when they escape from combat due to their enemy being killed.
+  enemy-death: "<#DFDFDF>You are no longer in combat because your enemy died."
+
+  # Sent when a player is killed during combat.
+  self-death: "<#DFDFDF>You are no longer in combat because you died."
+
+error:
+  # Shown when the console tries to execute a command made for players.
+  player-only: "<#DFDFDF>Only players can execute this command"
+
+  # Shown when a command that requires a player has invalid input.
+  invalid-target: "<#FFEC00>{target} <#DFDFDF>is not online or does not exist."
+
+  # Shown when a command that requires a number has invalid input.
+  invalid-integer: "<#FFEC00>{value} <#DFDFDF>is not a valid integer."
+
+  # Shown when a command that requires a number has invalid input.
+  invalid-integer: "<#FFEC00>{value} <#DFDFDF>is not a valid integer."
+
+  # Shown when a player does not have access to something that requires a permission.
+  no-permission: "<#DFDFDF>Missing Permission: <#FF0000>{permission}"
+
+  # Shown when a player executes a command in a world that is disabled in the configuration.
+  disabled-world: "<#DFDFDF>That command is not available in this dimension."
+
+  # Shown when a command requires a player in combat but the target player is not in combat.
+  target-not-in-combat: "<#FF0000>{target} <#DFDFDF>is not in combat."
+
+  # Shown when a player executes a command that requires them to be in combat.
+  self-not-in-combat: "<#DFDFDF>You are not in combat."
+
+  # Shown when a command that requires an expansion has invalid input.
+  unknown-expansion: "<#FF0000>{target} <#DFDFDF>is not an expansion or is not installed."
+
+  forgive-not-enemy: "<#FF0000>{target} <#DFDFDF>is not one of your enemies."
+  enemy-not-forgiving: "<#DFDFDF>That enemy is not in the mood to forgive you."
+
+command:
+  combatlogx:
+    # Shown as the command output for '/combatlogx help'.
+    help-message-list:
+      - ""
+      - "CombatLogX Command Help:</gold>"
+      - "  /combatlogx help: View this help page."
+      - "  /combatlogx reload: Reload the config.yml, language.yml, and all expansion config files."
+      - "  /combatlogx about \\<expansion>: Check information about an expansion."
+      - "  /combatlogx tag \\<player> [seconds]: Force a player into combat."
+      - "  /combatlogx toggle bossbar/actionbar/scoreboard: Enable or disable a notification type."
+      - "  /combatlogx untag \\<player>: Force a player out of combat."
+      - "  /combatlogx version: Check your version of CombatLogX."
+      - "  /combatlogx forgive request \\<player>: Send a request to an enemy to remove their tag from you."
+      - "  /combatlogx forgive accept \\<player>: Allow an enemy's request to escape from combat."
+      - "  /combatlogx forgive reject \\<player>: Ignore an enemy's request to escape from combat."
+      - "  /combatlogx forgive toggle: Enable or disable requests for stopping combat."
+      - ""
+
+    # Shown as the command output for '/combatlogx reload' when reloading is successful.
+    reload-success:
+      - "<#DFDFDF>Successfully reloaded all configuration files from CombatLogX."
+      - "<#DFDFDF>Successfully reloaded all language files from CombatLogX."
+      - "<#DFDFDF>Successfully reloaded all configuration files from CombatLogX expansions."
+
+    # Shown as the command output for '/combatlogx reload' when reloading fails
+    reload-failure:
+      - "<#FF0000>An error occurred while reloading the configuration."
+      - "<#FF0000>Please check your server log and fix the broken file."
+
+    # Shown as the command output for '/combatlogx tag <player>' when a player is tagged successfully.
+    tag-player: "<#DFDFDF>Successfully forced player <#FFEC00>{target} into combat."
+
+    # Shown as the command output for '/combatlogx tag <player>' when the plugin failed to tag a player.
+    tag-failure: "<#FF0000>{target} <#DFDFDF>could not be placed into combat. (Maybe they have a bypass?)"
+
+    # Shown as the command output for '/combatlogx untag <player>'.
+    untag-player: "<#DFDFDF>Successfully forced player <#FFEC00>{target} <#DFDFDF>out of combat."
+
+    # Shown as the command output for '/combatlogx toggle bossbar'.
+    toggle-bossbar: "<#DFDFDF>Boss Bar: {status}"
+
+    # Shown as the command output for '/combatlogx toggle actionbar'.
+    toggle-actionbar: "<#DFDFDF>Action Bar: {status}"
+
+    # Shown as the command output for '/combatlogx toggle scoreboard'.
+    toggle-scoreboard: "<#DFDFDF>Scoreboard: {status}"
+
+    # Shown as the command output for '/combatlogx about <expansion>'.
+    expansion-information:
+      - ""
+      - "<white><bold>Expansion Information for</bold> <green>{name}</green><bold>:</bold></white>"
+      - "<white><bold>Display Name:</bold></white> <gray>{prefix}</gray>"
+      - "<white><bold>Version:</bold></white> <gray>{version}</gray>"
+      - "<white><bold>State:</bold></white> <gray>{state}</gray>"
+      - ""
+      - "<white><bold>Description:</bold></white> <gray>{description}</gray>"
+      - "<white><bold>Website:</bold></white> <gray>{website}</gray>"
+      - "<white><bold>Authors:</bold></white> <gray>{authors}</gray>"
+
+    forgive:
+      toggle-disable: "<#DFDFDF>You can no longer receive requests for forgiveness."
+      toggle-enable: "<#DFDFDF>You can now receive forgiveness requests."
+      request-sent: "<#DFDFDF>You sent a forgive request to <#FFEC00>{target}."
+      request-receive:
+        - "<#3EFF00>{player} <#DFDFDF>sent a forgive request to you."
+        - "<#DFDFDF>Type <click:run_command:/combatlogx forgive accept>/clx forgive accept</click> to accept or."
+        - "<#DFDFDF><click:run_command:/combatlogx forgive reject>/clx forgive reject</click> to deny."
+
+
+  combat-timer:
+    # Shown as the command output for '/combat-timer'.
+    time-left-self: "<#DFDFDF>You have <#FFEC00>{time_left} <#DFDFDF>seconds remaining."
+
+    # Shown as the command output for '/combat-timer <player>'.
+    time-left-other: "<#FFEC00>{target} <#DFDFDF>has <#FFEC00>{time_left} <#DFDFDF>seconds remaining."
+
+# These messages are shown a player is tagged into combat.
+# You can also change the location of these messages.
+# Example:
+# tagged:
+#   attacked:
+#     player:
+#       type: ACTION_BAR
+#       content: "<message here>"
+tagged:
+  unknown:
+    player: "<#DFDFDF>You are now in combat with <#FFEC00>{enemy} <#DFDFDF>for an unknown reason. Do not log out!"
+    mob: "<#DFDFDF>You are now in combat with a(n) <#FFEC00>{enemy} <#DFDFDF>for an unknown reason. Do not log out!"
+    mythic_mob: "<#DFDFDF>You are now in combat with a(n) <#FFEC00>{mob_type} <#DFDFDF>for an unknown reason. Do not log out!"
+    damage: "<#DFDFDF>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<#DFDFDF>You were placed into combat without a reason. Do not log out."
+
+  attacked:
+    player: "<#DFDFDF>You are being attacked by <#FFEC00>{enemy}<#DFDFDF>. Do not log out!"
+    mob: "<#DFDFDF>You are being attacked by a(n) <#FFEC00>{mob_type}<#DFDFDF>. Do not log out!"
+    mythic_mob: "<#DFDFDF>You are being attacked by a(n) <#FFEC00>{enemy}<#DFDFDF>. Do not log out!"
+    damage: "<#DFDFDF>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<#DFDFDF>You are being attacked by an unknown force. Do not log out!"
+
+  attacker:
+    player: "<#DFDFDF>You are attacking <#FFEC00>{enemy}<#DFDFDF>. Do not log out!"
+    mob: "<#DFDFDF>You are attacking a(n) <#FFEC00>{mob_type}<#DFDFDF>. Do not log out!"
+    mythic_mob: "<#DFDFDF>You are attacking a(n) <#FFEC00>{enemy}<#DFDFDF>. Do not log out!"
+    damage: "<#DFDFDF>You are now in combat due to taking damage. Do not log out!"
+    unknown: "<#DFDFDF>You are attacking an unknown force. Do not log out!"
+
+expansion:
+  angel-chest:
+    # Shown when opening an AngelChest is prevented during combat.
+    prevent-opening: "<#DFDFDF>You are not allowed to to open angel chests during combat."
+
+    # Shown when breaking an AngelChest is prevented during combat.
+    prevent-breaking: "<#DFDFDF>You are not allowed to break angel chests during combat."
+
+    # Shown when fast looting an AngelChest is prevented during combat.
+    prevent-fast-looting: "<#DFDFDF>You are not allowed to fast loot angel chests during combat."
+
+  action-bar:
+    # Shown above the hotbar while a player is in combat.
+    timer: "<#FFEC00>Combat \u00BB {bars} {combatlogx_time_left} <#FFEC00>seconds."
+
+    # Shown above the hotbar for a brief period when combat ends.
+    ended: "<#FFEC00>Combat \u00BB <#DFDFDF>You are no longer in combat."
+
+  boss-bar:
+    # Shown on top of the screen while a player is in combat.
+    timer: "<#FFEC00>Combat \u00BB {combatlogx_time_left} <#FFEC00>seconds."
+
+    # Shown on top of the screen for a brief period when combat ends.
+    ended: "<#FFEC00>Combat \u00BB <#DFDFDF>You are no longer in combat."
+
+  scoreboard:
+    # The scoreboard title for the sidebar.
+    # Make sure to follow the scoreboard title limits for your Spigot version.
+    title: "<gold>CombatLogX</gold>"
+
+    # The scoreboard lines for the sidebar.
+    # Make sure to follow the scoreboard line and character limits for your Spigot version.
+    lines:
+      - " "
+      - "Combat Stats:"
+      - "\u00BB Time Left: {combatlogx_time_left}"
+      - "\u00BB Enemies: {combatlogx_enemy_count}"
+      - "\u00BB Status: {combatlogx_status}"
+      - " "
+      - "Enemies"
+      - "\u00BB {combatlogx_specific_enemy_1_name}"
+      - "\u00BB {combatlogx_specific_enemy_2_name}"
+      - "\u00BB {combatlogx_specific_enemy_3_name}"
+      - " "
+
+  cheat-prevention:
+    # Shown when a command execution is prevented during combat.
+    command-blocked: "<#DFDFDF>You do not have access to <#FFEC00>{command} <#DFDFDF>during combat."
+
+    # Shown when the riptide effect is prevented during combat.
+    no-riptide: "<#DFDFDF>The riptide enchantment is disabled during combat."
+
+    # Shown when a totem of undying is prevented during combat.
+    no-totem: "<#DFDFDF>You are not allowed to use totems of undying during combat."
+
+    # Shown when an entity interaction is prevented during combat.
+    no-entity-interaction: "<#DFDFDF>You are not allowed to use that mob during combat."
+
+    # Shown when a chat message is prevented during combat.
+    no-chat: "<#DFDFDF>You are not allowed to send chat messages during combat."
+
+    game-mode:
+      # Shown when a player is forced into a specific game mmode during combat.
+      force-switch: "<#DFDFDF>Your game mode was changed to <#FFEC00>{game_mode}<#DFDFDF>."
+
+      # Shown when a game mode switch is prevented during combat.
+      no-switch: "<#DFDFDF>You are not allowed to switch game modes during combat."
+
+    flight:
+      # Shown when a player's ability to fly is disabled during combat.
+      force-disabled: "<#DFDFDF>Your ability to fly was removed."
+
+      # Shown when a player's attempt to fly is prevented during combat.
+      no-flying: "<#DFDFDF>You are not allowed to fly during combat."
+
+    elytra:
+      # Shown when a player's ability to glide is disabled during combat.
+      force-disabled: "<#DFDFDF>Your elytra was disabled."
+
+      # Shown when a player's attempt to glide is prevented during combat.
+      no-gliding: "<#DFDFDF>You are not allowed to use elytra during combat."
+
+    teleportation:
+      # Shown when a player tries to enter a portal and is prevented during combat.
+      block-portal: "<#DFDFDF>You are not allowed to use a portal during combat."
+
+      # Shown when an ender pearl is prevented during combat.
+      block-pearl: "<#DFDFDF>You are not allowed to use ender pearls during combat."
+
+      # Shown when a teleport is prevented during combat.
+      block-other: "<#DFDFDF>You are not allowed to teleport during combat."
+
+    inventory:
+      # Shown when a player's inventory is closed by the plugin during combat.
+      force-closed: "<#DFDFDF>Your inventory was closed."
+
+      # Shown when a player tries to open an inventory and is prevented during combat.
+      no-opening: "<#DFDFDF>You are not allowed to open inventories during combat."
+
+    blocks:
+      # Shown when a player is prevented from breaking a block during combat.
+      prevent-breaking: "<#DFDFDF>You are not allowed to break blocks during combat."
+
+      # Shown when a player is prevented from breaking a block during combat.
+      prevent-placing: "<#DFDFDF>You are not allowed to place blocks during combat."
+
+      # Shown when a player is prevented from breaking a block during combat.
+      prevent-interaction: "<#DFDFDF>You are not allowed to use blocks during combat."
+
+      # Shown when a player is prevented from breaking a block during combat.
+      prevent-portal-creation: "<#DFDFDF>You are not allowed to create portals during combat."
+
+    items:
+      # Shown when a player is prevented from picking up an item during combat.
+      no-pickup: "<#DFDFDF>You are not allowed to pick up items during combat."
+
+      # Shown when a player is prevented from dropping an item during combat.
+      no-dropping: "<#DFDFDF>You are not allowed to drop items during combat."
+
+    buckets:
+      # Shown when a player is prevented from emptying a bucket during combat.
+      no-empty: "<#DFDFDF>You can't empty buckets during combat."
+
+      # Shown when a player is prevented from filling a bucket during combat.
+      no-fill: "<#DFDFDF>You can't fill up buckets during combat."
+
+  damage-tagger:
+    # Shown when a player is tagged for an unknown damage type.
+    unknown-damage: "<#DFDFDF>You took damage! Do not log out!"
+
+    # These messages are shown when a player is tagged for a known damage type.
+    # You can find a list of damage types here:
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+    damage-type:
+      block-explosion: "<#DFDFDF>You were damaged by an explosion. Do not log out!"
+      contact: "<#DFDFDF>You were pricked by a cactus. Do not log out!"
+      cramming: "<#DFDFDF>You are being squished. Do not log out!"
+      custom: "<#DFDFDF>You took custom damage. Do not log out!"
+      drowning: "<#DFDFDF>You are drowning. Do not log out!"
+      dryout: "<#DFDFDF>You stayed out of water too long. Do not log out!" # May be triggered by custom plugins.
+      entity-explosion: "<#DFDFDF>You were damaged by an End Crystal explosion. Do not log out!" # Only triggered by end crystals.
+      fall: "<#DFDFDF>You took fall damage. Do not log out!"
+      falling-block: "<#DFDFDF>A block fell on you. Do not log out!"
+      fire: "<#DFDFDF>You walked into fire. Do not log out!"
+      fire-tick: "<#DFDFDF>You are burning. Do not log out!"
+      fly-into-wall: "<#DFDFDF>You experienced kinetic energy. Do not log out!"
+      freeze: "<#DFDFDF>You are freezing. Do not log out!"
+      hot-floor: "<#DFDFDF>The floor is lava! Do not log out!"
+      lava: "<#DFDFDF>You are boiling in lava. Do not log out!"
+      lightning: "<#DFDFDF>Thou hast been smitten! Do not log out!"
+      magic: "<#DFDFDF>Someone threw a potion at you. Do not log out!"
+      melting: "<#DFDFDF>You are melting! Do not log out." # May be triggered by custom plugins.
+      poison: "<#DFDFDF>You took poison damage. Do not log out!"
+      starvation: "<#DFDFDF>You are too hungry. Do not log out!"
+      suffocation: "<#DFDFDF>You are suffocating in a wall. Do not log out!"
+      void: "<#DFDFDF>You are falling into the void. Do not log out!"
+      wither: "<#DFDFDF>You are withering away. Do not log out!"
+      world-border: "<#DFDFDF>You are too close to the border. Do not log out!"
+
+  newbie-helper:
+    togglepvp:
+      # Shown as the command output for '/togglepvp'.
+      self: "<#DFDFDF>PVP: <#FFEC00>{status}"
+
+      # Shown as the command output for '/togglepvp admin on/off <player>'.
+      admin: "<#DFDFDF>You changed the pvp of <#FFEC00>{target} <#DFDFDF>to <#FFEC00>{status}."
+
+      # Shown when the '/togglepvp' command is on cooldown.
+      cooldown: "<#DFDFDF>You must wait <#FFEC00>{time_left} <#DFDFDF>seconds to use this command again."
+
+    # These messages are shown when pvp is disabled for any reason.
+    no-pvp:
+      self: "<#DFDFDF>You are not allowed to hit that player while your PvP is disabled."
+      other: "<#DFDFDF>That player has PvP disabled."
+      protected: "<#DFDFDF>That player is protected, you are not allowed to attack them yet!"
+
+    protection-disabled:
+      # Shown when newbie protection is disabled due to the player attacking another player.
+      attacker: "<#DFDFDF>You attacked someone, your newbie protection is now disabled."
+
+      # Shown when newbie protection expires.
+      expired: "<#DFDFDF>Your newbie protection has expired."
+
+    # Shown for the '/togglepvp check <player>' command.
+    check-format:
+      - "<#DFDFDF>Information for <#FFEC00>{target}:"
+      - "<#DFDFDF>Protection: <#FFEC00>{protected}"
+      - "<#DFDFDF>PvP: <#FFEC00>{pvp}"
+
+  loot-protection:
+    # Shown when an enemy dies and their loot is protected.
+    enemy-died: "<#FFEC00>{enemy} <#DFDFDF>has died. Loot will be protected for <#FFEC00>{time} <#DFDFDF>seconds."
+
+    # Shown when a player tries to pick up an item that is loot protected by the plugin.
+    protected: "<#DFDFDF>This item is currently protected, wait <#FFEC00>{time} <#DFDFDF>seconds until you can pick it up."
+
+  citizens-compatibility:
+    # Shown when a player is prevented from joining the server due to their NPC still existing.
+    prevent-join: "<#DFDFDF>You are not allowed to join the server until your NPC is killed or removed."
+
+  disguise-compatibility:
+    # Shown when a disguise is removed from a player during combat.
+    remove-disguise: "<#DFDFDF>Your disguise was removed."
+
+  essentials-compatibility:
+    # Shown when a teleport request is cancelled during combat.
+    prevent-teleport-request-self: "<#DFDFDF>You can't create teleport requests during combat."
+
+    # Shown when a teleport request is cancelled during combat.
+    prevent-teleport-request-other: "<#DFDFDF>You can't send a teleport request to a player that is in combat."
+
+  marriagemaster-compatibility:
+    # Shown when a married player is prevented from teleporting to their partner during combat.
+    prevent-teleport-self: "<#DFDFDF>You are not allowed to teleport to your partner during combat."
+
+    # Shown when a married player is prevented from teleporting to their partner during combat.
+    prevent-teleport-partner: "<#DFDFDF>You are not allowed to teleport to your partner while they are in combat."
+
+  huskhomes-compatibility:
+    prevent-teleport: "<#DFDFDF>You are not allowed to teleport during combat."
+
+  region-protection:
+    # Shown when a player tries to enter a no-pvp area during combat.
+    default-no-entry: &noEntryMessage "<#DFDFDF>You are not allowed to enter that area during combat."
+
+    factions-no-entry: *noEntryMessage
+    griefdefender-no-entry: *noEntryMessage
+    griefprevention-no-entry: *noEntryMessage
+    kingdomsx-no-entry: *noEntryMessage
+    konquest-no-entry: *noEntryMessage
+    redprotect-no-entry: *noEntryMessage
+    residence-no-entry: *noEntryMessage
+    towny-no-entry: *noEntryMessage
+    husktowns-no-entry: *noEntryMessage
+    ultimateclaims-no-entry: *noEntryMessage
+
+    protectionstones:
+      prevent-area-creation: "<#DFDFDF>You are not allowed to create a protected area during combat."
+      no-entry: *noEntryMessage
+
+    preciousstones:
+      prevent-field-creation: "<#DFDFDF>You are not allowed to create a protection field during combat."
+      no-entry: *noEntryMessage
+
+    worldguard:
+      no-entry-mob-combat: "<#DFDFDF>You are not allowed to enter a non-mob-combat area during combat."
+      no-entry-player-combat: "<#DFDFDF>You are not allowed to enter a non-player-combat area during combat."
+      no-entry-unknown-combat: *noEntryMessage
+
+    lands:
+      no-entry: *noEntryMessage
+      war-disable-newbie-protection: "<#DFDFDF>PvP is now force enabled due to a war declaration."

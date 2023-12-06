@@ -1,0 +1,40 @@
+tasks:
+  farming:
+    type: "farming"
+    amount: 70
+    block: WHEAT
+
+display:
+  name: " &8● &#bafb00ꜰ&#9ffb08ᴀ&#85fc10ʀ&#6afc18ᴍ&#50fc20ɪ&#35fc28ɴ&#1bfd30ɢ &#00fd38ᴠɪɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx70 ᴄʀᴏᴘs"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+1 ʟᴠʟ ᴇxᴘ"
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$700 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{farming:progress}&8/&f70 ᴄʀᴏᴘs"
+  type: "WHEAT_SEEDS"
+
+rewards:
+  - "exp add {player} 1l"
+  - "eco give {player} 700"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "farming"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 7

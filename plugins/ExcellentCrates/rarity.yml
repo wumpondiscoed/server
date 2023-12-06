@@ -1,0 +1,11 @@
+common:
+  Name: 'Common'
+  Chance: 10.0
+   
+rare:
+  Name: 'Rare'
+  Chance: 5.0
+
+legendary:
+  Name: 'Legendary'
+  Chance: 1.0

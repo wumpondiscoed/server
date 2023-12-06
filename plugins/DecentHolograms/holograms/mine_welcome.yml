@@ -1,0 +1,28 @@
+location: Mines:-50.293:90.000:0.638
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#D8FB00>✦ &lMINE WELCOME </#FDA700>✦'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#DFDFDF>ᴀᴄᴄᴇss ᴛᴏ ᴛʜᴇ ᴍɪɴᴇ'
+    height: 0.3
+  - content: '<#DFDFDF>ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀʟʟ ᴛʏᴘᴇ ᴏꜰ ᴏʀᴇs'
+    height: 0.3
+  - content: '<#DFDFDF>ʙᴇ ᴄᴀʀᴇꜰᴜʟ ᴏꜰ ᴛʜᴇ ᴅᴀɴɢᴇʀᴏᴜs ᴍᴏʙs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#EEE000>&n☣ ʙᴇ ᴄᴀʀᴇꜰᴜʟ ᴏꜰ ᴛʜᴇ ᴍᴏʙs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#icon: CAMPFIRE'
+    height: 0.3    
+  actions: {}

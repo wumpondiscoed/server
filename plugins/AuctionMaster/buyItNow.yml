@@ -1,0 +1,67 @@
+use-bin-timer: true
+use-buy-it-now: false
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: '27'
+  #Use %price% for the item price
+  name: ''
+  lore:
+    - ''
+
+#Use percents from 1 to 100
+buy-it-now-fee: 1
+
+switch-button:
+  switch-to-auction:
+    material: '266'
+    name: ''
+    lore:
+      - ''
+  switch-to-bin:
+    material: 27
+    name: ''
+    lore:
+      - ''
+
+buy-it-now-lore:
+  on-going:
+    - ''
+  expired:
+    - ''
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - ''
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: ''
+
+#Seller notification for bought item
+bought-seller-notification: ''
+
+sort-item:
+  material: '381'
+  name: '&x&9&c&f&b&0&0ʙ&x&8&9&f&b&0&7ɪ&x&7&5&f&c&0&eɴ &x&6&2&f&c&1&5ꜰ&x&4&e&f&c&1&cɪ&x&3&b&f&c&2&3ʟ&x&2&7&f&d&2&aᴛ&x&1&4&f&d&3&1ᴇ&x&0&0&f&d&3&8ʀ'
+  show-all: '&x&9&c&f&b&0&0s&x&8&2&f&b&0&9ʜ&x&6&8&f&c&1&3ᴏ&x&4&e&f&c&1&cᴡ &x&3&4&f&c&2&5ᴀ&x&1&a&f&d&2&fʟ&x&0&0&f&d&3&8ʟ'
+  bin-only: '&x&9&c&f&b&0&0ʙ&x&8&2&f&b&0&9ɪ&x&6&8&f&c&1&3ɴ &x&4&e&f&c&1&cᴏ&x&3&4&f&c&2&5ɴ&x&1&a&f&d&2&fʟ&x&0&0&f&d&3&8ʏ'
+  auctions-only: '&x&9&c&f&b&0&0ᴀ&x&8&e&f&b&0&5ᴜ&x&8&0&f&b&0&aᴄ&x&7&1&f&c&0&fᴛ&x&6&3&f&c&1&4ɪ&x&5&5&f&c&1&9ᴏ&x&4&7&f&c&1&fɴ&x&3&9&f&c&2&4s &x&2&b&f&c&2&9ᴏ&x&1&c&f&d&2&eɴ&x&0&e&f&d&3&3ʟ&x&0&0&f&d&3&8ʏ'
+  click-to-switch: ' &x&9&c&f&b&0&0ʟ&x&9&5&f&b&0&2ᴇ&x&8&e&f&b&0&5ꜰ&x&8&8&f&b&0&7ᴛ&x&8&1&f&b&0&a-&x&7&a&f&b&0&cᴄ&x&7&3&f&c&0&fʟ&x&6&d&f&c&1&1ɪ&x&6&6&f&c&1&3ᴄ&x&5&f&f&c&1&6ᴋ &x&5&8&f&c&1&8ᴛ&x&5&1&f&c&1&bᴏ &x&4&b&f&c&1&ds&x&4&4&f&c&2&0ᴡ&x&3&d&f&c&2&2ɪ&x&3&6&f&c&2&5ᴛ&x&2&f&f&c&2&7ᴄ&x&2&9&f&c&2&9ʜ &x&2&2&f&d&2&cꜰ&x&1&b&f&d&2&eɪ&x&1&4&f&d&3&1ʟ&x&0&e&f&d&3&3ᴛ&x&0&7&f&d&3&6ᴇ&x&0&0&f&d&3&8ʀ'
+
+view-auction-buy-now-button:
+  name: ''
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''

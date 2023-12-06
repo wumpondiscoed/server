@@ -1,0 +1,22 @@
+location: Spawn:-12.591:64.800:49.527
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FDF300>&lRANDOM TELEPORT</#FB9700>
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ɪɴꜰᴇʀɴᴏ'
+    height: 0.3
+  - content: '&fᴅɪᴍᴇɴsɪᴏɴ ɪɴ ᴛʜɪs ᴍᴇɴᴜ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#FDF300>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#FB9700>'
+    height: 0.3
+  actions: {}

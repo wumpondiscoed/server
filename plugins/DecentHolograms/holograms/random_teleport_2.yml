@@ -1,0 +1,22 @@
+location: Spawn:13.311:65.700:49.345
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FD00F8>&lRANDOM TELEPORT</#8D00FB>
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ᴍʏsᴛᴇʀɪᴏᴜs'
+    height: 0.3
+  - content: '&fᴅɪᴍᴇɴsɪᴏɴ ɪɴ ᴛʜɪs ᴍᴇɴᴜ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#FD00F8>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#8D00FB>'
+    height: 0.3
+  actions: {}

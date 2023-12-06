@@ -1,0 +1,24 @@
+location: Spawn:45.407:68.200:53.508
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#5FFB00>&lAUCTION HOUSE</#00FD0A>'
+    height: 0.3
+  - content: '&7ᴀᴜᴄᴛɪᴏɴ ʏᴏᴜʀ ɪᴛᴇᴍs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴀᴜᴄᴛɪᴏɴs ʏᴏᴜʀ ɪᴛᴇᴍs'
+    height: 0.3
+  - content: '&fᴏʀ ʙᴇᴛ ᴍᴏɴᴇʏ ꜰᴏʀ ɪᴛᴇᴍs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#5FFB00>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#00FD0A>'
+    height: 0.3
+  actions: {}

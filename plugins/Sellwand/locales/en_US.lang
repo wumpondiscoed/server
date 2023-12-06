@@ -1,0 +1,18 @@
+# General Messages
+messages:
+  prefix: ' &#fbf100&l&nS&#fbe800&l&nE&#fcdf00&l&nL&#fcd500&l&nL &#fccc00&l&nW&#fcc300&l&nA&#fdba00&l&nN&#fdb000&l&nD&#fda700 &l|&r'
+
+# Command Messages
+command:
+  no-permission: '&fYou do not have permission to do that.'
+  reload: '&fSuccessfully reloaded the configuration and language files.'
+  player-not-found: '&fCould not find a player with the name &#fbf100%player%&f.'
+  give-success: '&fSuccessfully gave &#fbf100%player% &fa &#f6fb00&lS&#f7f100&le&#f8e700&ll&#f9dd00&ll &#fad400&lW&#fbca00&la&#fcc000&ln&#fdb600&ld &fsuccessfully.'
+  receive-success: '&fYou have receive a sell wand.'
+  sellwand-not-found: '&fCould not find a sellwand with the id &#fbf100%sellwand%&f.'
+
+sellwand:
+  no-uses: '&fThis sellwand have no more use.'
+  cooldown: '&fYou can use this sellwand again in &#fbf100%seconds%&f.'
+  sell-success: '&fYou sold &#fbf100%item_amount% &fitems for a total of &#fbf100%price%&f.'
+  sell-nothing: '&fNothing to sell in this chest.'

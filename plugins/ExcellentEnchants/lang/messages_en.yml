@@ -1,0 +1,45 @@
+# Here you can create your own custom placeholders to use it in language config.
+# Key = Placeholder, Value = Replacer.
+Placeholders:
+  '%red%': '#fd5e5e'
+  '%green%': '#aefd5e'
+  '%gray%': '#d4d9d8'
+Command:
+  List:
+    Desc: List of all custom enchantments.
+  Enchant:
+    Usage: <enchant> <level>
+    Desc: Enchants the item in your hand.
+    Done: '#DFDFDFSuccessfully enchanted!'
+    Error:
+      NoItem: '#DFDFDFYou must hold an item to enchant it!'
+  Book:
+    Usage: <player> <enchant> <level>
+    Desc: Gives custom enchanted book.
+    Done: 'Given enchanted book to #47D6F0%player_display_name% #DFDFDF.'
+  TierBook:
+    Usage: <player> <tier> <level>
+    Desc: Gives an enchanted book.
+    Error: '#FF2525Invalid tier!'
+    Done: 'Given #47D6F0%tier_name% #DFDFDFenchanted book to #47D6F0%player_display_name% #DFDFDF.'
+Error:
+  NoEnchant: '#FF2525No such enchant.'
+FitItemType:
+  HELMET: Helmet
+  CHESTPLATE: Chestplate
+  LEGGINGS: Leggings
+  BOOTS: Boots
+  ELYTRA: Elytra
+  WEAPON: Weapon
+  TOOL: Tool
+  ARMOR: Armor
+  UNIVERSAL: Universal
+  SWORD: Sword
+  TRIDENT: Trident
+  AXE: Axe
+  BOW: Bow
+  CROSSBOW: Crossbow
+  HOE: Hoe
+  PICKAXE: Pickaxe
+  SHOVEL: Shovel
+  FISHING_ROD: Fishing Rod

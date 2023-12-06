@@ -1,0 +1,37 @@
+tasks:
+  enchanting:
+    type: "enchanting"
+    amount: 60
+
+display:
+  name: " &8● &#bafb00ᴇ&#a5fb06ɴ&#91fb0cᴄ&#7cfc13ʜ&#67fc19ᴀ&#53fc1fɴ&#3efc25ᴛ&#29fd2cᴇ&#15fd32ʀ &#00fd38ᴠɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx60 ᴇɴᴄʜᴀɴᴛs ᴄʀᴇᴀᴛᴇᴅ"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$600 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{enchanting:progress}&8/&f60 ᴇɴᴄʜᴀɴᴛs ᴄʀᴇᴀᴛᴇᴅ"
+  type: "BOOK"
+
+rewards:
+  - "eco give {player} 600"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "enchanting"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6

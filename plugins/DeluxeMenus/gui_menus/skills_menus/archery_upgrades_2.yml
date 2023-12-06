@@ -1,0 +1,531 @@
+menu_title: '        &#2E2E2E▸ ᴜᴘɢʀᴀᴅᴇs (2/2) ◂'
+size: 27
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 25
+    - 26
+  'background_menu_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 21
+    - 23
+  'previous_page':
+    material: ARROW
+    slots:
+    - 20
+    display_name: ' &8● &#8dfb00ᴘ&#80fb05ʀ&#73fb0aᴇ&#67fc0fᴠ&#5afc14ɪ&#4dfc19ᴏ&#40fc1fᴜ&#33fc24s
+    &#26fc29ᴘ&#1afd2eᴀ&#0dfd33ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ sᴋɪʟʟs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ᴘʀᴇᴠ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - '' 
+    left_click_commands:
+    - '[sound] ITEM_BOOK_PAGE_TURN'
+    - '[player] dm open archery_upgrades'
+  'close_menu':
+    material: REDSTONE
+    slots:
+    - 22
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'   
+  'next_page':
+    material: ARROW
+    slots:
+    - 24
+    display_name: ' &8● &#8dfb00ɴ&#79fb08ᴇ&#65fc10x&#51fc18ᴛ &#3cfc20ᴘ&#28fc28ᴀ&#14fd30ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ ᴜᴘɢʀᴀᴅᴇs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ɴᴇxᴛ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_8_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 10
+    priority: 1
+    amount: 8
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.8
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00ᴠɪɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+40 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (57.20%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 40
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 40l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.8 true'
+    - '[console] skillsadmin setlevel %player_name% strength 8'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00ᴠɪɪɪ &ffor &#ff9900-40 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_8_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 10
+    priority: 2
+    amount: 8
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.8
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_9_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 11
+    priority: 1
+    amount: 9
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.9
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00ɪx'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+45 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (64.35%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 45
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 45l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.9 true'
+    - '[console] skillsadmin setlevel %player_name% strength 9'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00ɪx &ffor &#ff9900-45 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_9_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 11
+    priority: 2
+    amount: 9
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.9
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_10_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 12
+    priority: 1
+    amount: 10
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.10
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00x'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+50 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (71.50%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 50
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 50l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.10 true'
+    - '[console] skillsadmin setlevel %player_name% strength 10'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00x &ffor &#ff9900-50 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_10_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 12
+    priority: 2
+    amount: 10
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.10
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_11_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 13
+    priority: 1
+    amount: 11
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.11
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+55 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (78.65%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 55
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 55l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.11 true'
+    - '[console] skillsadmin setlevel %player_name% strength 11'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪ &ffor &#ff9900-55 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_11_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 13
+    priority: 2
+    amount: 11
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.11
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_12_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 14
+    priority: 1
+    amount: 12
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.12
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+60 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (85.80%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 60
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 60l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.12 true'
+    - '[console] skillsadmin setlevel %player_name% strength 12'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪɪ &ffor &#ff9900-60 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_12_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 14
+    priority: 2
+    amount: 12
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.12
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_13_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 15
+    priority: 1
+    amount: 13
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.13
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+65 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (92.95%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 65
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 65l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.13 true'
+    - '[console] skillsadmin setlevel %player_name% strength 13'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪɪɪ &ffor &#ff9900-65 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_13_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 15
+    priority: 2
+    amount: 13
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.13
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_14_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5MTYyMmM1MTA0ZjFjYzk0YTJiNGQzM2FkN2IyYzliMjE1ZmY5NDk1MDFlOGMyNTBjZmQ1YTg2MWU2YjkwNyJ9fX0=
+    slots:
+    - 16
+    priority: 1
+    amount: 14
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.archery.14
+    update: true
+    display_name: ' &8● &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪᴠ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#ff9900+70 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#fd4c00+ (100%)'
+    - ''
+    - ' &#ff9900&nʟ&#ff9400&nᴇ&#ff8e00&nꜰ&#ff8900&nᴛ&#fe8300&n-&#fe7e00&nᴄ&#fe7800&nʟ&#fe7300&nɪ&#fe6d00&nᴄ&#fe6800&nᴋ &#fe6200&nᴛ&#fd5d00&nᴏ &#fd5700&nʙ&#fd5200&nᴜ&#fd4c00&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 70
+          level: true
+      deny_commands:
+        - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 70l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.archery.14 true'
+    - '[console] skillsadmin setlevel %player_name% strength 14'
+    - '[message] &r &#ff9900&l&nS&#ff8c00&l&nK&#fe7f00&l&nI&#fe7300&l&nL&#fe6600&l&nL&#fd5900&l&nS&#fd4c00 &l| &fYou have bought &#ff9900ᴀ&#ff8c00ʀ&#fe7f00ᴄ&#fe7300ʜ&#fe6600ᴇ&#fd5900ʀ&#fd4c00ʏ &#fd4c00xɪᴠ &ffor &#ff9900-70 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_14_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 16
+    priority: 2
+    amount: 14
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.archery.14
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7(ᴍᴀxɪᴍᴜᴍ ʟᴇᴠᴇʟ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'

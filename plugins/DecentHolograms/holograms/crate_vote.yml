@@ -1,0 +1,34 @@
+location: Spawn:-23.499:66.800:37.482
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#9CFB00>&l⚡ VOTE CRATE ⚡</#00FD19>
+    height: 0.3
+  - content: '&7ᴄʀᴀᴛᴇ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ ᴛᴏ ɢᴇᴛ'
+    height: 0.3
+  - content: '&fᴄᴏᴍᴍᴏɴ ɪᴛᴇᴍs, <#9CFB00>ʏᴏᴜ ɴᴇᴇᴅ ᴠᴏᴛᴇ</#00FD19>'
+    height: 0.3
+  - content: '&fᴋᴇʏs ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&f★ ʀᴇᴡᴀʀᴅ ʟᴇᴠᴇʟ: <#9CFB00>● &7- <#00FD19>●●●'
+    height: 0.3
+  - content: '&f★ ᴄᴜʀʀᴇɴᴛ ᴋᴇʏs: <#9CFB00>%excellentcrates_keys_vote_crate% ᴋᴇʏs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ ᴋᴇʏs ꜰᴏʀ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: <#00FD19>ᴠᴏᴛɪɴɢ &fꜰᴏʀ ᴛʜᴇ sᴇʀᴠᴇʀ <#00FD19>(/ᴠᴏᴛᴇ)
+    height: 0.3
+  actions: {}

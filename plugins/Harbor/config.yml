@@ -1,0 +1,70 @@
+# Harbor - Sleep mechanics enhancement plugin
+# An open-source project by TechToolbox (@nkomarn)
+# https://github.com/nkomarn/Harbor
+
+# Important note regarding Essentials:
+# Please make sure you negate the permission "essentials.sleepingignored" to
+# prevent issues with Harbor and server operators when running Essentials.
+
+night-skip:
+  enabled: true # Skip the night if a percentage of the players in a world are sleeping
+  percentage: 50 # Percentage of players required to be sleeping to skip the night (0 - 100)
+  time-rate: 70 # The amount of ticks added to the current time every tick when skipping the night
+  daytime-ticks: 1200 # The time in ticks that Harbor considers day
+  instant-skip: false # Instantly skip the night when the percentage threshold is reached instead of showing the full animation
+  proportional-acceleration: false # Increase the night skipping speed based on the amount of sleeping players
+  clear-rain: true # Clear rain (if it's raining) when the night is skipped
+  clear-thunder: true # Clear thunder (if it's thundering) when the night is skipped
+  reset-phantom-statistic: true # Treats everyone online as if they have slept in the last 3 days after the night is skipped (check out /gamerule doInsomnia on 1.15+)
+
+exclusions:
+  ignored-permission: true # Exclude players with the permission "harbor.ignored" from the sleeping count
+  exclude-adventure: false # Exclude players in adventure mode from the sleeping count
+  exclude-creative: false # Exclude players in creative mode from the sleeping count
+  exclude-spectator: true # Exclude players in spectator mode from the sleeping count
+  exclude-vanished: true # Exclude vanished players from the sleeping count
+
+# Detect AFK players and automatically remove them from the required sleeping count
+# Essentials API is used for AFK detection when available- otherwise a fallback system is used
+afk-detection:
+  enabled: true
+  timeout: 15 # Time in minutes until a player is considered AFK
+
+# Blacklist for worlds- Harbor will ignore these worlds
+blacklisted-worlds:
+  - "Spawn"
+  - "world_nether"
+  - "world_the_end"
+whitelist-mode: false # Will treat the above list as a whitelist instead of a blacklist
+
+messages:
+  chat:
+    enabled: true
+    message-cooldown: 5 # The amount of time in seconds before a player can send another bed enter or leave message
+    player-sleeping: " &x&f&6&f&b&0&0&l&nS&x&f&7&f&3&0&0&l&nL&x&f&8&e&c&0&0&l&nE&x&f&8&e&4&0&0&l&nE&x&f&6&f&b&0&0&l&nP &x&f&a&d&5&0&0&l&nS&x&f&b&c&e&0&0&l&nY&x&f&c&c&6&0&0&l&nS&x&f&d&b&f&0&0&l&nT&x&f&d&b&7&0&0&l&nE&x&f&e&b&0&0&0&l&nM&x&f&f&a&8&0&0 &l| &x&f&6&f&b&0&0[player] &fis now sleeping &8(&x&f&6&f&b&0&0[sleeping]&8/&x&f&6&f&b&0&0[needed]&8)&f, &x&f&6&f&b&0&0[more] &fmore needed to skip."
+    player-left-bed: " &x&f&6&f&b&0&0&l&nS&x&f&7&f&3&0&0&l&nL&x&f&8&e&c&0&0&l&nE&x&f&8&e&4&0&0&l&nE&x&f&6&f&b&0&0&l&nP &x&f&a&d&5&0&0&l&nS&x&f&b&c&e&0&0&l&nY&x&f&c&c&6&0&0&l&nS&x&f&d&b&f&0&0&l&nT&x&f&d&b&7&0&0&l&nE&x&f&e&b&0&0&0&l&nM&x&f&f&a&8&0&0 &l| &x&f&6&f&b&0&0[player] &fgot out of bed &8(&x&f&6&f&b&0&0[sleeping]&8/&x&f&6&f&b&0&0[needed]&8)&f, &x&f&6&f&b&0&0[more] &fmore needed to skip."
+    night-skipping:
+      - ""
+    night-skipped:
+      - " &x&f&6&f&b&0&0&l&nS&x&f&7&f&3&0&0&l&nL&x&f&8&e&c&0&0&l&nE&x&f&8&e&4&0&0&l&nE&x&f&6&f&b&0&0&l&nP &x&f&a&d&5&0&0&l&nS&x&f&b&c&e&0&0&l&nY&x&f&c&c&6&0&0&l&nS&x&f&d&b&f&0&0&l&nT&x&f&d&b&7&0&0&l&nE&x&f&e&b&0&0&0&l&nM&x&f&f&a&8&0&0 &l| &x&f&6&f&b&0&0Rise and shine, It's a new day! &x&f&6&f&b&0&0☀"
+  actionbar:
+    enabled: true
+    players-sleeping: "&x&f&6&f&b&0&0&l&nSLEEPING&r &8- &x&f&6&f&b&0&0[sleeping] &fᴏᴜᴛ ᴏꜰ &x&f&6&f&b&0&0[needed] &fplayers are sleeping &8(&x&f&6&f&b&0&0[more] &fmore needed to skip&8)"
+    night-skipping: "&x&f&6&f&b&0&0&l&nSLEEPING&r &8- &fᴇᴠᴇʀʏᴏɴᴇ ɪs sʟᴇᴇᴘɪɴɢ - sᴡᴇᴇᴛ ᴅʀᴇᴀᴍs!"
+  bossbar:
+    enabled: true
+    players-sleeping:
+      message: "&x&f&6&f&b&0&0☀ [sleeping] &fout of &x&f&6&f&b&0&0[needed] &fare sleeping &8(&x&f&6&f&b&0&0[more] &fmore needed&8)"
+      color: YELLLOW
+    night-skipping:
+      message: "&x&f&6&f&b&0&0☀ ᴇᴠᴇʀʏᴏɴᴇ ɪs sʟᴇᴇᴘɪɴɢ. ɢᴏᴏᴅ ɴɪɢʜᴛ!"
+      color: YELLOW
+  miscellaneous:
+    chat-prefix: ""
+    unrecognized-command: "Unrecognized command."
+
+# Spooky internal controls
+version: 1.6.3
+interval: 1
+metrics: false
+debug: false

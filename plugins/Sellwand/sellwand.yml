@@ -1,0 +1,81 @@
+sellwand:
+  tier_1:
+    name: " &8● &#f6fb00s&#f7f200ᴇ&#f8ea00ʟ&#f9e100ʟ &#fad900ᴡ&#fad000ᴀ&#fbc700ɴ&#fcbf00ᴅ &#fdb600ɪ"
+    material: BLAZE_ROD
+    glowing: true
+    multiplier: 1.0
+    uses: 25
+    lore:
+      - "&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ"
+      - ""
+      - " &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴏɴ ᴄʜᴇsᴛ"
+      - " &fᴛᴏ sᴇʟʟ ʜɪs ᴄᴏɴᴛᴇɴᴛ!"
+      - " &7(sᴇʟʟ ᴡᴀɴᴅ ɪᴛᴇᴍ)"
+      - ""
+      - " &8● &fᴜsᴇs: &#f6fb00x%uses% ᴜsᴇs"
+      - ""
+      - " &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ"
+  tier_2:
+    name: " &8● &#f6fb00s&#f7f200ᴇ&#f8ea00ʟ&#f9e100ʟ &#fad900ᴡ&#fad000ᴀ&#fbc700ɴ&#fcbf00ᴅ &#fdb600ɪɪ"
+    material: BLAZE_ROD
+    glowing: true
+    multiplier: 1.0
+    uses: 50
+    lore:
+      - "&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ"
+      - ""
+      - " &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴏɴ ᴄʜᴇsᴛ"
+      - " &fᴛᴏ sᴇʟʟ ʜɪs ᴄᴏɴᴛᴇɴᴛ!"
+      - " &7(sᴇʟʟ ᴡᴀɴᴅ ɪᴛᴇᴍ)"
+      - ""
+      - " &8● &fᴜsᴇs: &#f6fb00x%uses% ᴜsᴇs"
+      - ""
+      - " &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ"
+  tier_3:
+    name: " &8● &#f6fb00s&#f7f200ᴇ&#f8ea00ʟ&#f9e100ʟ &#fad900ᴡ&#fad000ᴀ&#fbc700ɴ&#fcbf00ᴅ &#fdb600ɪɪɪ"
+    material: BLAZE_ROD
+    glowing: true
+    multiplier: 1.0
+    uses: 75
+    lore:
+      - "&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ"
+      - ""
+      - " &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴏɴ ᴄʜᴇsᴛ"
+      - " &fᴛᴏ sᴇʟʟ ʜɪs ᴄᴏɴᴛᴇɴᴛ!"
+      - " &7(sᴇʟʟ ᴡᴀɴᴅ ɪᴛᴇᴍ)"
+      - ""
+      - " &8● &fᴜsᴇs: &#f6fb00x%uses% ᴜsᴇs"
+      - ""
+      - " &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ"
+  tier_4:
+    name: " &8● &#f6fb00s&#f7f200ᴇ&#f8ea00ʟ&#f9e100ʟ &#fad900ᴡ&#fad000ᴀ&#fbc700ɴ&#fcbf00ᴅ &#fdb600ɪᴠ"
+    material: BLAZE_ROD
+    glowing: true
+    multiplier: 1.0
+    uses: 100
+    lore:
+      - "&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ"
+      - ""
+      - " &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴏɴ ᴄʜᴇsᴛ"
+      - " &fᴛᴏ sᴇʟʟ ʜɪs ᴄᴏɴᴛᴇɴᴛ!"
+      - " &7(sᴇʟʟ ᴡᴀɴᴅ ɪᴛᴇᴍ)"
+      - ""
+      - " &8● &fᴜsᴇs: &#f6fb00x%uses% ᴜsᴇs"
+      - ""
+      - " &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ"
+  tier_5:
+    name: " &8● &#f6fb00s&#f7f200ᴇ&#f8ea00ʟ&#f9e100ʟ &#fad900ᴡ&#fad000ᴀ&#fbc700ɴ&#fcbf00ᴅ &#fdb600ᴠ"
+    material: BLAZE_ROD
+    glowing: true
+    multiplier: 1.0
+    uses: -1
+    lore:
+      - "&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ"
+      - ""
+      - " &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴏɴ ᴄʜᴇsᴛ"
+      - " &fᴛᴏ sᴇʟʟ ʜɪs ᴄᴏɴᴛᴇɴᴛ!"
+      - " &7(sᴇʟʟ ᴡᴀɴᴅ ɪᴛᴇᴍ)"
+      - ""
+      - " &8● &fᴜsᴇs: &#f6fb00ɪɴꜰɪɴɪᴛᴇ ᴜsᴇs"
+      - ""
+      - " &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ"

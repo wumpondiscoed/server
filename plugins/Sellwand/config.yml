@@ -1,0 +1,21 @@
+# Config
+
+Sound:
+  Sell: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  Error: "ENTITY_VILLAGER_NO"
+
+
+Log sell with sell wand in console: false
+
+# Should we destroy wand when is got 0 use?
+Destroy wand: true
+
+Hologram line:
+  - ""
+
+# After how many seconds hologram will be removed
+Hologram time: 5
+
+system:
+  # What locale should we use?
+  locale: "en_US"

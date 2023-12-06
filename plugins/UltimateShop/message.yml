@@ -1,0 +1,68 @@
+error:
+  product-not-found: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fCan not found product &#fdc500{product}&f!"
+  shop-not-found: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fCan not found shop &#fdc500{shop}&f!"
+  player-not-found: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fWe can't find player &#fdc500{player}&f!"
+  args: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fWrong command usage, if you need help, use &#e7fb00/shop help&f!"
+  in-game: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou have to use this command in game&f!"
+  miss-permission: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou don't have permission to use this command&f!"
+  menu-not-found: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fWe can't find menu: &#fdc500{menu}&f!"
+  shop-menu-not-found: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fWe can't find shop &#fdc500{shop}'s &fmenu: &#fdc500{menu}&f!"
+  shop-does-not-have-menu: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fShop &#fdc500{shop} &fdoes not have valid menuv!"
+  length-only-one: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fProduct ID length must be 1 char&f!"
+
+command-tab:
+  unknown-shop: 'Unknown Shop!'
+  enter-shop-id: 'Please enter the shop id you want!'
+  enter-shop-displayname: 'Please enter the shop display name you want!'
+  enter-product-id: 'Please enter the product id you want!'
+  enter-economy-plugin: 'You can also enter economy plugin here, like: Vault!'
+  enter-hook-plugin: 'You can also enter item plugin here, like: MMOItems'
+  enter-placeholder: 'Enter the display name of this price, like: Coins, Points'
+  enter-currency: 'Enter the currency ID in your economy plugin'
+  enter-hook-item-id: 'Enter the item ID in your item plugin'
+  enter-hook-item-namespace-id: 'Enter the item namespace:ID, like: ores:big_ore'
+  enter-hook-item-slot-id: 'Enter the item slot;;ID, like: CHESTPLATE;;angel'
+  enter-hook-item-type-id: 'Enter the item type;;ID, like: SWORD;;newkit'
+  enter-apply-number: 'Enter the price apply number, only support ANY and ALL type price!'
+  must-select-default: '!!!Select default above to continue!!!'
+
+plugin:
+  reloaded: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fPlugin reloaded!"
+
+placeholderapi:
+  unknown-shop: "Unknown Shop"
+  unknown-product: "Unknown Product"
+
+editor:
+  shop-already-exists: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fAlready exists a shop called &#fdc500{shop}&f!"
+  product-already-exists: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fAlready exists a product called &#fdc500{product}&f!"
+  shop-created: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fSuccessfully created new shop: &#fdc500{shop}&f!"
+  product-created: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &aSuccessfully created new product: &#fdc500{product}&f!"
+  hand-item-empty: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYour mainhand does not have any items!"
+  unsupported-price-type: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fThs price type is not supported in command editor."
+
+# All messages also support multi lines, just do it like this!
+help:
+  main: |
+    &#e7fb00/shop help &8- &fView help.
+    &#e7fb00/shop menu <menuName> &8- &fOpen specified common menu.
+    &#e7fb00/shop menu <shopName> &8- &fOpen specified shop menu.
+  main-admin: |
+    &#e7fb00/shop help &8- &fView help.
+    &#e7fb00/shop menu <menuName> &8- &fOpen specified common menu.
+    &#e7fb00/shop menu <shopName> &8- &fOpen specified shop menu.
+    &#e7fb00/shop quickbuy <shopName> <itemName> &8- &fQuick purchase specified item without open menu.'
+    &#e7fb00/shop quicksell <shopName> <itemName> &8- &fQuick sell specified item without open menu.'
+    &#e7fb00/shop reload &8- &fReload the plugin.'
+  main-console: |
+    &#e7fb00/shop help &8- &fView help.
+    &#e7fb00/shop reload &8- &fReload the plugin.'
+
+success-buy: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fSuccessfully purchased &#fdc500{item}&f, cost &#e7fb00${price}&f!"
+success-sell: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fSuccessfully sell &#fdc500{item}&f, gain &#e7fb00${price}&f!"
+limit-reached-buy-player: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou can no longer purchase item &#fdc500{item}&f, you purchase this item &#fdc500{times} &ftimes today, and its daily stock is &#fdc500{limit}&f for you, next refresh time: &#fdc500{refresh}&f."
+limit-reached-sell-player: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou can no longer sell item &#fdc500{item}&f, you purchase this item &#fdc500{times} &ftimes today, and its daily stock is &#fdc500{limit}&f for you, next refresh time: &#fdc500{refresh}&f."
+limit-reached-buy-server: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou can no longer purchase item &#fdc500{item}&f, all players buy this item &#fdc500{times} &ftimes today, and its daily stock is &#fdc500{limit}&f, next refresh time: &#fdc500{refresh}&f."
+limit-reached-sell-server: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou can no longer sell item &#fdc500{item}&f, all players sell this item &#fdc500{times} &ftimes today, and its daily stock is &#fdc500{limit}&f, next refresh time: &#fdc500{refresh}&f."
+buy-price-not-enough: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou do not have enough money to purchase &#fdc500{item}&f. Required price: &#e7fb00${price}&f."
+sell-products-not-enough: " &#e7fb00&l&nS&#edee00&l&nH&#f2e000&l&nO&#f8d300&l&nP&#fdc500 &l| &fYou do not have enough &#fdc500{item} &fto sell."

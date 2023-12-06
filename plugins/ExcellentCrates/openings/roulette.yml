@@ -1,0 +1,87 @@
+Title: '         #2E2E2E▸ ᴏᴘᴇɴɪɴɢ ᴄʀᴀᴛᴇ ◂'
+Size: 45
+
+Content:
+  button:
+    Slots: 12,13,14,21,22,23,30,31,32
+    Start_Reward: main
+    Start_Animation: fill_black,win_arrow1,win_arrow2
+    Item:
+      Material: LIME_STAINED_GLASS_PANE
+      Name: ' &8● #abfb00ᴄ#9afb01ᴏ#89fb02ɴ#78fc03ꜰ#67fc04ɪ#56fc05ʀ#44fc06ᴍ #33fc07s#22fd08ᴘ#11fd09ɪ#00fd0aɴ'
+      Lore:
+      - '&8&nᴄᴏɴꜰɪʀᴍ ᴀᴄᴛɪᴏɴ'
+      - ''
+      - ' &fʏᴏᴜ ᴡɪʟʟ sᴘɪɴ ʏᴏᴜʀ'
+      - ' &fᴄʀᴀᴛᴇ ꜰᴏʀ -1 ᴋᴇʏ'
+      - ''
+      - ' #abfb00&nʟ#a0fb01&nᴇ#94fb01&nꜰ#89fb02&nᴛ#7dfc03&n-#72fc03&nᴄ#67fc04&nʟ#5bfc05&nɪ#50fc05&nᴄ#44fc06&nᴋ #39fc07&nᴛ#2efc07&nᴏ #22fd08&ns#17fd09&nᴘ#0bfd09&nɪ#00fd0a&nɴ'
+      - ''
+  
+  blackpane:
+    Slots: 0,1,2,3,4,5,6,7,8,9,10,11,15,16,17,18,19,20,24,25,26,27,28,29,33,34,35,36,37,38,39,40,41,42,43,44
+    Item:
+      Material: BLACK_STAINED_GLASS_PANE
+
+Rewards:
+  main:
+    Start_Action: CLICK
+    Start_Chance: 100.0
+    Start_Delay: 2
+    Roll_Times: 50
+    Roll_Tick_Interval: 1
+    Roll_Slowdown_Every: 5
+    Roll_Slowdown_Ticks: 1
+    Tick_Sound: 'BLOCK_NOTE_BLOCK_BELL'
+    Slots: 39,40,41,33,24,15,5,4,3,11,20,29
+    Slots_Mode: INHERITANCE
+    Win_Slots: '20'
+
+Animations:
+  fill_black:
+    Start_Action: CLICK
+    Start_Delay: 1
+    Slots: 12,13,14,22,23,30,31,32
+    Mode: TOGETHER
+    Tick_Interval: 0
+    Items:
+      black:
+        Material: BLACK_STAINED_GLASS_PANE
+  
+  win_arrow1:
+    Start_Action: CLICK
+    Start_Delay: 1
+    Slots: 19
+    Mode: TOGETHER
+    Tick_Interval: 0
+    Items:
+      black:
+        Material: PLAYER_HEAD
+        Name: ' &8● #abfb00ʏ#96fb01ᴏ#80fc03ᴜ#6bfc04ʀ #56fc05ᴘ#40fc06ʀ#2bfd08ɪ#15fd09ᴢ#00fd0aᴇ &8→'
+        Lore:
+        - '#6D6D6D&nɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        - ''
+        - ' #DFDFDFʏᴏᴜ ᴄᴀɴ ᴡɪɴ ᴛʜᴇ'
+        - ' #DFDFDFʀᴇᴡᴀʀᴅ ɪɴ ᴛʜᴇ'
+        - ' #DFDFDFɴᴇxᴛ sʟᴏᴛ'
+        - '&b'
+        Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhZjIxN2FlZGRmMGY0MDA2NDk2OWViYjIwNDJmN2FlYWZiYzdkMGYxNzVhMjc2MjQxMzNhM2JlZmQxMDI4MSJ9fX0=
+  
+  win_arrow2:
+    Start_Action: CLICK
+    Start_Delay: 1
+    Slots: 21
+    Mode: TOGETHER
+    Tick_Interval: 0
+    Items:
+      black:
+        Material: PLAYER_HEAD
+        Name: ' &8← #abfb00ʏ#96fb01ᴏ#80fc03ᴜ#6bfc04ʀ #56fc05ᴘ#40fc06ʀ#2bfd08ɪ#15fd09ᴢ#00fd0aᴇ &8●'
+        Lore:
+        - '#6D6D6D&nɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+        - ''
+        - ' #DFDFDFʏᴏᴜ ᴄᴀɴ ᴡɪɴ ᴛʜᴇ'
+        - ' #DFDFDFʀᴇᴡᴀʀᴅ ɪɴ ᴛʜᴇ'
+        - ' #DFDFDFᴘʀᴇᴠɪᴏᴜs sʟᴏᴛ'
+        - '&b'
+        Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1YThhYThhNGMwMzYwMGEyYjVhNGViNmJlYjUxZDU5MDI2MGIwOTVlZTFjZGFhOTc2YjA5YmRmZTU2NjFjNiJ9fX0=

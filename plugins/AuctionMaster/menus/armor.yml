@@ -1,0 +1,16 @@
+armor-menu-item: '311'
+armor-menu-name: ' &8● &X&a&b&f&b&0&0ᴀ&X&8&2&f&c&0&0ʀ&X&5&8&f&c&0&0ᴍ&X&2&f&f&d&0&0ᴏ&X&0&5&f&d&0&0ʀ'
+armor-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ'
+  - ' &fᴄᴀɴ ꜰɪɴᴅ ᴀʟʟ ᴛʜᴇ'
+  - ' &fᴍɪɴᴇᴄʀᴀꜰᴛ ᴀʀᴍᴏʀs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

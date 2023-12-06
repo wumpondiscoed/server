@@ -1,0 +1,192 @@
+# DeluxeTags version: 1.8.3-DEV-23 Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+force_tags: false
+check_updates: false
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: ''
+load_tag_on_join: true
+gui:
+  name: ''
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  tag_visible_item:
+    material: NAME_TAG
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  divider_item:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  no_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: ''
+    lore:
+    - ''
+deluxetags:
+  lighting:
+    order: 1
+    tag: '&8[#FFF000⚡&8]'
+    description: ''
+    permission: deluxetags.tag.lighting
+  hammer:
+    order: 2
+    tag: '&8[#FFF000⚒&8]'
+    description: ''
+    permission: deluxetags.tag.hammer
+  anchor:
+    order: 3
+    tag: '&8[#FFF000⚓&8]'
+    description: ''
+    permission: deluxetags.tag.anchor
+  sword:
+    order: 4
+    tag: '&8[#FFF000⚔&8]'
+    description: ''
+    permission: deluxetags.tag.sword
+  radioactive:
+    order: 5
+    tag: '&8[#FFF000☣&8]'
+    description: ''
+    permission: deluxetags.tag.radioactive
+  clock:
+    order: 6
+    tag: '&8[#FFF000⌚&8]'
+    description: ''
+    permission: deluxetags.tag.clock
+  leaf:
+    order: 7
+    tag: '&8[#FFF000☘&8]'
+    description: ''
+    permission: deluxetags.tag.leaf
+  skull:
+    order: 8
+    tag: '&8[#FFF000☠&8]'
+    description: ''
+    permission: deluxetags.tag.skull
+  letter:
+    order: 9
+    tag: '&8[#FFF000✉&8]'
+    description: ''
+    permission: deluxetags.tag.letter
+  scissors:
+    order: 10
+    tag: '&8[#FFF000✁&8]'
+    description: ''
+    permission: deluxetags.tag.scissors
+  agree:
+    order: 11
+    tag: '&8[#FFF000✔&8]'
+    description: ''
+    permission: deluxetags.tag.agree
+  disagree:
+    order: 12
+    tag: '&8[#FFF000✘&8]'
+    description: ''
+    permission: deluxetags.tag.disagree
+  snow:
+    order: 13
+    tag: '&8[#FFF000❄&8]'
+    description: ''
+    permission: deluxetags.tag.snow
+  heart:
+    order: 14
+    tag: '&8[#FFF000♥&8]'
+    description: ''
+    permission: deluxetags.tag.heart
+  sun:
+    order: 15
+    tag: '&8[#FFF000☀&8]'
+    description: ''
+    permission: deluxetags.tag.sun
+  cloud:
+    order: 16
+    tag: '&8[&f☁&8]'
+    description: ''
+    permission: deluxetags.tag.cloud
+  umbrella:
+    order: 17
+    tag: '&8[#FFF000☔&8]'
+    description: ''
+    permission: deluxetags.tag.umbrella
+  fishing_rod:
+    order: 18
+    tag: '&8[#FFF000🎣&8]'
+    description: ''
+    permission: deluxetags.tag.fishing_rod
+  recycle:
+    order: 19
+    tag: '&8[#FFF000♻&8]'
+    description: ''
+    permission: deluxetags.tag.recycle
+  pencil:
+    order: 20
+    tag: '&8[#FFF000✎&8]'
+    description: ''
+    permission: deluxetags.tag.pencil
+  fire:
+    order: 21
+    tag: '&8[#FFF000🔥&8]'
+    description: ''
+    permission: deluxetags.tag.fire
+  trident:
+    order: 22
+    tag: '&8[#FFF000Ψ&8]'
+    description: ''
+    permission: deluxetags.tag.trident

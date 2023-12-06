@@ -1,0 +1,24 @@
+location: Spawn:5.495:66.800:16.585
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#F85BFB>&lSURVIVAL PANEL</#9D00FD>'
+    height: 0.3
+  - content: '&7sᴇʀᴠᴇʀ ꜰᴇᴀᴛᴜʀᴇs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴍᴀɴᴀɢᴇ ʏᴏᴜʀ sᴜʀᴠɪᴠᴀʟ ᴘᴀɴᴇʟ'
+    height: 0.3
+  - content: '&fᴛᴏ ᴀᴄᴄᴇss ᴛᴏ ᴀʟʟ ᴛʜᴇ ꜰᴇᴀᴛᴜʀᴇs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#F85BFB>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#9D00FD>'
+    height: 0.3
+  actions: {}

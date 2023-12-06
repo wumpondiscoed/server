@@ -1,0 +1,159 @@
+bids-menu-name: '        &X&2&E&2&E&2&E▸ ᴀᴜᴄᴛɪᴏɴ ᴠɪᴇᴡ ◂'
+
+bid-history-item: '358:0'
+bid-history-item-name: ' &8● &x&9&c&f&b&0&0ʙ&x&8&b&f&b&0&6ɪ&x&7&9&f&b&0&cᴅ &x&6&8&f&c&1&3ʜ&x&5&7&f&c&1&9ɪ&x&4&5&f&c&1&fs&x&3&4&f&c&2&5ᴛ&x&2&3&f&d&2&cᴏ&x&1&1&f&d&3&2ʀ&x&0&0&f&d&3&8ʏ'
+bid-history-item-lore:
+  no-bids:
+    - '&8&nʙɪᴅ ʜɪsᴛᴏʀʏ'
+    - ''
+    - ' &fɴᴏ ʙɪᴅs ʜᴀᴠᴇ ʙᴇᴇɴ ᴘʟᴀᴄᴇᴅ'
+    - ' &fᴏɴ ᴛʜɪs ɪᴛᴇᴍ ʏᴇᴛ.'
+    - ''
+    - ' &fʙᴇ ᴛʜᴇ ꜰɪʀsᴛ ᴛᴏ ʙɪᴅ ᴏɴ ɪᴛ!'
+  #The lore of the bid history item is dynamic when
+  #it has bids on it, the structure below repeats itself
+  #at every new bid, adding to the lore
+  #Use %bid-amount% for the amount of the bid
+  #Use %bidder-display-name% for bidder's display name
+  #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
+  bid-structure:
+    - '&8&nʙɪᴅ ʜɪsᴛᴏʀʏ'
+    - ''
+    - ' &8● &fBid: &x&0&0&f&d&3&8%bid-amount% ᴄᴏɪɴs'
+    - ' &8● &fBy: &x&0&0&f&d&3&8%bidder-display-name%'
+    - ' &x&0&0&f&d&3&8%when-bidded% ᴀɢᴏ'
+
+#This is the message items with "Ending soon" will give when clicked
+too-late-to-open-now: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fIt is too late to open this now!'
+
+#When the auction is claimed by the seller, the bid history
+#no longer updates %when-bidded% and the message below is added
+#to the bid history item lore
+#Use %date% for the date of the last updated
+bid-history-last-updated-message: '&8&nʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ %date%'
+
+submit-bid-cannot-afford-item: '394'
+#Use %bid-amount% for the needed amount (that the player does not have)
+submit-bid-cannot-afford-item-name: ' &8● &x&9&c&f&b&0&0s&x&8&9&f&b&0&7ᴜ&x&7&5&f&c&0&eʙ&x&6&2&f&c&1&5ᴍ&x&4&e&f&c&1&cɪ&x&3&b&f&c&2&3ᴛ &x&2&7&f&d&2&aʙ&x&1&4&f&d&3&1ɪ&x&0&0&f&d&3&8ᴅ'
+submit-bid-cannot-afford-item-lore:
+  - '&8&nsᴜʙᴍɪᴛ ʙɪᴅ'
+  - ''
+  - ' &fɴᴇᴡ ʙɪᴅ: &x&0&0&f&d&3&8%bid-amount% ᴄᴏɪɴs'
+  - ' &fᴄᴀɴɴᴏᴛ ᴀꜰꜰᴏʀᴅ ʙɪᴅ!'
+
+submit-bid-item: '371'
+submit-bid-item-name: ' &8● &x&9&c&f&b&0&0s&x&8&9&f&b&0&7ᴜ&x&7&5&f&c&0&eʙ&x&6&2&f&c&1&5ᴍ&x&4&e&f&c&1&cɪ&x&3&b&f&c&2&3ᴛ &x&2&7&f&d&2&aʙ&x&1&4&f&d&3&1ɪ&x&0&0&f&d&3&8ᴅ'
+submit-bid-item-lore:
+  no-previous-bids:
+    - '&8&nsᴜʙᴍɪᴛ ʙɪᴅ'
+    - ''
+    - ' &fɴᴇᴡ ʙɪᴅ: &x&0&0&f&d&3&8%bid-amount% ᴄᴏɪɴs'
+    - ''
+    - ' &x&9&c&f&b&0&0&nʟ&x&9&1&f&b&0&4&nᴇ&x&8&6&f&b&0&8&nꜰ&x&7&b&f&b&0&c&nᴛ&x&6&f&f&c&1&0&n-&x&6&4&f&c&1&4&nᴄ&x&5&9&f&c&1&8&nʟ&x&4&e&f&c&1&c&nɪ&x&4&3&f&c&2&0&nᴄ&x&3&8&f&c&2&4&nᴋ &x&2&d&f&c&2&8&nᴛ&x&2&1&f&d&2&c&nᴏ &x&1&6&f&d&3&0&nʙ&x&0&b&f&d&3&4&nɪ&x&0&0&f&d&3&8&nᴅ'
+    - ''
+  #Use %bid-amount% for the amount the bid will have
+  #Use %previous-bid% for the previous bid's amount
+  #Use %coins-to-pay% for the difference between previous bid and actual bid
+  with-previous-bids:
+    - '&8&nʙɪᴅ ʜɪsᴛᴏʀʏ'
+    - ''
+    - ' &fɴᴇᴡ ʙɪᴅ: &x&0&0&f&d&3&8%bid-amount% ᴄᴏɪɴs'
+    - ' &fᴘʀᴇᴠɪᴏᴜs ʙɪᴅ: &x&0&0&f&d&3&8%bid-amount% ᴄᴏɪɴs'
+    - ''
+    - ' &fʏᴏᴜ ᴘᴀʏ: &x&0&0&f&d&3&8%coins-to-pay% ᴄᴏɪɴs'
+    - ''
+    - ' &x&9&c&f&b&0&0&nʟ&x&9&1&f&b&0&4&nᴇ&x&8&6&f&b&0&8&nꜰ&x&7&b&f&b&0&c&nᴛ&x&6&f&f&c&1&0&n-&x&6&4&f&c&1&4&nᴄ&x&5&9&f&c&1&8&nʟ&x&4&e&f&c&1&c&nɪ&x&4&3&f&c&2&0&nᴄ&x&3&8&f&c&2&4&nᴋ &x&2&d&f&c&2&8&nᴛ&x&2&1&f&d&2&c&nᴏ &x&1&6&f&d&3&0&nʙ&x&0&b&f&d&3&4&nɪ&x&0&0&f&d&3&8&nᴅ'
+    - ''
+
+collect-bid-item: '41'
+collect-bid-item-name: ' &8● &x&9&c&f&b&0&0ᴄ&x&9&0&f&b&0&4ᴏ&x&8&4&f&b&0&9ʟ&x&7&8&f&b&0&dʟ&x&6&c&f&c&1&1ᴇ&x&6&0&f&c&1&6ᴄ&x&5&4&f&c&1&aᴛ &x&4&8&f&c&1&eᴀ&x&3&c&f&c&2&2ᴜ&x&3&0&f&c&2&7ᴄ&x&2&4&f&d&2&bᴛ&x&1&8&f&d&2&fɪ&x&0&c&f&d&3&4ᴏ&x&0&0&f&d&3&8ɴ'
+collect-bid-item-lore:
+  #Use %coins% for the amount of coins the player could collect
+  collect-coins:
+    - '&8&nᴄᴏʟʟᴇᴄᴛ ᴄᴏɪɴs'
+    - ''
+    - ' &fʏᴏᴜ ʜᴀᴠᴇ &x&0&0&f&d&3&8%coins% ᴄᴏɪɴs'
+    - ' &fᴛᴏ ᴄᴏʟʟᴇᴄᴛ ꜰʀᴏᴍ ᴛʜɪs'
+    - ' &fᴀᴜᴄᴛɪᴏɴ.'
+    - ''
+    - ' &x&9&c&f&b&0&0&nʟ&x&9&3&f&b&0&3&nᴇ&x&8&b&f&b&0&6&nꜰ&x&8&2&f&b&0&9&nᴛ&x&7&9&f&b&0&c&n-&x&7&1&f&c&1&0&nᴄ&x&6&8&f&c&1&3&nʟ&x&5&f&f&c&1&6&nɪ&x&5&7&f&c&1&9&nᴄ&x&4&e&f&c&1&c&nᴋ &x&4&5&f&c&1&f&nᴛ&x&3&d&f&c&2&2&nᴏ &x&3&4&f&c&2&5&nᴄ&x&2&b&f&c&2&8&nᴏ&x&2&3&f&d&2&c&nʟ&x&1&a&f&d&2&f&nʟ&x&1&1&f&d&3&2&nᴇ&x&0&9&f&d&3&5&nᴄ&x&0&0&f&d&3&8&nᴛ'
+    - ''
+  collect-item:
+    - '&8&nᴄᴏʟʟᴇᴄᴛ ɪᴛᴇᴍs'
+    - ''
+    - ' &fʏᴏᴜ ʜᴀᴠᴇ ɪᴛᴇᴍs ᴛᴏ'
+    - ' &fᴄᴏʟʟᴇᴄᴛ ꜰʀᴏᴍ ᴛʜɪs ᴀᴜᴄᴛɪᴏɴ'
+    - ''
+    - ' &x&9&c&f&b&0&0&nʟ&x&9&3&f&b&0&3&nᴇ&x&8&b&f&b&0&6&nꜰ&x&8&2&f&b&0&9&nᴛ&x&7&9&f&b&0&c&n-&x&7&1&f&c&1&0&nᴄ&x&6&8&f&c&1&3&nʟ&x&5&f&f&c&1&6&nɪ&x&5&7&f&c&1&9&nᴄ&x&4&e&f&c&1&c&nᴋ &x&4&5&f&c&1&f&nᴛ&x&3&d&f&c&2&2&nᴏ &x&3&4&f&c&2&5&nᴄ&x&2&b&f&c&2&8&nᴏ&x&2&3&f&d&2&c&nʟ&x&1&a&f&d&2&f&nʟ&x&1&1&f&d&3&2&nᴇ&x&0&9&f&d&3&5&nᴄ&x&0&0&f&d&3&8&nᴛ'
+    - ''
+
+#What amount of the previous bid is needed for a new bid
+#Default Example: to bid over a 100 coins bid you need '100 + 15% from 100' minimum
+#If you remove the % it will just take 15 coins instead of a percent
+bid-step: '15%'
+
+#When a bid is lower than this amount
+#the next bid will jump here
+#Set it to 0 to disable it but make sure you know
+#how to handle it
+bid-jump: 20
+
+edit-bid-item: '266'
+#Use %current-bid% for the amount the player has selected to bid
+edit-bid-item-name: ' &8● &x&9&c&f&b&0&0ʙ&x&8&9&f&b&0&7ɪ&x&7&5&f&c&0&eᴅ &x&6&2&f&c&1&5ᴀ&x&4&e&f&c&1&cᴍ&x&3&b&f&c&2&3ᴏ&x&2&7&f&d&2&aᴜ&x&1&4&f&d&3&1ɴ&x&0&0&f&d&3&8ᴛ: %current-bid% &fᴄᴏɪɴs'
+#Use %minimum-bid% for the minimum amount you have to bid on the auction
+edit-bid-item-lore:
+  - '&8&nᴇᴅɪᴛ ʙɪᴅ'
+  - ''
+  - ' &fʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙɪᴅ ᴀᴛ ʟᴇᴀsᴛ'
+  - ' &x&0&0&f&d&3&8%minimum-bid% ᴄᴏɪɴs &fᴛᴏ ʜᴏʟᴅ ᴛʜᴇ ᴛᴏᴘ'
+  - ' &fʙɪᴅ ᴏɴ ᴛʜɪs ᴀᴜᴄᴛɪᴏɴ.'
+  - ''
+  - ' &fᴛʜᴇ &x&0&0&f&d&3&8ᴛᴏᴘ ʙɪᴅ&f ᴏɴ ᴀᴜᴄᴛɪᴏɴ'
+  - ' &fᴇɴᴅ ᴡɪɴs ᴛʜᴇ ɪᴛᴇᴍ.'
+  - ''
+  - ' &fɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ᴡɪɴ, ʏᴏᴜ ᴄᴀɴ'
+  - ' &fᴄʟᴀɪᴍ ʏᴏᴜʀ ʙɪᴅ ᴄᴏɪɴs ʙᴀᴄᴋ.'
+  - ''
+  - ' &x&9&c&f&b&0&0&nʟ&x&9&5&f&b&0&3&nᴇ&x&8&d&f&b&0&5&nꜰ&x&8&6&f&b&0&8&nᴛ&x&7&e&f&b&0&b&n-&x&7&7&f&b&0&d&nᴄ&x&6&f&f&c&1&0&nʟ&x&6&8&f&c&1&3&nɪ&x&6&1&f&c&1&5&nᴄ&x&5&9&f&c&1&8&nᴋ &x&5&2&f&c&1&b&nᴛ&x&4&a&f&c&1&d&nᴏ &x&4&3&f&c&2&0&nᴇ&x&3&b&f&c&2&3&nᴅ&x&3&4&f&c&2&5&nɪ&x&2&d&f&c&2&8&nᴛ &x&2&5&f&d&2&b&nᴀ&x&1&e&f&d&2&d&nᴍ&x&1&6&f&d&3&0&nᴏ&x&0&f&f&d&3&3&nᴜ&x&0&7&f&d&3&5&nɴ&x&0&0&f&d&3&8&nᴛ'
+  - ''
+
+#The sign used for editing has the same text
+#as the starting bid on auction creator
+
+#Message for when you try to edit the bid with a value smaller than needed
+edit-bid-deny-message: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fYour bid is too low.'
+
+#Message for when the bid is placed successfully
+placed-bid-message: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fYour bid was successfully placed!'
+
+#Message for when you have 28 bids (reached the limit)
+max-bids-reached: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fYou can have maximum 28 bids on different auctions at the same time.'
+
+#Message sent to players when they get outbidded
+#Use %outbid-player-display-name% for the name of the outbidder
+#Use %top-bid% for the new top bid
+#Use %bid-item% for the name of the item
+outbid-message:
+  - ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fYou got outbidded by &x&0&0&f&d&3&8%outbid-player-display-name%&f on &x&0&0&f&d&3&8%bid-item%&f.'
+  - ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fThe new top bid is &x&0&0&f&d&3&8%top-bid% coins&f. &x&0&0&f&d&3&8&lCLICK TO VIEW'
+
+#Message sent to the seller when someone bids on their auction
+#Use %bidder% for bidder's display name
+#Use %bid-amount% for the bidded amount
+#Use %bid-item% for the name of the item
+bid-message: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &x&0&0&f&d&3&8 %bidder% &fput a bid of &x&0&0&f&d&3&8 %bid-amount% coins &fon your &x&0&0&f&d&3&8 %bid-item%&f!'
+
+not-enough-money-bid: ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fYou don''t have enough money to bid this amount.'
+
+#This message is added to the lore of some items
+#to let the player know it is their own auction
+own-auction-message: ' &x&9&c&f&b&0&0&nᴛ&x&9&4&f&b&0&3&nʜ&x&8&c&f&b&0&6&nɪ&x&8&3&f&b&0&9&ns &x&7&b&f&b&0&c&nɪ&x&7&3&f&c&0&f&ns &x&6&b&f&c&1&2&nʏ&x&6&3&f&c&1&5&nᴏ&x&5&a&f&c&1&8&nᴜ&x&5&2&f&c&1&b&nʀ &x&4&a&f&c&1&d&nᴏ&x&4&2&f&c&2&0&nᴡ&x&3&9&f&c&2&3&nɴ &x&3&1&f&c&2&6&nᴀ&x&2&9&f&c&2&9&nᴜ&x&2&1&f&d&2&c&nᴄ&x&1&9&f&d&2&f&nᴛ&x&1&0&f&d&3&2&nɪ&x&0&8&f&d&3&5&nᴏ&x&0&0&f&d&3&8&nɴ!'
+
+#To prevent a bug where two players bid the same amount
+#on the same auction (that happening when 2 players have the same view auction menu opened
+#at the same time) this message will be sent to the player if the value they try to submit
+#is already in there
+bid-error-message:
+  - ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fWhile you were thinking about submitting someone already bid.'
+  - ' &x&9&c&f&b&0&0&l&nA&x&8&f&f&b&0&5&l&nU&x&8&2&f&b&0&9&l&nC&x&7&5&f&c&0&e&l&nT&x&6&8&f&c&1&3&l&nI&x&5&b&f&c&1&7&l&nO&x&4&e&f&c&1&c&l&nN &x&4&1&f&c&2&1&l&nH&x&3&4&f&c&2&5&l&nO&x&2&7&f&d&2&a&l&nU&x&1&a&f&d&2&f&l&nS&x&0&d&f&d&3&3&l&nE&x&0&0&f&d&3&8 &l| &fReopening menu...'

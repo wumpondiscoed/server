@@ -1,0 +1,24 @@
+location: Spawn:-21.500:63.200:101.500
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#E7FB00>&lKITS MENU</#FDC500>'
+    height: 0.3
+  - content: '&7sᴇʀᴠᴇʀ ᴋɪᴛs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ ʏᴏᴜʀ ᴋɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ'
+    height: 0.3
+  - content: '&fᴇᴠᴇʀʏ ᴡᴇᴇᴋ ᴡɪᴛʜ ʀᴀɴᴋs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '<#FBF100>&n➥ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ</#FD7900>'
+    height: 0.3
+  actions: {}

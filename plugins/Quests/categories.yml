@@ -1,0 +1,42 @@
+# -----------------------------------------------------------
+#  Categories
+#  ----------
+#
+#  Categories are a way of grouping quests.
+#  When a player uses /quests, a menu of categories will be presented to them.
+#  When a player clicks on a category, a list of quests under that category will show.
+#  If categories are disabled, all quests will be shown under one big GUI.
+#  Players can access specific categories by command using /quests c [category].
+#  If a quest does not have a category, it will not be shown.
+# -----------------------------------------------------------
+categories:
+  blockbreak:
+    display:
+      name: ""
+      lore:
+        - ""
+      type: "WATER_BUCKET"
+  enchanting:
+    display:
+      name: ""
+      lore:
+        - ""
+      type: "WATER_BUCKET"
+  farming:
+    display:
+      name: ""
+      lore:
+        - ""
+      type: "WATER_BUCKET"
+  fishing:
+    display:
+      name: ""
+      lore:
+        - ""
+      type: "WATER_BUCKET"
+  walking:
+    display:
+      name: ""
+      lore:
+        - ""
+      type: "WATER_BUCKET"

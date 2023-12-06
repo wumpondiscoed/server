@@ -1,0 +1,9 @@
+CategoryGUIOptions:
+  GUITitle: "        &X&2&E&2&E&2&E▸  ᴅᴀɪʟʏ ʀᴇᴡᴀʀᴅs ◂"
+  rows: 4
+CategoryList:
+  decoration:
+    DisplayItem:
+      slot: [19,21,22,24,25]
+      material: "BLACK_STAINED_GLASS_PANE"
+      displayname: ""

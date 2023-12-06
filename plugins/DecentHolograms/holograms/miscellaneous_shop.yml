@@ -1,0 +1,14 @@
+location: Spawn:-65.517:57.600:61.509
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#E7FB00>&lMISCELLANEOUS SHOP</#FDC500>'
+    height: 0.3
+  - content: '&#E7FB00ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    height: 0.3
+  actions: {}

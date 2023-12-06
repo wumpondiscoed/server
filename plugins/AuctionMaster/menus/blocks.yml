@@ -1,0 +1,16 @@
+blocks-menu-item: '4'
+blocks-menu-name: ' &8● &X&a&b&f&b&0&0ʙ&X&8&a&f&b&0&0ʟ&X&6&9&f&c&0&0ᴏ&X&4&7&f&c&0&0ᴄ&X&2&6&f&d&0&0ᴋ&X&0&5&f&d&0&0s'
+blocks-menu-lore:
+  - '&8&nᴀᴜᴄᴛɪᴏɴ ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &fɪɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ʏᴏᴜ'
+  - ' &fᴄᴀɴ ꜰɪɴᴅ ᴀʟʟ ᴛʜᴇ'
+  - ' &fᴍɪɴᴇᴄʀᴀꜰᴛ ʙʟᴏᴄᴋs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - ''
+
+custom-item-ids:
+  - '2266'

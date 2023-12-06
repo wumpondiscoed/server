@@ -1,0 +1,32 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 0
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  survival-menu:
+    id: PLAYER_HEAD
+    skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI1OTZiMjU1NmRhMmJhNTg3YzQ4YWFjZDk5ZDRlZTM4ZTI0MjUyMDA4YWMzYmVhNTcyODA4MGY5MDI4N2FjOSJ9fX0='
+    slot: 8
+    name: '&#abfb00&lG&#98fb00&la&#84fc00&lm&#71fc00&le &#5dfc00&lM&#4afc00&le&#36fd00&ln&#23fd00&lu &#1EDC00(Right-Click)'
+    lore:
+    - '&7Manage your adventure'
+    - '&7in your survival menu'
+    - ''
+    - '&#abfb00&n▶ R&#a3fb00&ni&#9afb00&ng&#92fb00&nh&#89fc00&nt&#81fc00&n-&#78fc00&nc&#70fc00&nl&#67fc00&ni&#5ffc00&nc&#56fc00&nk &#4efc00&nt&#45fd00&no &#3dfd00&no&#34fd00&np&#2cfd00&ne&#23fd00&nn'
+    interact:
+    - 'player: dm open main_menu'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    itemflags: unbreakable, hide-flags, placement, inventory-modify, death-drops, self-drops, CreativeBypass
+    triggers: join, respawn, world-switch, region-enter
+    enabled-worlds: Spawn, Mines, world, world_nether, world_the_end

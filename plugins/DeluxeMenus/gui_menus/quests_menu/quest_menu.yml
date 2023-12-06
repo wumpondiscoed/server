@@ -1,0 +1,150 @@
+menu_title: '          &#2E2E2E▸ ǫᴜᴇsᴛs ᴍᴇɴᴜ ◂'
+size: 27
+open_command:
+- q
+- quest
+- quests
+- mission
+- missions
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 17
+    - 26
+  'background_menu_2':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 16
+    - 24
+    - 25
+  'background_menu_3':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+  'block_break_quests':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQyYzBjZWRmYzMyZTNiZWVlOTU1Y2FiZDY2ZmQ0ZDc2NWVlZGEzYWRjYzg0YmM0NTFjOWZkYmVjZjNjYjdjMiJ9fX0=
+    slots:
+    - 10
+    display_name: ' &8● &#abfb00ʙ&#9afb00ʟ&#89fb00ᴏ&#79fc00ᴄ&#68fc00ᴋ &#57fc00ʙ&#46fc00ʀ&#36fd00ᴇ&#25fd00ᴀ&#14fd00ᴋ'
+    lore:
+    - '&8&nʙʟᴏᴄᴋ ʙʀᴇᴀᴋ ǫᴜᴇsᴛs'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴏꜰ'
+    - ' &fʙʟᴏᴄᴋ ʙʀᴇᴀᴋɪɴɢ ᴛᴏ'
+    - ' &fᴇᴀʀɴ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &8● &fǫᴜᴇsᴛs: &#14fd00%quests_category:blockbreak_completed%&7/&#14fd00%quests_category:blockbreak_all%'
+    - ''
+    - ' &#abfb00&nʟ&#a1fb00&nᴇ&#97fb00&nꜰ&#8dfb00&nᴛ&#83fc00&n-&#79fc00&nᴄ&#6ffc00&nʟ&#65fc00&nɪ&#5afc00&nᴄ&#50fc00&nᴋ &#46fc00&nᴛ&#3cfc00&nᴏ &#32fd00&nᴏ&#28fd00&nᴘ&#1efd00&nᴇ&#14fd00&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] quests category blockbreak'
+  'enchanting_quests':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQyNmFiODg4Mjk4YWRmMWVmZmQ4MTFjODA3NGRlZjA5NzgwZTdkOWQxMmJhNGM3N2I3M2ZkYTk5ODJkZDBmZSJ9fX0=
+    slots:
+    - 12
+    display_name: ' &8● &#fb00a6ᴇ&#f700b0ɴ&#f400b9ᴄ&#f000c3ʜ&#ec00cdᴀ&#e900d6ɴ&#e500e0ᴛ&#e100eaɪ&#de00f3ɴ&#da00fdɢ'
+    lore:
+    - '&8&nᴇɴᴄʜᴀɴᴛɪɴɢ ǫᴜᴇsᴛs'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴏꜰ'
+    - ' &fʙʟᴏᴄᴋ ᴇɴᴄʜᴀɴᴛɪɴɢ'
+    - ' &fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &8● &fǫᴜᴇsᴛs: &#da00fd%quests_category:enchanting_completed%&7/&#da00fd%quests_category:enchanting_all%'
+    - ''
+    - ' &#fb00a6&nʟ&#f900ac&nᴇ&#f700b2&nꜰ&#f400b7&nᴛ&#f200bd&n-&#f000c3&nᴄ&#ee00c9&nʟ&#ec00cf&nɪ&#e900d4&nᴄ&#e700da&nᴋ &#e500e0&nᴛ&#e300e6&nᴏ &#e100ec&nᴏ&#de00f1&nᴘ&#dc00f7&nᴇ&#da00fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] quests category enchanting'
+  'exploring_quests':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYxNmQwNzk5ZDIwOTJhNGUyOWE0NjI4YjUyMmM1Y2E2NWI0MmVkMGQ3NGI2MWVmZDNiYmFhNzI4ZTQwOTA3OSJ9fX0=
+    slots:
+    - 13
+    display_name: ' &8● &#00fdfdᴇ&#00f7fdx&#00f2fdᴘ&#00ecfdʟ&#00e6fdᴏ&#00e0fdʀ&#00dbfdɪ&#00d5fdɴ&#00cffdɢ'
+    lore:
+    - '&8&nᴇxᴘʟᴏʀɪɴɢ ǫᴜᴇsᴛs'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴏꜰ'
+    - ' &fʙʟᴏᴄᴋ ᴇxᴘʟᴏʀɪɴɢ'
+    - ' &fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &8● &fǫᴜᴇsᴛs: &#00cffd%quests_category:walking_completed%&7/&#00cffd%quests_category:walking_all%'
+    - ''
+    - ' &#00fdfd&nʟ&#00fafd&nᴇ&#00f7fd&nꜰ&#00f4fd&nᴛ&#00f1fd&n-&#00eefd&nᴄ&#00ebfd&nʟ&#00e8fd&nɪ&#00e4fd&nᴄ&#00e1fd&nᴋ &#00defd&nᴛ&#00dbfd&nᴏ &#00d8fd&nᴏ&#00d5fd&nᴘ&#00d2fd&nᴇ&#00cffd&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] quests category walking'
+  'farming_quests':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0=
+    slots:
+    - 14
+    display_name: ' &8● &#e7fb00ꜰ&#ebf200ᴀ&#eee900ʀ&#f2e000ᴍ&#f6d700ɪ&#f9ce00ɴ&#fdc500ɢ'
+    lore:
+    - '&8&nꜰᴀʀᴍɪɴɢ ǫᴜᴇsᴛs'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴏꜰ'
+    - ' &fʙʟᴏᴄᴋ ꜰᴀʀᴍɪɴɢ'
+    - ' &fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &8● &fǫᴜᴇsᴛs: &#fdc500%quests_category:farming_completed%&7/&#fdc500%quests_category:farming_all%'
+    - ''
+    - ' &#e7fb00&nʟ&#e8f700&nᴇ&#eaf400&nꜰ&#ebf000&nᴛ&#eded00&n-&#eee900&nᴄ&#f0e500&nʟ&#f1e200&nɪ&#f3de00&nᴄ&#f4db00&nᴋ &#f6d700&nᴛ&#f7d300&nᴏ &#f9d000&nᴏ&#facc00&nᴘ&#fcc900&nᴇ&#fdc500&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] quests category farming'
+  'fishing_quests':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNzI4YWQ4ZDMxNDg2YTdmOWFhZDIwMGVkYjM3M2VhODAzZDFmYzVmZDQzMjFiMmUyYTk3MTM0ODIzNDQ0MyJ9fX0=
+    slots:
+    - 15
+    display_name: ' &8● &#00cefbꜰ&#00c7fbɪ&#00bffcs&#00b8fcʜ&#00b1fcɪ&#00a9fdɴ&#00a2fdɢ'
+    lore:
+    - '&8&nꜰɪsʜɪɴɢ ǫᴜᴇsᴛs'
+    - ''
+    - ' &fᴄᴏᴍᴘʟᴇᴛᴇ ǫᴜᴇsᴛs ᴏꜰ'
+    - ' &fʙʟᴏᴄᴋ ꜰɪsʜɪɴɢ ᴛᴏ'
+    - ' &fᴇᴀʀɴ ʀᴇᴡᴀʀᴅs'
+    - ''
+    - ' &8● &fǫᴜᴇsᴛs: &#00a2fd%quests_category:fishing_completed%&7/&#00a2fd%quests_category:fishing_all%'
+    - ''
+    - ' &#00cefb&nʟ&#00cbfb&nᴇ&#00c8fb&nꜰ&#00c5fb&nᴛ&#00c2fc&n-&#00bffc&nᴄ&#00bcfc&nʟ&#00b9fc&nɪ&#00b7fc&nᴄ&#00b4fc&nᴋ &#00b1fc&nᴛ&#00aefc&nᴏ &#00abfd&nᴏ&#00a8fd&nᴘ&#00a5fd&nᴇ&#00a2fd&nɴ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] quests category fishing'
+  'close_menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slots:
+    - 22
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

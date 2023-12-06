@@ -1,0 +1,14 @@
+location: Spawn:91.506:57.700:25.492
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '<#00DFFD>&lORES SHOP</#0083FB>'
+    height: 0.3
+  - content: '&#00DFFDʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    height: 0.3
+  actions: {}

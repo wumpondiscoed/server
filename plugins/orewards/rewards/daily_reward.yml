@@ -1,0 +1,46 @@
+RewardOptions:
+   displayInCategory: true
+   time: '1d'
+   permission: 'orewards.daily.claim'
+   displayname: ''
+   slot: 10
+   Sounds:
+      Available: 'ENTITY_PLAYER_LEVELUP'
+      NoAvailable: 'BLOCK_ANVIL_USE'
+      NeedPermission: 'BLOCK_ANVIL_PLACE'
+DisplayOptions:
+   Available:
+      material: 'MINECART'
+      displayname: ' &8● &x&c&c&f&f&0&0ᴅ&x&b&8&f&f&0&7ᴀ&x&a&3&f&f&0&eɪ&x&8&f&f&e&1&5ʟ&x&7&a&f&e&1&cʏ &x&6&6&f&e&2&4ʀ&x&5&2&f&e&2&bᴇ&x&3&d&f&e&3&2ᴡ&x&2&9&f&d&3&9ᴀ&x&1&4&f&d&4&0ʀ&x&0&0&f&d&4&7ᴅ &8| &x&0&0&f&d&4&7✔'
+      lore:
+         - '&8&nʀᴇᴡᴀʀᴅ ᴀᴠᴀɪʟᴀʙʟᴇ'
+         - ' '
+         - ' &fᴛʜɪs ɪs ᴛʜᴇ ʀᴇᴡᴀʀᴅ'
+         - ' &fꜰᴏʀ ɴᴏɴ-ʀᴀɴᴋ ᴜsᴇʀs'
+         - ''
+         - '&fᴄᴏɴᴛᴇɴᴛ:'
+         - '  &8- &x&0&0&f&d&4&7$50 ᴄᴏɪɴs'
+         - ' '
+         - ' &x&c&c&f&f&0&0&nʟ&x&b&f&f&f&0&4&nᴇ&x&b&3&f&f&0&9&nꜰ&x&a&6&f&f&0&d&nᴛ&x&9&9&f&f&1&2&n-&x&8&c&f&e&1&6&nᴄ&x&8&0&f&e&1&b&nʟ&x&7&3&f&e&1&f&nɪ&x&6&6&f&e&2&4&nᴄ&x&5&9&f&e&2&8&nᴋ &x&4&d&f&e&2&c&nᴛ&x&4&0&f&e&3&1&nᴏ &x&3&3&f&e&3&5&nᴄ&x&2&6&f&d&3&a&nʟ&x&1&a&f&d&3&e&nᴀ&x&0&d&f&d&4&3&nɪ&x&0&0&f&d&4&7&nᴍ'
+         - ' '
+   NoAvailable:
+      material: 'MINECART'
+      displayname: ' &8● &x&f&f&9&9&0&0ᴅ&x&f&f&9&1&0&0ᴀ&x&f&f&8&a&0&0ɪ&x&f&e&8&2&0&0ʟ&x&f&e&7&a&0&0ʏ &x&f&e&7&3&0&0ʀ&x&f&e&6&b&0&0ᴇ&x&f&e&6&3&0&0ᴡ&x&f&d&5&b&0&0ᴀ&x&f&d&5&4&0&0ʀ&x&f&d&4&c&0&0ᴅ &8| &x&f&d&4&c&0&0✘'
+      lore:
+         - '&8&nɪɴ ᴄᴏᴏʟᴅᴏᴡɴ'
+         - ' '
+         - ' &fᴛʜɪs ʀᴇᴡᴀʀᴅ ɪs'
+         - ' &fᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'
+         - ' '
+         - ' &fᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ:'
+         - '  &x&f&d&4&c&0&0- <reward_cooldown>'
+         - ' '
+         - ' &x&f&f&9&9&0&0&nʟ&x&f&f&9&4&0&0&nᴇ&x&f&f&8&f&0&0&nꜰ&x&f&f&8&b&0&0&nᴛ&x&f&f&8&6&0&0&n-&x&f&e&8&1&0&0&nᴄ&x&f&e&7&c&0&0&nʟ&x&f&e&7&7&0&0&nɪ&x&f&e&7&3&0&0&nᴄ&x&f&e&6&e&0&0&nᴋ &x&f&e&6&9&0&0&nᴛ&x&f&e&6&4&0&0&nᴏ &x&f&e&5&f&0&0&nᴄ&x&f&d&5&a&0&0&nʟ&x&f&d&5&6&0&0&nᴀ&x&f&d&5&1&0&0&nɪ&x&f&d&4&c&0&0&nᴍ'
+         - ' '
+   NeedPermission:
+      material: 'MINECART'
+      displayname: ''
+      lore:
+         - ' '
+RewardsList:
+   exampleCommand: 'eco give <player_name> 50'

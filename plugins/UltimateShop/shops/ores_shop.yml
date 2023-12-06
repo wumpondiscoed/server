@@ -1,0 +1,125 @@
+settings:
+  menu: 'ores_menu'
+  buy-more: true
+  shop-name: '            &#2E2E2E▸ ᴏʀᴇs sʜᴏᴘ ◂'
+
+items:
+  A:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: COAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 300
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.30
+        placeholder: '{amount} Coins'
+  B:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: IRON_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 400
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.40
+        placeholder: '{amount} Coins'
+  C:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: GOLD_INGOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 450
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.45
+        placeholder: '{amount} Coins'
+  D:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: LAPIS_LAZULI
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 400
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.40
+        placeholder: '{amount} Coins'
+  E:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: REDSTONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 400
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.40
+        placeholder: '{amount} Coins'
+  F:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: DIAMOND
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 500
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.50
+        placeholder: '{amount} Coins'
+  G:
+    price-mode: ANY
+    product-mode: ALL
+    products:
+      1:
+        material: EMERALD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 600
+        placeholder: '{amount} Coins'
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.60
+        placeholder: '{amount} Coins'

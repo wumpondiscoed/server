@@ -1,0 +1,34 @@
+location: Spawn:-23.318:66.800:27.490
+enabled: true
+display-range: 100
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FBF100>&l⚡ LEGENDARY CRATE ⚡</#FD7900>
+    height: 0.3
+  - content: '&7ᴄʀᴀᴛᴇ ʀᴇᴡᴀʀᴅs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ ᴛᴏ ɢᴇᴛ'
+    height: 0.3
+  - content: '&fʟᴇɢᴇɴᴅᴀʀʏ ɪᴛᴇᴍs, <#FBF100>ʏᴏᴜ ɴᴇᴇᴅ ʟᴇɢᴇɴᴅᴀʀʏ</#FD7900>'
+    height: 0.3
+  - content: '&fᴋᴇʏs ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&f★ ʀᴇᴡᴀʀᴅ ʟᴇᴠᴇʟ: <#FBF100>●●● &7- <#FBF100>●●●'
+    height: 0.3
+  - content: '&f★ ᴄᴜʀʀᴇɴᴛ ᴋᴇʏs: <#FBF100>%excellentcrates_keys_legendary_crate% ᴋᴇʏs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fɢᴇᴛ ᴋᴇʏs ꜰᴏʀ ᴛʜɪs ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: <#FBF100>ʙᴜʏɪɴɢ &fɪɴ ᴛʜᴇ sᴇʀᴠᴇʀ sᴛᴏʀᴇ <#FBF100>(/ʙᴜʏ)
+    height: 0.3
+  actions: {}

@@ -1,0 +1,37 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 80
+
+display:
+  name: " &8● &#bafb00ꜰ&#9ffb08ɪ&#85fc10s&#6afc18ʜ&#50fc20ɪ&#35fc28ɴ&#1bfd30ɢ &#00fd38ᴠɪɪɪ"
+  lore-normal:
+    - "&8&nǫᴜᴇsᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"
+    - ""
+    - " &Fsᴛᴀʀᴛ ᴛʜɪs ǫᴜᴇsᴛ"
+    - " &Fᴛᴏ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs"
+    - ""
+    - " &#FF0000● ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs:"
+    - " &8▶ &Fx80 ꜰɪsʜ's ᴄᴀᴜɢʜᴛ"
+    - ""
+    - " &8● &fʀᴇᴡᴀʀᴅs: &#da00fd+$800 ᴄᴏɪɴs"
+  lore-started:
+    - ""
+    - " &#04FF00✔ &Fᴄᴜʀʀᴇɴᴛ ᴘʀᴏɢʀᴇss"
+    - " &8- &f{fishing:progress}&8/&f80 ꜰɪsʜ's ᴄᴀᴜɢʜᴛ"
+  type: "COOKED_COD"
+
+rewards:
+  - "eco give {player} 800"
+
+placeholders:
+  description: ""
+  progress: ""
+
+options:
+  category: "fishing"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 8

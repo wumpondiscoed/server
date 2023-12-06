@@ -1,0 +1,153 @@
+No_Permissions: '&fYou don''t have sufficient permission to use this command'
+Only_for_Player: '&fThis command is only available for players!'
+No_Money: '&fYou don''t have sufficient money!'
+Enter_Correct_Amount: '&fPlease enter a valid amount.'
+Only_X_Amount: '&fYou only have &#68FF00%amount% %type% ⛃&f!'
+Trade_Was_Cancelled: '&fThe trade was cancelled.'
+Trade_Was_Finished: '&fThe trade was finished.'
+Cannot_Trade_With_Yourself: '&fYou cannot trade with yourself.'
+Player_Not_Online: '&fThis player is not online.'
+Want_To_Trade: '&fThe player &#68FF00%player% &fwants to trade with you. &8[%accept% &8|
+  %deny%&8]'
+Want_To_Trade_Accept: '&#68FF00Accept'
+Want_To_Trade_Deny: '&#FF0000Deny'
+Want_To_Trade_Hover: '&8» Click «'
+Player_Is_Invited: '&fThe player &#68FF00%player% &fwas invited.'
+Command_How_To: '&fUse: &#68FF00/trade <player, accept, deny, toggle>'
+Command_How_To_Accept: '&fUse: &#68FF00/trade accept <Player>'
+Command_How_To_Deny: '&fUse: &#68FF00/trade deny <Player>'
+Player_Of_Request_Not_Online: '&fThe player of the trade request is no longer online!'
+Request_Accepted: '&fYou have &#68FF00accepted &fthe trade request.'
+Request_Was_Accepted: '&fYour trade request to &#68FF00%player% &fwas &#68FF00accepted&f.'
+Request_Denied: '&fYou have &#FF0000denied &fthe trade request.'
+Request_Was_Denied: '&fYour trade request to &#68FF00%player% &fwas &#FF0000denied&f.'
+No_Request_Found: '&fYou have not received any trade requests from this player!'
+No_Requests_Found: '&fYou have not received any trade requests!'
+Too_many_requests: '&fYou have several request, please specify the player name.'
+GUI_Title: '           &#2E2E2E▸ ᴛʀᴀᴅᴇs ᴍᴇɴᴜ ◂'
+Money_Amount: Amount of money
+Coin: Coin
+Coins: Coins
+PlayerPoint: PlayerPoint
+PlayerPoints: PlayerPoints
+Token: Token
+Tokens: Tokens
+ClaimBlock: ClaimBlock
+ClaimBlocks: ClaimBlocks
+Status: Status
+Ready: Ready
+Not_Ready: Not ready
+Wait_For_Other_Player: Wait for other player...
+Trade_Only_With_Objects: You have to offer something to complete your trade.
+Click_To_Change: Click to change
+Cancel_Trade: Click to cancel
+Not_Able_To_Trade: You are not allowed to trade.
+Player_Is_Not_Able_Trade: This player is not allowed to trade.
+TRADE_EDITOR: Editor - Trading GUI
+TRADE_EDITOR_FUNCTIONS: Editor - Functions
+EDITOR_RESET: Your temporarily saved gui was reset.
+Editor_Command_How_To: '&7Use: /tradeEditor [reset]'
+Editor_Not_Empty: No empty slot!
+Editor_No_Item: No Item!
+Layout_Name: Layout-Name
+Layout_Name_Already_Exists: This layout name is already taken!
+Layout_Finished: Layout was created &asuccessfully&7.
+Layout_Edited: Layout was edited &asuccessfully&7.
+Layout_Editor: '&9Layout &8- &9Editor'
+Save: Save
+Not_Ready_For_Saving: '&cThis layout cannot be saved yet'
+Items: Items
+Set: Set
+Not_Set: Not set
+Functions: Functions
+Name: Name
+Ambiguous_Functions: Ambiguous functions
+Layout_Set_Items: Fill standard trade gui
+Layout_Set_Functions: Set functions
+Layout_Set_Name: Set layout name
+Layout_Set_Ambiguous_Functions: Set ambiguous functions
+Layout_Editor_Set_Items: '&cClose to continue'
+Back: Back
+Trader: Trader
+Other: Other
+Layout_Set_Own_Slots: Set own trade slots
+Layout_Set_Other_Slots: Set trade slots from partner
+Layout_Set_Cancel: Set cancel icon
+Layout_Set_Other_Not_Ready: Set 'Not ready' icon from partner
+Layout_Set_Status: Set own status icon
+Layout_Set_Money: Set own money icon
+Layout_Set_Other_Money: Set money icon from partner
+Help_TradeSystem: '&7Use &e/%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Use &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name> [9..54]'
+Help_TradeSystem_Layout_Activate: '&7Use &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7Use &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7Use &e/%label% layout edit <name>'
+Help_TradeLog: '&7Use &e/%label% <name>'
+Layout_Does_Not_Exist: '&cThis layout does not exist!'
+Layout_Activated: '&7The layout ''&b%name%&7'' was &aactivated&7.'
+Layout_Deleted: '&7The layout ''&b%name%&7'' was &cdeleted&7.'
+Enter_Correct_Name_Space: '&cPlease don''t use spaces.'
+Sure_That_You_Want_To_Loose_Your_Data: '&7Are you sure that you &cdon''t &7want to
+  &csave &7your changes?'
+Close: Close
+Layout_Already_Activated: '&7This layout &cwas already activated&7!'
+Layout_Set_Replacement_For_Money: '&7Icon, which &ereplaces the money icon&7, when
+  &eno economy plugin &7is detected.'
+Layout_Hint_Same_Slot_Amount: '&7Both traders &cmust have &7the &csame amount of slots&7!'
+Current_Amount: Current amount
+Trade_Spam: '&fThis player has &#68FF00already received &fa trade request!'
+Plugin_Reloading: '&fThe plugin will be reloaded now...'
+Success_Plugin_Reloaded: '&fThe plugin has been reloaded.'
+Player_is_not_in_range: '&fThe player &#68FF00%player% &fis not in range!'
+Cannot_trade_in_that_GameMode: '&fYou are &#FF0000not able to trade &fin that gamemode!'
+Other_cannot_trade_in_that_GameMode: '&fThis player &#FF0000cannot trade &fwith his gamemode!'
+Trade_cancelled_by_attack: '&fThe trade was canceled due to an attack.'
+Trade_Partner_No_Space: '&fYour trade partner has &#FF0000no space &fin his inventory!'
+Trade_Offline: '&fYou are &#FF0000no longer available &ffor trade requests!'
+Trade_Online: '&fYou are now &#68FF00available &ffor trade requests!'
+Trade_Partner_is_Offline: '&fThis player is &#FF0000not available &ffor trade requests!'
+Trade_You_are_Offline: '&fUse "%command%&#68FF00/trade toggle%command%&f" to trade again.'
+Trade_Placed_Blocked_Item: '&fThis item &#FF0000cannot &fbe traded!'
+Cannot_trade_in_bed: '&fYou &#FF0000cannot trade&f, while you''re lying in bed.'
+Cannot_trade_in_world: '&fYou &#FF0000cannot trade &fin this world!'
+Other_cannot_trade_in_world: '&fThis player &#FF0000cannot trade &fin their world!'
+Cannot_trade_while_invisible: '&fYou &ccannot trade &7while you''re &cinvisible&7!'
+Cannot_trade_in_region: '&7You &#FF0000cannot trade &fin this region!'
+Other_cannot_trade_in_region: '&fThis player &#FF0000cannot trade &fin their region!'
+Other_is_already_trading: '&fThis player is &#68FF00already trading &fat the moment!'
+Online: Online
+Offline: Offline
+Your_request_expired: '&fYour trade request to &#68FF00%player% &fhas &#68FF00expired&f.'
+Request_expired: '&fThe trade request from &#68FF00%player% &fhas &#68FF00expired&f.'
+Fancy_Countdown: ' &7- &e%seconds%s'
+Economy_Error: '&fThe trade was &#FF0000cancelled &fdue to an &#FF0000economy error&f.'
+Items_Dropped: '&fYour inventory was &#FF0000full&f, some items were &#FF0000dropped on the ground&f!'
+TradeLog_Disabled: '&fTrade logging is &#FF0000disabled&f!'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&fYou don''t have sufficient exp to trade.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Reset: Reset
+Balance_limit_reached: '&fYour don''t have sufficient money.'
+AnvilGUI_Title: Repair & Name
+Shulker_Box: Shulker Box
+Trade_Finish_Report_Receive: '  &a+ &7%object%'
+Trade_Finish_Report_Give: '  &c- &7%object%'
+Trade_Finish_Report_Object_Item: '%amount%x %item%'

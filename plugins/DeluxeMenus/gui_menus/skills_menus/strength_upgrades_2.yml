@@ -1,0 +1,531 @@
+menu_title: '        &#2E2E2E▸ ᴜᴘɢʀᴀᴅᴇs (2/2) ◂'
+size: 27
+items:
+  'background_menu':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 25
+    - 26
+  'background_menu_2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 21
+    - 23
+  'previous_page':
+    material: ARROW
+    slots:
+    - 20
+    display_name: ' &8● &#8dfb00ᴘ&#80fb05ʀ&#73fb0aᴇ&#67fc0fᴠ&#5afc14ɪ&#4dfc19ᴏ&#40fc1fᴜ&#33fc24s
+    &#26fc29ᴘ&#1afd2eᴀ&#0dfd33ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ sᴋɪʟʟs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ᴘʀᴇᴠ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - '' 
+    left_click_commands:
+    - '[sound] ITEM_BOOK_PAGE_TURN'
+    - '[player] dm open strength_upgrades'
+  'close_menu':
+    material: REDSTONE
+    slots:
+    - 22
+    display_name: ' &8● &#FF0000ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+    lore:
+    - '&8&nᴇxɪᴛ ᴍᴇɴᴜ'
+    - ''
+    - ' &fᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ'
+    - ' &fᴜsɪɴɢ ᴛʜɪs ɪᴛᴇᴍ'
+    - ''
+    - ' &#FF0000&nʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴜsᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'   
+  'next_page':
+    material: ARROW
+    slots:
+    - 24
+    display_name: ' &8● &#8dfb00ɴ&#79fb08ᴇ&#65fc10x&#51fc18ᴛ &#3cfc20ᴘ&#28fc28ᴀ&#14fd30ɢ&#00fd38ᴇ'
+    lore:
+    - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+    - ''
+    - ' &fɢᴏ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ'
+    - ' &fᴏꜰ ᴛʜᴇ ᴜᴘɢʀᴀᴅᴇs ᴍᴇɴᴜ'
+    - ' &7❖ (ɢᴏ ᴛᴏ ɴᴇxᴛ ᴘᴀɢᴇ)'
+    - ''
+    - ' &#8dfb00&nʟ&#83fb04&nᴇ&#79fb08&nꜰ&#6ffb0c&nᴛ&#65fc10&n-&#5bfc14&nᴄ&#51fc18&nʟ&#47fc1c&nɪ&#3cfc20&nᴄ&#32fc24&nᴋ &#28fc28&nᴛ&#1efd2c&nᴏ &#14fd30&nᴜ&#0afd34&ns&#00fd38&nᴇ'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_8_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 10
+    priority: 1
+    amount: 8
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.8
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdᴠɪɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+40 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (57.20%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 40
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 40l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.8 true'
+    - '[console] skillsadmin setlevel %player_name% strength 8'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdᴠɪɪɪ &ffor &#5ae1ff-40 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_8_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 10
+    priority: 2
+    amount: 8
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.8
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_9_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 11
+    priority: 1
+    amount: 9
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.9
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdɪx'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+45 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (64.35%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 45
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 45l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.9 true'
+    - '[console] skillsadmin setlevel %player_name% strength 9'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdɪx &ffor &#5ae1ff-45 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_9_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 11
+    priority: 2
+    amount: 9
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.9
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_10_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 12
+    priority: 1
+    amount: 10
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.10
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdx'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+50 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (71.50%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 50
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 50l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.10 true'
+    - '[console] skillsadmin setlevel %player_name% strength 10'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdx &ffor &#5ae1ff-50 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_10_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 12
+    priority: 2
+    amount: 10
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.10
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_11_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 13
+    priority: 1
+    amount: 11
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.11
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+55 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (78.65%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 55
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 55l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.11 true'
+    - '[console] skillsadmin setlevel %player_name% strength 11'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪ &ffor &#5ae1ff-55 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_11_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 13
+    priority: 2
+    amount: 11
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.11
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_12_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 14
+    priority: 1
+    amount: 12
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.12
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+60 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (85.80%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 60
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 60l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.12 true'
+    - '[console] skillsadmin setlevel %player_name% strength 12'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪɪ &ffor &#5ae1ff-60 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_12_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 14
+    priority: 2
+    amount: 12
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.12
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_13_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 15
+    priority: 1
+    amount: 13
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.13
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪɪɪ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+65 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (92.95%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 65
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 65l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.13 true'
+    - '[console] skillsadmin setlevel %player_name% strength 13'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪɪɪ &ffor &#5ae1ff-65 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_13_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 15
+    priority: 2
+    amount: 13
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.13
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ʙᴜʏ ᴛʜᴇ ɴᴇxᴛ ᴏɴᴇ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  'level_14_purchaseable':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ODc4OWI5NjhjNzBlYzlkMWRlMjcyZDBiYjkzYTcwMTM0ZjJjMGU2MGFjYjc1ZThkNDU1YTE2NTBmMzk3NyJ9fX0=
+    slots:
+    - 16
+    priority: 1
+    amount: 14
+    view_requirement:
+      requirements:
+        Permission:
+          type: '!has permission'
+          permission: deluxemenus.strength.14
+    update: true
+    display_name: ' &8● &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪᴠ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʙᴜʏ ᴛʜɪs ᴜᴘɢʀᴀᴅᴇ'
+    - ' &fᴛᴏ ɪɴᴄʀᴇᴀsᴇ ʏᴏᴜʀ'
+    - ' &fᴘʟᴀʏᴇʀ sᴛʀᴇɴɢᴛʜ'
+    - ' &7❖ (ʏᴏᴜ ɴᴇᴇᴅ xᴘ ʟᴠʟ)'
+    - ''
+    - ' &8● &fᴘʀɪᴄᴇ: &#5ae1ff+70 ᴇxᴘ ʟᴠʟ ⚗'
+    - ' &8● &fɪɴᴄʀᴇᴀsᴇ: &#00c0fd+ (100%)'
+    - ''
+    - ' &#5ae1ff&nʟ&#54dfff&nᴇ&#4ddcff&nꜰ&#47daff&nᴛ&#40d8fe&n-&#3ad5fe&nᴄ&#33d3fe&nʟ&#2dd1fe&nɪ&#27cefe&nᴄ&#20ccfe&nᴋ &#1ac9fe&nᴛ&#13c7fd&nᴏ &#0dc5fd&nʙ&#06c2fd&nᴜ&#00c0fd&nʏ'
+    - ''
+    left_click_requirement:
+      requirements:
+        has_experience:
+          type: has exp
+          amount: 70
+          level: true
+      deny_commands:
+        - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou don''t have sufficient experience!'
+        - '[sound] ENTITY_VILLAGER_TRADE'
+    left_click_commands:
+    - '[refresh]'
+    - '[console] xp take %player_name% 70l'
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set deluxemenus.strength.13 true'
+    - '[console] skillsadmin setlevel %player_name% strength 14'
+    - '[message] &r &#5ae1ff&l&nS&#4bdcff&l&nK&#3cd6fe&l&nI&#2dd1fe&l&nL&#1ecbfe&l&nL&#0fc6fd&l&nS&#00c0fd &l| &fYou have bought &#5ae1ffs&#4fddffᴛ&#44d9ffʀ&#38d5feᴇ&#2dd1feɴ&#22ccfeɢ&#17c8feᴛ&#0bc4fdʜ &#00c0fdxɪᴠ &ffor &#5ae1ff-70 ᴇxᴘ ʟᴠʟ ⚗&f.'
+  'level_14_bought':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3NjBiYmMxMTNjMjczZmFjNDA4OTZmYTIwODlhNTZjYzc0NmE3OWE3YTgyNzVmNjM4NTdlNjllNmY3NzAzYSJ9fX0=
+    slots:
+    - 16
+    priority: 2
+    amount: 14
+    view_requirement:
+      requirements:
+        Permission:
+          type: 'has permission'
+          permission: deluxemenus.strength.14
+    update: true
+    display_name: ' &8● &#ca74ffᴀ&#c26affʟ&#bb61ffʀ&#b357ffᴇ&#ac4dfeᴀ&#a444feᴅ&#9d3afeʏ &#9530feʙ&#8d27feᴏ&#861dfeᴜ&#7e13fdɢ&#770afdʜ&#6f00fdᴛ'
+    lore:
+    - '&8&nsᴋɪʟʟ ᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    - ''
+    - ' &fʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ'
+    - ' &fᴛʜɪs sᴋɪʟʟ ʙᴏᴜɢʜᴛ'
+    - ' &7❖ (ᴍᴀxɪᴍᴜᴍ ʟᴇᴠᴇʟ)'
+    - ''
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'

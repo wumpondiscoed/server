@@ -1,0 +1,147 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      Messages                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+### NOTE: You cannot change %s. %s is used when formatting messages.
+# You may move %s around, but cannot rename it.
+# In addition will any % cause errors, as they're using for parsing.
+
+# Prefix in front of all plugin messages. '' for blank.
+prefix: ' &#f6fb00&l&nB&#f7f300&l&nA&#f8ec00&l&nC&#f8e400&l&nK&#f9dc00&l&nP&#fad500&l&nA&#fbcd00&l&nC&#fbc500&l&nK&#fcbe00&l&nS&#fdb600 &l| &r'
+
+# Message sent if the command is missing some args.
+# Some commands have their own messages.
+malformed-command: '&fUnknown command, are you missing some parameters?'
+
+### Player ###
+
+# Message sent to player should their bag's content fail to load.
+# Likely case is the data file in '/plugins' is missing.
+bag-load-error: '&fBag failed to load.\nPlease notify staff.'
+
+# Message sent to the player when a bag is renamed.
+# %s - bag's new name.
+bag-rename: '&fRenamed bag to &#00ecfb%s&f.'
+
+# Message sent to the player if they remove a bag's custom name.
+bag-rename-reset: '&fReset bag''s name.'
+
+# Message sent to the player if they attempt to rename an item that is not a bag.
+bag-cannot-rename: '&fYou can only rename bags.'
+
+# Message sent to the player if they attempt to open a bag bound to another player.
+bag-cannot-use: '&fYou cannot use this bag.'
+
+# Message sent to the player if the bag does not exist on the server.
+bag-does-not-exist: '&fThis bag does not exist.'
+
+# Message sent to the player if their inventory is full when a bag is exited.
+inventory-full: '&fInventory full, dropping bag on the ground!'
+
+### Admin ###
+
+# Message sent when attempting to fetch a player which does not exist.
+player-no-exist: "&fNo bags found for this player."
+
+# Message sent when '/bags restore' fails to locate bag of specific UUID.
+bag-not-found: '&fNo bag found with that UUID.'
+
+# If a size provided is not within the allowed range.
+# 1, 2, 3, 4, 5, 6.
+# (Rows of slots. Row*9 = slots)
+bag-size-error: '&fSize cannot be over 6 rows.'
+
+# If no size is given.
+bag-ownerless-no-size: '&fOwnerless bag must have a size.'
+
+# Message sent to the player when given a bag.
+# %s - Name of the bag 
+bag-given: '&fYou''ve been given an &#00ecfb%s&f!'
+
+# If size contains anything not numbers.
+# %s - size given by command user.
+number-conversion-error: '&fCannot convert &#00ecfb''%s'' &fto a number!'
+
+# If a player searched with '/bags restore <player>' has no found bag data.
+# %s - Player's name.
+player-no-bags: '&fPlayer &#00ecfb''%s'' &fhas no bags.'
+
+# Bags found of player, using '/bags restore <player>'.
+# %s - Name of the player specified.
+bags-of: '&fBags of &#00ecfb%s:'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      Bag GUI                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Leave empty to use the bag's name.
+bag-inventory-title: '           &#2E2E2E▸ ʙᴀᴄᴋᴘᴀᴄᴋs ◂'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      Bag Item                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+# When an unbound bag gets bound.
+# The player can rename this.
+# %s - Player's name.
+bag-bound-name: ' &8● &#f6fb00ʙ&#f7f100ᴀ&#f8e700ᴄ&#f9dd00ᴋ&#fad400ᴘ&#fbca00ᴀ&#fcc000ᴄ&#fdb600ᴋ'
+
+# Name of the unbound bag item.
+bag-unbound-name: ' &8● &#f6fb00ʙ&#f7f100ᴀ&#f8e700ᴄ&#f9dd00ᴋ&#fad400ᴘ&#fbca00ᴀ&#fcc000ᴄ&#fdb600ᴋ'
+
+# Name of an unused ownerless bag.
+bag-ownerless-unused: ' &8● &#f6fb00ʙ&#f7f100ᴀ&#f8e700ᴄ&#f9dd00ᴋ&#fad400ᴘ&#fbca00ᴀ&#fcc000ᴄ&#fdb600ᴋ'
+
+# Name of a used ownerless bag.
+bag-ownerless-used: ' &8● &#f6fb00ʙ&#f7f100ᴀ&#f8e700ᴄ&#f9dd00ᴋ&#fad400ᴘ&#fbca00ᴀ&#fcc000ᴄ&#fdb600ᴋ'
+
+### Lore ###
+
+# Bag lore, always at the top before 'bound-to'.
+bag-lore:
+ - '&8&nɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪᴛᴇᴍ'
+ - '&r'
+ - ' &fʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+ - ' &fʏᴏᴜʀ ᴘᴇʀsᴏɴᴀʟ ʙᴀɢ'
+ - ' &7(ʙᴀᴄᴋᴘᴀᴄᴋ ɪᴛᴇᴍ)'
+ - '&r'
+
+# Who the bag is bound to, if bound.
+# %s - Bag owner's name.
+bound-to: 
+ - ' &8● &fʙᴏᴜɴᴅ ᴛᴏ &#f6fb00%s'
+
+# Bag size in slots.
+# %s - Bag size.
+bag-size:
+ - ' &8● &fsɪᴢᴇ: &#f6fb00%s'
+ - '&r'
+ - ' &#f6fb00&n▶ ʀ&#f6f600&nɪ&#f7f200&nɢ&#f7ed00&nʜ&#f8e900&nᴛ&#f8e400&n-&#f9df00&nᴄ&#f9db00&nʟ&#fad600&nɪ&#fad200&nᴄ&#fbcd00&nᴋ &#fbc800&nᴛ&#fcc400&nᴏ &#fcbf00&nᴜ&#fdbb00&ns&#fdb600&nᴇ'
+
+# Should contents be shown in the lore?
+show-bag-content: false
+# If false, ignore the rest below.
+
+# Content preview.
+bag-content-title: ''
+
+# How many items should be previewed in the tooltip.
+bag-content-preview-size: 5
+
+# Content preview entry.
+# %s - Item name.
+bag-content-item: ''
+
+# Content preview entry with amount.
+# 1. %s - Item name.
+# 2. %s - Item amount.
+bag-content-item-amount: ''
+
+# If bag content exceeds the number of bag-content-preview-size.
+bag-content-and-more: ''
